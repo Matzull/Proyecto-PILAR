@@ -1,0 +1,122 @@
+# áéíóú
+
+# Pilar configuration
+tool= pilar
+version= 2022.1
+
+# localisation
+locale= es_ES
+# see http://java.sun.com/javase/6/docs/technotes/guides/intl/locale.doc.html
+csv.separator= ,
+
+# home is the directory of this file
+
+# other components, relative to "home"
+util= util
+
+# tool configuration, under "home/util"
+texts= common_es.txt
+
+# licensee icon
+licensee_icon= 
+
+# splash screen
+splash= 
+
+# examples, relative to "home"
+examples= exs
+
+# libraries, relative to "home"
+library= bib_es
+info= info_es
+
+# relative to "library"
+
+marking= marking_es.xml
+levels-values= levels.xml
+criteria= criteria_es.xml
+extensions= criteria_aepd_2021.xml
+tsv= tsv_last.xlsx
+
+extensions= ext_domain-classes_es.xml
+extensions= ext_classes_pi_es.xml
+extensions= ext_risk-factors_es.xml
+# extensions= ext_criteria_pi_es.xml
+extensions= ext_criteria_pi_giss_es.xml
+# extensions= ext_criteria_pi_aepd_es.xml
+extensions= ext_criteria_pi_apdcat_es.xml
+
+extensions= ext_threats_es.xml
+# extensions= ext_threats_pi_29134_es.xml
+extensions= ext_threats_pi_es.xml
+tsv= ext_tsv_pi.xml
+extensions= ext_threats_pi_aepd_es.xml
+tsv= ext_tsv_pi_aepd.xlsx
+extensions= ext_threats_pi_apdcat_es.xml
+extensions= ext_threats_pi_nz_es.xml
+# extensions= ext_threats_pi_rfid_es.xml
+
+extensions= ext_classes_ics_es.xml
+
+warnings= warnings_es.xml
+model_info= info_es.info
+
+attacker= [EXT_L] Atacantes externos (ciber)
+tsv:EXT_L= tsv_log.xml, tsv_last.xlsx
+
+attacker= [EXT_P] Atacantes externos (física)
+tsv:EXT_P= tsv_pps.xml, tsv_last.xlsx
+
+attacker= [EXT_T] Atacantes externos (emisiones)
+tsv:EXT_T= tsv_tempest.xml
+
+compensating.data= compensating_es.json
+
+evlevl= evlevl.xml
+
+profile= 27002_2022_es.evl
+profile= 27002_2013_2016-06-16_es.evl
+# profile= 27002_2005_2014-04-01_es.evl
+profile= csf_2018_en.evl
+profile:en.PD= AEPD-2021_es.evl
+profile:en.PD= GDPR-2016_2020-10-15_es.evl
+associate= gdpr.assoc
+profile:en.PD= 29151_A_2017_2017-08-30_en.evl
+profile:en.PD= SPC_2020-10-15_es.evl
+# profile= rd1720_2016-01-04_es.evl
+
+# profile= sp800-53_rev3_2012-07-16_en.evl
+
+gdpr.data= gdpr_es.json
+
+ignore= ignored.xml
+
+# report models directory, relative to "home"
+templates= reports
+
+reports= reports.xml
+
+# help, relative to "home"
+help= help_es
+help2= https://www.pilar-tools.com/doc/v20221/help_es
+
+phase.PILAR= PILAR
+
+# online info for security profiles
+# info.GDPR:2016= GDPR_es
+# info.RD 1720= rd1720
+
+info.www.gdpr= https://eur-lex.europa.eu/legal-content/ES/TXT/HTML/?uri=CELEX:32016R0679
+
+# DBMS module
+# sql.create_tables= true
+# sql.single_project= true
+# sql.prefix=
+# sql.code.length= 32
+# sql.name.length= 128
+
+# load.levels= false
+# load.quantities= false
+
+# java.desktop= false
+
