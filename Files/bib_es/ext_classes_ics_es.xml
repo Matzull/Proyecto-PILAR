@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library-extension>
+  <classes under="HW">
+    <class code="ics">Sistemas de control industrial</class>
+    <class code="ics.rtu">RTU - Unidad terminal remota</class>
+    <class code="ics.plc">PLC - Controlador lógico programable</class>
+    <class code="ics.pac">PAC - Controlador de automatización programable</class>
+    <class code="ics.ied">IED - Dispositivo electrónico inteligente</class>
+    <class code="ics.meter">Meter - Medidor industrial</class>
+    <class code="ics.bridge">Puente entre protocolos</class>
+
+    <class code="ics.hmi">HMI - Interfaz hombre-máquina</class>
+    <class code="ics.server">Servidor</class>
+    <class code="ics.historian">Registro histórico</class>
+    <class code="ics.telemetry">Telemetría</class>
+    <class code="ics.ems">EMS - Sistema de gestión de energía</class>
+    <class code="ics.dms">DMS - Sistema de gestión de distribución</class>
+    <class code="ics.home">Red de control del hogar</class>
+    <class code="ics.hvac">HVAC - Acondicionador de temperatura</class>
+  </classes>
+</library-extension>

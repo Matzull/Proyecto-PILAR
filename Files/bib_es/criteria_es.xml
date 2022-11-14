@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<criteria lang="es">
+  <default value="10">
+    [10] Nivel 10
+  </default>
+  <default value="9">
+    [9] Nivel 9
+  </default>
+  <default value="8">
+    [8] Alto(+)
+  </default>
+  <default value="7">
+    [7] Alto
+  </default>
+  <default value="6">
+    [6] Alto(-)
+  </default>
+  <default value="5">
+    [5] Medio(+)
+  </default>
+  <default value="4">
+    [4] Medio
+  </default>
+  <default value="3">
+    [3] Medio(-)
+  </default>
+  <default value="2">
+    [2] Bajo(+)
+  </default>
+  <default value="1">
+    [1] Bajo
+  </default>
+  <default value="0">
+    [0] Despreciable
+  </default>
+
+  <criterion> 
+    [pi] Información Personal:
+    <criterion> 
+      [classic] clásico
+    <criterion value="6"> 
+      [6.pi1] probablemente afecte gravemente a un grupo de individuos
+      </criterion>
+    <criterion value="6"> 
+      [6.pi2] probablemente quebrante seriamente la ley o algún reglamento de protección de información personal
+      </criterion>
+    <criterion value="5"> 
+      [5.pi1] probablemente afecte gravemente a un individuo
+      </criterion>
+    <criterion value="5"> 
+      [5.pi2] probablemente quebrante seriamente leyes o regulaciones
+      </criterion>
+    <criterion value="4"> 
+      [4.pi1] probablemente afecte a un grupo de individuos
+      </criterion>
+    <criterion value="4"> 
+      [4.pi2] probablemente quebrante leyes o regulaciones
+      </criterion>
+    <criterion value="3"> 
+      [3.pi1] probablemente afecte a un individuo
+      </criterion>
+    <criterion value="3"> 
+      [3.pi2] probablemente suponga el incumplimiento de una ley o regulación
+      </criterion>
+    <criterion value="2"> 
+      [2.pi1] pudiera causar molestias a un individuo
+      </criterion>
+    <criterion value="2"> 
+      [2.pi2] pudiera quebrantar de forma leve leyes o regulaciones
+      </criterion>
+    <criterion value="1"> 
+      [1.pi1] pudiera causar molestias a un individuo
+      </criterion>
+      </criterion>
+    </criterion>
+
+  <criterion> 
+    [lro] Obligaciones legales:
+    <criterion value="9"> 
+      [9.lro] probablemente cause un incumplimiento excepcionalmente grave de una ley o regulación
+      </criterion>
+    <criterion value="7"> 
+      [7.lro] probablemente cause un incumplimiento grave de una ley o regulación
+      </criterion>
+    <criterion value="5"> 
+      [5.lro] probablemente sea causa de incumplimiento de una ley o regulación
+      </criterion>
+    <criterion value="3"> 
+      [3.lro] probablemente sea causa de incumplimiento leve o técnico de una ley o regulación
+      </criterion>
+    <criterion value="1"> 
+      [1.lro] pudiera causar el incumplimiento leve o técnico de una ley o regulación
+      </criterion>
+    </criterion>
+
+  <criterion> 
+    [si] Seguridad:
+    <criterion value="10"> 
+      [10.si] probablemente sea causa de un incidente excepcionalmente serio de seguridad o dificulte la investigación de incidentes excepcionalmente serios
+      </criterion>
+    <criterion value="9"> 
+      [9.si] probablemente sea causa de un serio incidente de seguridad o dificulte la investigación de incidentes serios
+      </criterion>
+    <criterion value="7"> 
+      [7.si] probablemente sea causa de un grave incidente de seguridad o dificulte la investigación de incidentes graves
+      </criterion>
+    <criterion value="3"> 
+      [3.si] probablemente sea causa de una merma en la seguridad o dificulte la investigación de un incidente
+      </criterion>
+    <criterion value="1"> 
+      [1.si] pudiera causar una merma en la seguridad o dificultar la investigación de un incidente
+      </criterion>
+    </criterion>
+
+  <criterion> 
+    [cei] Intereses Comerciales / Económicos:
+    <criterion value="9"> 
+      [9.cei] Nivel 9
+      <criterion value="9"> 
+        [9.cei.a] de enorme interés para la competencia
+        </criterion>
+      <criterion value="9"> 
+        [9.cei.b] de muy elevado valor comercial
+        </criterion>
+      <criterion value="9"> 
+        [9.cei.c] causa de pérdidas económicas excepcionalmente elevadas
+        </criterion>
+      <criterion value="9"> 
+        [9.cei.d] causa de muy significativas ganancias o ventajas para individuos u organizaciones
+        </criterion>
+      <criterion value="9"> 
+        [9.cei.e] constituye un incumplimiento excepcionalmente grave de las obligaciones contractuales relativas a la seguridad de la información proporcionada por terceros
+        </criterion>
+      <criterion value="9"> 
+        [9.cei.f] causa de unos costes excepcionalmente elevados de reemplazamiento
+        </criterion>
+      </criterion>
+    <criterion value="7"> 
+      [7.cei] Nivel 7
+      <criterion value="7"> 
+        [7.cei.a] de alto interés para la competencia
+        </criterion>
+      <criterion value="7"> 
+        [7.cei.b] de elevado valor comercial
+        </criterion>
+      <criterion value="7"> 
+        [7.cei.c] causa de graves pérdidas económicas
+        </criterion>
+      <criterion value="7"> 
+        [7.cei.d] proporciona ganancias o ventajas desmedidas a individuos u organizaciones
+        </criterion>
+      <criterion value="7"> 
+        [7.cei.e] constituye un serio incumplimiento de obligaciones contractuales relativas a la seguridad de la información proporcionada por terceros
+        </criterion>
+      <criterion value="7"> 
+        [7.cei.f] causa de unos costes elevados de reemplazamiento
+        </criterion>   
+      </criterion>
+    <criterion value="5"> 
+      [5.cei] Nivel 5
+      <criterion value="5"> 
+        [5.cei.a] de interés significativo para la competencia
+        </criterion>
+      <criterion value="5"> 
+        [5.cei.b] de valor comercial significativo
+        </criterion>
+      <criterion value="5"> 
+        [5.cei.c] causa de pérdidas económicas o merma significativa de ingresos
+        </criterion>
+      <criterion value="5"> 
+        [5.cei.d] facilita ventajas significativas a individuos u organizaciones
+        </criterion>
+      <criterion value="5"> 
+        [5.cei.e] constituye un incumplimiento de contrato relativo a la seguridad de la información proporcionada por terceros
+        </criterion>
+      <criterion value="5"> 
+        [5.cei.f] causa de unos costes significativos de reemplazamiento
+        </criterion>
+      </criterion>        
+    <criterion value="3"> 
+      [3.cei] Nivel 3
+      <criterion value="3"> 
+        [3.cei.a] de cierto interés para la competencia
+        </criterion>
+      <criterion value="3"> 
+        [3.cei.b] de cierto valor comercial
+        </criterion>
+      <criterion value="3"> 
+        [3.cei.c] causa de pérdidas financieras o merma de ingresos
+        </criterion>
+      <criterion value="3"> 
+        [3.cei.d] facilita ventajas desproporcionadas a individuos u organizaciones
+        </criterion>
+      <criterion value="3"> 
+        [3.cei.e] constituye un incumplimiento leve de obligaciones contractuales para mantener la seguridad de la información proporcionada por terceros
+        </criterion>
+      <criterion value="3"> 
+        [3.cei.f] causa de unos costes moderados de reemplazamiento
+        </criterion>
+      </criterion>
+    <criterion value="2"> 
+      [2.cei] Nivel 2
+      <criterion value="2"> 
+        [2.cei.a] de bajo interés para la competencia
+        </criterion>
+      <criterion value="2"> 
+        [2.cei.b] de bajo valor comercial
+        </criterion>
+      <criterion value="2"> 
+        [2.cei.f] causa de unos costes bajos de reemplazamiento
+        </criterion>
+      </criterion>
+    <criterion value="1"> 
+      [1.cei] Nivel 1
+      <criterion> 
+        [1.cei.a] de pequeño interés para la competencia
+        </criterion>
+      <criterion> 
+        [1.cei.b] de pequeño valor comercial
+        </criterion>
+      <criterion> 
+        [1.cei.f] causa de unos costes muy bajos de reemplazamiento
+        </criterion>
+      </criterion>
+    <criterion value="0"> 
+      [0.3] supondría pérdidas económicas mínimas
+      </criterion>
+    </criterion>
+
+  <criterion> 
+    [da] Interrupción del servicio:
+    <criterion value="9"> 
+      [9.da] Probablemente cause una interrupción excepcionalmente seria de las actividades propias de la Organización con un serio impacto en otras organizaciones
+      </criterion>
+    <criterion value="9"> 
+      [9.da2] Probablemente tenga un serio impacto en otras organizaciones
+      </criterion>
+    <criterion value="7"> 
+      [7.da] Probablemente cause una interrupción seria de las actividades propias de la Organización con un impacto significativo en otras organizaciones
+      </criterion>
+    <criterion value="7"> 
+      [7.da2] Probablemente tenga un gran impacto en otras organizaciones
+      </criterion>
+    <criterion value="5"> 
+      [5.da] Probablemente cause la interrupción de actividades propias de la Organización con impacto en otras organizaciones
+      </criterion>
+    <criterion value="5"> 
+      [5.da2] Probablemente cause un cierto impacto en otras organizaciones
+      </criterion>
+    <criterion value="3"> 
+      [3.da] Probablemente cause la interrupción de actividades propias de la Organización
+      </criterion>
+    <criterion value="1"> 
+      [1.da] Pudiera causar la interrupción de actividades propias de la Organización
+      </criterion>
+    </criterion>
+
+  <criterion> 
+    [po] Orden Público:
+    <criterion value="9"> 
+      [9.po] Alteración seria del orden público
+      </criterion>
+    <criterion value="6"> 
+      [6.po] Probablemente cause manifestaciones, o presiones significativas
+      </criterion>
+    <criterion value="5"> 
+      [5.po] Puede causar un significativo malestar público 
+      </criterion>
+    <criterion value="4"> 
+      [4.po] Puede causar malestar público 
+      </criterion>
+    <criterion value="3"> 
+      [3.po] Causa de protestas puntuales
+      </criterion>
+    <criterion value="1"> 
+      [1.po] Pudiera causar protestas puntuales
+      </criterion>
+    </criterion>
+
+  <criterion> 
+    [olm] Operaciones:
+    <criterion value="10"> 
+      [10.olm] Probablemente cause un daño excepcionalmente serio a la eficacia o seguridad de la misión operativa o logística
+      </criterion>
+    <criterion value="9"> 
+      [9.olm] Probablemente cause un daño serio a la eficacia o seguridad de la misión operativa o logística
+      </criterion>
+    <criterion value="7"> 
+      [7.olm] Probablemente perjudique la eficacia o seguridad de la misión operativa o logística
+      </criterion>
+    <criterion value="5"> 
+      [5.olm] Probablemente merme la eficacia o seguridad de la misión operativa o logística más allá del ámbito local
+      </criterion>
+    <criterion value="3"> 
+      [3.olm] Probablemente merme la eficacia o seguridad de la misión operativa o logística (alcance local)
+      </criterion>
+    <criterion value="1"> 
+      [1.olm] Pudiera mermar la eficacia o seguridad de la misión operativa o logística (alcance local)
+      </criterion>
+    </criterion>
+
+  <criterion> 
+    [adm] Administración y Gestión:
+    <criterion value="9"> 
+      [9.adm] probablemente impediría seriamente la operación efectiva de la Organización, pudiendo llegar a su cierre
+      </criterion>
+    <criterion value="7"> 
+      [7.adm] probablemente impediría la operación efectiva de la Organización
+      </criterion>
+    <criterion value="5"> 
+      [5.adm] probablemente impediría la operación efectiva de más de una parte de la Organización
+      </criterion>
+    <criterion value="3"> 
+      [3.adm] probablemente impediría la operación efectiva de una parte de la Organización
+      </criterion>
+    <criterion value="1"> 
+      [1.adm] pudiera impedir la operación efectiva de una parte de la Organización
+      </criterion>
+    </criterion>
+
+  <criterion> 
+    [lg] Pérdida de Confianza (Reputación):
+    <criterion value="9"> 
+      [9.lg] Probablemente causaría una publicidad negativa generalizada por afectar de forma excepcionalmente grave a las relaciones ...
+      <criterion value="9"> 
+        [9.lg.a] a las relaciones con otras organizaciones
+        </criterion>
+      <criterion value="9"> 
+        [9.lg.b] a las relaciones con el público en general
+        </criterion>
+      </criterion>
+    <criterion value="7"> 
+      [7.lg] Probablemente causaría una publicidad negativa generalizada
+      <criterion value="7"> 
+        [7.lg.a] por afectar gravemente a las relaciones con otras organizaciones
+        </criterion>
+      <criterion value="7"> 
+        [7.lg.b] por afectar gravemente a las relaciones con el público en general
+        </criterion>
+      </criterion>
+    <criterion value="5"> 
+      [5.lg] Probablemente sea causa una cierta publicidad negativa
+      <criterion value="5"> 
+        [5.lg.a] por afectar negativamente a las relaciones con otras organizaciones
+        </criterion>
+      <criterion value="5"> 
+        [5.lg.b] por afectar negativamente a las relaciones con el público
+        </criterion>
+      </criterion>
+    <criterion value="3"> 
+      [3.lg] Probablemente afecte negativamente a las relaciones internas de la Organización
+      </criterion>
+    <criterion value="2"> 
+      [2.lg] Probablemente cause una pérdida menor de la confianza dentro de la Organización
+      </criterion>
+    <criterion value="1"> 
+      [1.lg] Pudiera causar una pérdida menor de la confianza dentro de la Organización
+      </criterion>
+    <criterion value="0"> 
+      [0.4] no supondría daño a la reputación o buena imagen de las personas u organizaciones
+      </criterion>
+    </criterion>
+
+  <criterion> 
+    [crm] Persecución de Delitos:
+    <criterion value="8"> 
+      [8.crm] Impida la investigación de delitos graves o facilite su comisión
+      </criterion>
+    <criterion value="4"> 
+      [4.crm] Dificulte la investigación o facilite la comisión de delitos
+      </criterion>
+    </criterion>
+
+  <criterion D="D"> 
+    [rto] Tiempo de Recuperación del Servicio:
+    <criterion value="7"> 
+      [7.rto] RTO &lt; 4 horas
+      </criterion>
+    <criterion value="4"> 
+      [4.rto] 4 horas &lt; RTO &lt; 1 día
+      </criterion>
+    <criterion value="1"> 
+      [1.rto] 1 día &lt; RTO &lt; 5 días
+      </criterion>
+    <criterion value="0"> 
+      [0.rto] 5 días &lt; RTO
+      </criterion>
+    </criterion>
+
+  <criterion D="C"> 
+    [lbl] Información Clasificada: 
+    <criterion> 
+      [nat] Nacional
+      <criterion value="10"> 
+        [10.lbl] Secreto
+        </criterion>
+      <criterion value="9"> 
+        [9.lbl] Reservado
+        </criterion>
+      <criterion value="8"> 
+        [8.lbl] Confidencial
+        </criterion>
+      <criterion value="7"> 
+        [7.lbl] Confidencial
+        </criterion>
+      <criterion value="6"> 
+        [6.lbl] Difusión Limitada
+        </criterion>
+      <criterion value="5"> 
+        [5.lbl] Difusión Limitada
+        </criterion>
+      <criterion value="4"> 
+        [4.lbl] Difusión Limitada
+        </criterion>
+      <criterion value="3"> 
+        [3.lbl] Difusión Limitada
+        </criterion>
+      <criterion value="2"> 
+        [2.lbl] Sin Clasificar
+        </criterion>
+      <criterion value="1"> 
+        [1.lbl] Sin Clasificar
+        </criterion>
+      </criterion>
+
+    <criterion> 
+      [ue] Unión Europea
+      <criterion value="10"> 
+        [10.ue] TRES SECRET UE
+        </criterion>
+      <criterion value="9"> 
+        [9.ue] SECRET UE
+        </criterion>
+      <criterion value="8"> 
+        [8.ue] CONFIDENTIEL UE
+        </criterion>
+      <criterion value="7"> 
+        [7.ue] CONFIDENTIEL UE
+        </criterion>
+      <criterion value="6"> 
+        [6.ue] RESTREINT UE
+        </criterion>
+      <criterion value="5"> 
+        [5.ue] RESTREINT UE
+        </criterion>
+      <criterion value="4"> 
+        [4.ue] RESTREINT UE
+        </criterion>
+      <criterion value="3"> 
+        [3.ue] RESTREINT UE
+        </criterion>
+      </criterion>
+    </criterion>
+
+  <criterion> 
+    [ps] Seguridad de las personas
+    <criterion value="10"> 
+      [10.ps] podría causar la pérdida de muchas vidas humanas
+    </criterion>
+    <criterion value="9"> 
+      [9.ps] podría causar la pérdida de una o más vidas humanas
+    </criterion>
+    <criterion value="8"> 
+      [8.ps] podría amenazas seriamente la integridad física de uno o más individuos
+    </criterion>
+    <criterion value="7"> 
+      [7.ps] podría lesionar gravemente a varios individuos
+    </criterion>
+    <criterion value="6"> 
+      [6.ps] podría lesionar gravemente a un individuo
+    </criterion>
+    <criterion value="4"> 
+      [4.ps] podría lesionar a varios individuos
+    </criterion>
+    <criterion value="3"> 
+      [3.ps] podría lesionar a un individuo
+    </criterion>
+    <criterion value="2"> 
+      [2.ps] podría lesionar levemente a varios individuos
+    </criterion>
+    <criterion value="1"> 
+      [1.ps] podría lesionar levemente a un individuo
+    </criterion>
+  </criterion>
+
+</criteria>

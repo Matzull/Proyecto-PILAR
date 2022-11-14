@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<ignored-families>
+  <accept F="essential.info.per" />
+</ignored-families>
+
+<ignored-controls evl="GDPR:2016">
+  <ignore C="CC" />
+</ignored-controls>
+
+<ignored-dimensions>
+  <accept D="es:D" />
+  <accept D="es:I" />
+  <accept D="es:C" />
+  <accept D="es:A" />
+  <accept D="es:T" />
+  <accept D="es:V" />
+  <accept D="es:DP" />
+</ignored-dimensions>
+
+<ignored-threats>
+  <xignore F="" Z="" D="" />
+
+<!--
+  [N] Desastres naturales
+  [N.*] Desastres naturales
+  [N.1] Fuego
+  [N.2] Daños por agua
+-->
+
+  <accept Z="N.*" />
+  <accept Z="N.1" />
+  <accept Z="N.2" />
+
+<!--
+  [I] De origen industrial
+  [I.*] Desastres industriales
+  [I.1] Fuego
+  [I.2] Daños por agua
+  [I.3] Contaminación medioambiental
+  [I.4] Contaminación electromagnética
+  [I.5] Avería de origen físico o lógico
+  [I.6] Corte del suministro eléctrico
+  [I.7] Condiciones inadecuadas de temperatura o humedad
+  [I.8] Fallo de servicios de comunicaciones
+  [I.9] Interrupción de otros servicios o suministros esenciales
+  [I.10] Degradación de los soportes de almacenamiento de la información
+  [I.11] Emanaciones electromagnéticas
+-->
+
+  <accept Z="I.*" />
+  <accept Z="I.1" />
+  <accept Z="I.2" />
+  <accept Z="I.3" />
+  <accept Z="I.4" />
+  <accept Z="I.5" />
+  <accept Z="I.6" />
+  <accept Z="I.7" />
+  <accept Z="I.8" />
+  <accept Z="I.9" />
+  <accept Z="I.10" />
+  <accept Z="I.11" />
+
+<!--
+  [E] Errores y fallos no intencionados
+  [E.1] Errores de los usuarios
+  [E.2] Errores del administrador del sistema / de la seguridad
+  [E.3] Errores de monitorización (log)
+  [E.4] Errores de configuración
+  [E.7] Deficiencias en la organización
+  [E.8] Difusión de software dañino
+  [E.9] Errores de [re-]encaminamiento
+  [E.10] Errores de secuencia
+  [E.14] Fugas de información (> E.19)
+  [E.15] Alteración de la información
+  [E.18] Destrucción de la información
+  [E.19] Fugas de información
+  [E.20] Vulnerabilidades de los programas (software)
+  [E.21] Errores de mantenimiento / actualización de programas (software)
+  [E.23] Errores de mantenimiento / actualización de equipos (hardware)
+  [E.24] Caída del sistema por agotamiento de recursos
+  [E.25] Pérdida de equipos
+  [E.28] Indisponibilidad del personal
+-->
+
+  <accept Z="E.1" />
+  <accept Z="E.2" />
+  <accept Z="E.3" />
+  <accept Z="E.4" />
+  <accept Z="E.7" />
+  <accept Z="E.8" />
+  <accept Z="E.9" />
+  <accept Z="E.10" />
+  <accept Z="E.14" />
+  <accept Z="E.15" />
+  <accept Z="E.18" />
+  <accept Z="E.19" />
+  <accept Z="E.20" />
+  <accept Z="E.21" />
+  <accept Z="E.23" />
+  <accept Z="E.24" />
+  <accept Z="E.25" />
+  <accept Z="E.28" />
+
+<!--
+  [A] Ataques deliberados
+  [A.3] Manipulación de los registros de actividad (log)
+  [A.4] Manipulación de los ficheros de configuración
+  [A.5] Suplantación de la identidad 
+  [A.6] Abuso de privilegios de acceso
+  [A.7] Uso no previsto
+  [A.8] Difusión de software dañino
+  [A.9] [Re-]encaminamiento de mensajes
+  [A.10] Alteración de secuencia
+  [A.11] Acceso no autorizado
+  [A.12] Análisis de tráfico
+  [A.13] Repudio (negación de actuaciones)
+  [A.14] Interceptación de información (escucha)
+  [A.15] Modificación de la información
+  [A.18] Destrucción de la información
+  [A.19] Revelación de información
+  [A.22] Manipulación de programas
+  [A.23] Manipulación del hardware
+  [A.24] Denegación de servicio
+  [A.25] Robo de equipos
+  [A.26] Ataque destructivo
+  [A.27] Ocupación enemiga
+  [A.28] Indisponibilidad del personal
+  [A.29] Extorsión
+  [A.30] Ingeniería social (picaresca)
+-->
+
+  <accept Z="A.3" />
+  <accept Z="A.4" />
+  <accept Z="A.5" />
+  <accept Z="A.6" />
+  <accept Z="A.7" />
+  <accept Z="A.8" />
+  <accept Z="A.9" />
+  <accept Z="A.10" />
+  <accept Z="A.11" />
+  <accept Z="A.12" />
+  <accept Z="A.13" />
+  <accept Z="A.14" />
+  <accept Z="A.15" />
+  <accept Z="A.18" />
+  <accept Z="A.19" />
+  <accept Z="A.22" />
+  <accept Z="A.23" />
+  <accept Z="A.24" />
+  <accept Z="A.25" />
+  <accept Z="A.26" />
+  <accept Z="A.27" />
+  <accept Z="A.28" />
+  <accept Z="A.29" />
+  <accept Z="A.30" />
+
+</ignored-threats>

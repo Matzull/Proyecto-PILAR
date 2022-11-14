@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- mapping between qualitative levels and quantitative values -->
+
+<levels-values>
+  <map level="0" value="1000" />
+  <map level="1" value="2150" />
+  <map level="2" value="4650" />
+  <map level="3" value="10000" />
+  <map level="4" value="21500" />
+  <map level="5" value="46500" />
+  <map level="6" value="100000" />
+  <map level="7" value="215000" />
+  <map level="8" value="465000" />
+  <map level="9" value="1000000" />
+  <map level="10" value="2150000" />
+</levels-values>

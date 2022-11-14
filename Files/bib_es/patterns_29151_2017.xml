@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<patterns>
+
+  <pattern name="asset.valuation.graph">
+    <graph what="value.own"
+           graph="bars.horizontal"
+           width="15cm" >
+      <foreach_asset family="essential" />
+      <foreach_dimension />
+    </graph>
+    <legend />
+  </pattern>
+
+  <pattern name="asset.valuation.table">
+    <asset.valuation />
+  </pattern>
+
+  <pattern name="risk.deflected.graph">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <graph what="risk.deflected" 
+          graph="radar.lines" with="15cm" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code] name"/>
+      </graph>
+      <nl/>
+      <legend />
+    </foreach_asset>
+  </pattern>
+
+  <pattern name="risk.deflected.table">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <table what="risk.deflected" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code]"/>
+      </table>
+    </foreach_asset>
+  </pattern>
+
+  <pattern name="29151_A1.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.1, A.1.*, A.1.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <pattern name="29151_A2.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.2, A.2.*, A.2.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <pattern name="29151_A3.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.3, A.3.*, A.3.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <pattern name="29151_A4.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.4, A.4.*, A.4.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <pattern name="29151_A5.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.5, A.5.*, A.5.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <pattern name="29151_A6.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.6, A.6.*, A.6.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <pattern name="29151_A7.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.7, A.7.*, A.7.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <pattern name="29151_A8.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.8, A.8.*, A.8.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <pattern name="29151_A9.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.9, A.9.*, A.9.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <pattern name="29151_A10.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.10, A.10.*, A.10.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <pattern name="29151_A11.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.11, A.11.*, A.11.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <pattern name="29151_A12.table">
+    <evl.valuation evl="29151:2016" 
+      pattern="A.12, A.12.*, A.12.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+</patterns>
+

@@ -1,0 +1,543 @@
+{
+  "encoding": "áéíóú",
+  "key": "gdpr",
+  "label": "RGPD",
+  "children": [
+
+    { "key": ".roles",
+      "label": "roles",
+      "children": [
+        { "key": ".dpo",
+	  "label": "DPD (Delegado de Protección de Datos)",
+	  "hint": "Interpretar y supervisar la aplicación del RGPD en la organización"
+	},
+        { "key": ".controller",
+	  "label": "Responsable del tratamiento",
+	  "hint": "Art. 4.7: la persona física o jurídica, autoridad pública, servicio u otro organismo que, solo o junto con otros, determine los fines y medios del tratamiento; si el Derecho de la Unión o de los Estados miembros determina los fines y medios del tratamiento, el responsable del tratamiento o los criterios específicos para su nombramiento podrá establecerlos el Derecho de la Unión o de los Estados miembros"
+        },
+        { "key": ".processor",
+	  "label": "Encargado del tratamiento",
+	  "hint": "Art. 4.8: la persona física o jurídica, autoridad pública, servicio u otro organismo que trate datos personales por cuenta del responsable del tratamiento"
+	}
+      ]
+    },
+
+    {
+      "key": ".hr",
+      "label": "necesidad",
+      "header": "Análisis de la necesidad de realizar una EIPD",
+      "children": [
+        {
+	  "label": "1 Tipos de operaciones específicamente considerados por la Autoridad de control"
+        },
+        {
+	  "label": "¿El tratamiento a analizar se encuentra dentro de la lista de tipos de tratamientos de datos publicados por la AEPD que requieren una EIPD?"
+        },
+        {
+	  "key": ".1.1",
+	  "label": "1. Tratamientos que impliquen perfilado o valoración de sujetos, incluida la recogida de datos del sujeto en múltiples ámbitos de su vida (desempeño en el trabajo, personalidad y comportamiento), que cubran varios aspectos de su personalidad o sobre sobre sus hábitos.",
+          "check": true
+        },
+        {
+	  "key": ".1.2",
+	  "label": "2. Tratamientos que impliquen la toma de decisiones automatizadas o que contribuyan en gran medida a la toma de tales decisiones, incluyendo cualquier tipo de decisión que impida a un interesado el ejercicio de un derecho o el acceso a un bien o un servicio o formar parte de un contrato.",
+          "check": true
+        },
+        {
+	  "key": ".1.3",
+	  "label": "3. Tratamientos que impliquen la observación, monitorización, supervisión, geolocalización o control del interesado de forma sistemática y exhaustiva, incluida la recogida de datos y metadatos a través de redes, aplicaciones o en zonas de acceso público, así como el procesamiento de identificadores únicos que permitan la identificación de usuarios de servicios de la sociedad de la información como pueden ser los servicios web, TV interactiva, aplicaciones móviles, etc.",
+          "check": true
+        },
+        {
+	  "key": ".1.4",
+	  "label": "4. Tratamientos que impliquen el uso de categorías especiales de datos a las que se refiere el artículo 9.1 del RGPD, datos relativos a condenas o infracciones penales a los que se refiere el artículo 10 del RGPD o datos que permitan determinar la situación financiera o de solvencia patrimonial o deducir información sobre las personas relacionada con categorías especiales de datos.",
+          "check": true
+        },
+
+        {
+	  "key": ".1.b",
+          "label": "5. Tratamientos que impliquen el uso de datos biométricos con el propósito de identificar de manera única a una persona física. ",
+          "check": true
+        },
+
+        {
+	  "key": ".1.g",
+          "label": "6. Tratamientos que impliquen el uso de datos genéticos para cualquier fin. ",
+          "check": true
+        },
+
+        {
+	  "key": ".1.5",
+	  "label": "7. Tratamientos que impliquen el uso de datos a gran escala. Para determinar si un tratamiento se puede considerar a gran escala se considerarán los criterios establecidos en la guía WP243 \"Directrices sobre los delegados de protección de datos (DPD)\" del Grupo de Trabajo del Artículo 29.",
+          "check": true
+        },
+        {
+	  "key": ".1.6",
+	  "label": "8. Tratamientos que impliquen la asociación, combinación o enlace de registros de bases de datos de dos o más tratamientos con finalidades diferentes o por responsables distintos.",
+          "check": true
+        },
+        {
+	  "key": ".1.7",
+	  "label": "9. Tratamientos de datos de sujetos vulnerables o en riesgo de exclusión social, incluyendo datos de menores de 14 años, mayores con algún grado de discapacidad, discapacitados, personas que acceden a servicios sociales y víctimas de violencia de género, así como sus descendientes y personas que estén bajo su guardia y custodia.",
+          "check": true
+        },
+        {
+	  "key": ".1.8",
+	  "label": "10. Tratamientos que impliquen la utilización de nuevas tecnologías o un uso innovador de tecnologías consolidadas, incluyendo la utilización de tecnologías a una nueva escala, con un nuevo objetivo o combinadas con otras, de forma que suponga nuevas formas de recogida y utilización de datos con riesgo para los derechos y libertades de las personas.",
+          "check": true
+        },
+        {
+	  "key": ".1.9",
+	  "label": "11. Tratamientos de datos que impidan a los interesados ejercer sus derechos, utilizar un servicio o ejecutar un contrato, como por ejemplo tratamientos en los que los datos han sido recopilados por un responsable distinto al que los va a tratar y aplica alguna de las excepciones sobre la información que debe proporcionarse a los interesados según el artículo 14.5 (b,c,d) del RGPD.",
+          "check": true
+        },
+
+        {
+	  "label": "Lista orientativa de tipos de tratamientos que no requieren una evaluación de impacto relativa a la protección de datos según el artículo 35.5"
+        },
+        {
+	  "key": ".e.1",
+	  "label": "1. Tratamientos que se realizan estrictamente bajo las directrices establecidas o autorizadas con anterioridad mediante circulares o decisiones emitidas por las Autoridades de Control, en particular la AEPD, siempre y cuando el tratamiento no se haya modificado desde que fue autorizado.",
+          "check": true
+        },
+
+        {
+	  "key": ".e.2",
+	  "label": "2. Tratamientos que se realizan estrictamente bajo las directrices de códigos de conducta aprobados por la Comisión Europea o las Autoridades de Control, en particular la AEPD, siempre y cuando una EIPD completa haya sido realizada para la validación del código de conducta y el tratamiento se implementa incluyendo las medidas y salvaguardas definidas en la EIPD.",
+          "check": true
+        },
+
+        {
+	  "key": ".e.3",
+	  "label": "3. Tratamientos que sean necesarios para el cumplimiento de una obligación legal, cumplimiento de una misión realizada en interés público o en el ejercicio de poderes públicos conferidos al responsable, siempre que en el mismo mandato legal no se obligue a realizar una EIPD, y siempre y cuando ya se haya realizado una EIPD completa.",
+          "check": true
+        },
+
+        {
+	  "key": ".e.4",
+	  "label": "4. Tratamientos realizados en el ejercicio de su labor profesional por trabajadores autónomos que ejerzan de forma individual, en particular médicos, profesionales de la salud o abogados, sin perjuicio de que pueda requerirse cuando el tratamiento que lleven a cabo cumpla, de forma significativa, con dos o más criterios establecidos en la lista de tipos de tratamientos de datos que requieren evaluación de impacto relativa a protección de datos publicada por la AEPD.",
+          "check": true
+        },
+
+        {
+	  "key": ".e.5",
+	  "label": "5. Tratamientos obligatorios por ley y realizados con relación a la gestión interna del personal de las PYMES con finalidad de contabilidad, gestión de recursos humanos y nóminas, seguridad social y salud laboral, pero nunca relativos a los datos de los clientes.",
+          "check": true
+        },
+
+        {
+	  "key": ".e.6",
+	  "label": "6. Tratamientos realizados por comunidades y subcomunidades de propietarios tal como se definen en el artículo 2 (a, b y d) de la Ley 49/1960 de Propiedad Horizontal.",
+          "check": true
+        },
+
+        {
+	  "key": ".e.7",
+	  "label": "7. Tratamientos realizados por colegios profesionales y asociaciones sin ánimo de lucro para la gestión de los datos personales de sus propios asociados y donantes,y en el ejercicio de su labor, siempre que no incluyan en el tratamiento de datos sensibles tales como los que se establecen en el artículo 9.1 del RGPD y no sea de aplicación el artículo 9.2(d) de dicho Reglamento.",
+          "check": true
+        },
+
+        {
+	  "label": "2 Sensibilidad de los datos"
+        },
+        {
+	  "key": ".2.1",
+	  "label": "¿Se van a tratar categorías especiales de datos?",
+          "check": true,
+          "hint": "Un dato sensible es cualquier dato referente a las categorías especiales a las que refiere el artículo 9 del RGPD: <br>* ideología <br>* opiniones políticas <br>* religión u opiniones religiosas <br>* creencias o creencias filosóficas <br>* origen étnico o racial <br>* datos relativos a salud <br>* vida sexual y orientación sexual <br>* datos de violencia de género y malos tratos <br>* datos biométricos <br>* datos genéticos que proporcionan una información única sobre la fisiología o la salud del identificado obtenidas del análisis de una muestra biológica <br>* datos solicitados para fines policiales sin consentimiento de las personas afectadas.  <br>* datos relativos a condenas y delitos penales" },
+        {
+	  "key": ".2.2",
+	  "label": "¿Se van a tratar categorías especiales de datos a gran escala?",
+          "check": true,
+          "hint": "Para evaluar si un tratamiento se realiza a gran escala debe tenerse en cuenta: <br>* Número de afectados en términos absolutos o relativos de una determinada población <br>* Volumen y variedad de datos tratados <br>* Duración o permanencia del tratamiento <br>* Extensión geográfica del tratamiento Véase el documento wp243"
+	},
+
+        {
+          "label": "3 Finalidades del tratamiento"
+        },
+        {
+	  "key": ".3.1",
+	  "label": "¿El tratamiento involucra datos de menores de edad en materia de Protección de Datos (14 años según la LOPDGDD)?",
+          "check": true,
+          "hint": "El artículo 7 de la Ley Orgánica 3/2018 determina que el tratamiento de datos personales de un menor de edad únicamente podrá fundarse en su consentimiento cuando sea mayor de catorce años."
+	},
+        {
+	  "key": ".3.2",
+	  "label": "¿La finalidad del tratamiento implica el uso específico de datos de personas con discapacidad o cualquier otro colectivo en situación de especial vulnerabilidad?",
+          "check": true,
+          "hint": "Ejemplos de personas que pueden considerarse vulnerables: menores, personas mayores, discapacitados, refugiados y/o solicitantes de asilo, víctimas de violencia de género, personas en riesgo de exclusión social, pacientes o enfermos, etc."
+	},
+        {
+	  "key": ".3.3",
+	  "label": "¿Con las operaciones de tratamiento, se pueden determinar hábitos, comportamientos, preferencias, gustos, intereses, etc. de personas identificadas o identificables?",
+          "check": true,
+          "hint": "La utilización de datos personales puede dar lugar a analizar o predecir aspectos como situación económica, salud, hábitos de vida, preferencias personales, intereses, comportamiento, ubicación o movimientos del afectado, etc."
+	},
+        {
+	  "key": ".3.4",
+	  "label": "¿Los tratamientos evaluados se amparan en la adhesión a un código de conducta dentro de los límites fijados por el RGPD?",
+          "check": true,
+          "hint": "Para llevar a cabo el tratamiento el responsable y, en su caso, el encargado ¿se han adherido a un código de conducta?"
+	},
+        {
+	  "key": ".3.5",
+	  "label": "¿Se van a tratar datos personales para elaborar perfiles, categorizar/segmentar, hacer ratings/scoring o para la toma de decisiones?",
+          "check": true,
+          "hint": "El scoring consiste en una técnica de marketing a través de la cual se otorga una puntuación o calificación individual al interesado respecto a su nivel de afinidad a un producto de la empresa. A modo de ejemplo, una vez otorgadas las calificaciones de todos los interesados se les segmenta para decidir que producto es más adecuado ofrecerles."
+	},
+        {
+	  "key": ".3.6",
+	  "label": "A partir del tratamiento de los datos, ¿se toman decisiones que pueden afectar significativamente o perjudicar de alguna manera a las personas afectadas?",
+          "check": true,
+          "hint": "Con el resultado del scoring o decisión automatizada es posible que el interesado se vea penalizado o perjudicado en alguna de sus acciones."
+	},
+        {
+	  "key": ".3.7",
+	  "label": "¿Se tratan datos de clientes para realizar labores de gestión de morosidad o utilizando como referencia ficheros externos, tales como ASNEF o CIRBE?",
+          "check": true,
+          "hint": "¿Se consultan los ficheros de solvencia económica con el propósito de obtener información complementaria a la aportada por el interesado?"
+	},
+        {
+	  "key": ".3.8",
+	  "label": "¿Se van a tratar datos relativos a la observación sistemática a gran escala de zonas de acceso público?",
+          "check": true,
+          "hint": "¿Se pretende utilizar herramientas de monitorización, seguimiento o vigilancia, como por ejemplo: video vigilancia, monitorización del puesto de trabajo, seguimiento online, etc..?"
+	},
+        {
+	  "key": ".3.9",
+	  "label": "¿El tratamiento implica que un elevado número de personas (más allá de las necesarias para llevar a cabo el mismo) tenga acceso a los datos personales tratados? Por ejemplo, un departamento que no participe en el tratamiento?",
+          "check": true,
+          "hint": "A lo largo del proceso de tratamiento, se puede dar el hecho de que gran cantidad de personas puedan interactuar con los datos del interesado. Únicamente el personal autorizado debería tener acceso a los datos para el desempeño de sus funciones."
+	},
+        {
+	  "key": ".3.10",
+	  "label": "Para llevar a cabo este tratamiento, ¿se combinan conjuntos de datos utilizados por otros responsables de tratamiento cuya finalidad diste en exceso de las expectativas del interesado?",
+          "check": true,
+          "hint": "¿Se supera el alcance del tratamiento del que pudiese haber sido informado el interesado al incio del mismo?"
+	},
+        {
+	  "key": ".3.11",
+	  "label": "¿Se utilizan datos de carácter personal anonimizados de forma no irreversible?",
+          "check": true,
+          "hint": "¿Se tiene previsto anonimizar datos para con fines estadísticos, históricos o de investigación científica, etc. de manera que posteriormente puedan volver a utilizarse para identificar al interesado?"
+	},
+        {
+	  "key": ".3.12",
+	  "label": "¿La base legal del tratamiento es el consentimiento?",
+          "check": true,
+          "hint": "Por ejemplo, en el caso de transferencias internacionales, comunicaciones comerciales, mercadotecnia directa, etc.,"
+	},
+
+	{
+	  "label": "5 Tecnologías empleadas para el tratamiento"
+        },
+        {
+	  "key": ".5.1",
+	  "label": "¿Se prevé el uso de tecnologías que se pueden percibir como inmaduras, de reciente creación o salida al mercado o con elevado riesgo para el acceso no autorizado?",
+          "check": true,
+          "hint": "Tecnologías innovadoras o experimentales que no ofrezcan las garantías suficientes para los derechos y libertades de las personas."
+	},
+
+	{
+	  "label": "6 Encargados de tratamiento, cesiones de datos y transferencias internacionales de datos"
+	},
+        {
+	  "key": ".6.1",
+	  "label": "¿Se ha delegado alguna de las tareas que compone el tratamiento a un proveedor externo a la entidad? (en caso afirmativo detallar cuales)",
+          "check": true,
+          "hint": "A modo de ejemplo, proveedores que accedan a datos personales en el marco de la prestación de servicios."
+        },
+        {
+	  "key": ".6.2",
+	  "label": "¿Se realizan cesiones de datos a otras entidades, ya sean del mismo grupo o proveedores externos al mismo? (en caso afirmativo detallar cuales)",
+          "check": true,
+          "hint": "¿Se comparte la información del interesado con terceros, ajenos o no, al tratamiento en aquellas actividades que requieran el consentimiento del interesado?"
+        },
+        {
+	  "key": ".6.3",
+	  "label": "¿Se realizan transferencias internacionales de datos a países fuera de la Unión Europea y que no cuenten con medidas de protección de datos de carácter personal similares a las establecidas por la Autoridad de Control? (en caso afirmativo detallar cuáles)",
+          "check": true,
+          "hint": "El siguiente listado contiene los países considerados seguros para las transferencias de datos: <br>* Países de la Unión Europea <br>* Andorra <br>* Argentina <br>* Canadá (Sector privado) <br>* Suiza <br>* Islas Feroe <br>* Guernsey <br>* Israel <br>* Isla de Man <br>* Jersey <br>* Nueva Zelanda <br>* Uruguay"
+        },
+
+	{
+	  "label": "7 Percepción del riesgo por el responsable del tratamiento y DPO"
+	},
+        {
+	  "key": ".7.1",
+	  "label": "¿Es este tratamiento es similar a otro para el que haya sido necesario realizar una EIPD?",
+          "check": true,
+          "hint": "Para el proceso de realización de una EIPD y con el fin de agilizarlo, se puede tomar como base un tratamiento con carácterísticas similares (finalidades parecidas, mismos terceros, mismas cesiones, escala del tratamiento, etc…)"
+        },
+        {
+	  "key": ".7.2",
+	  "label": "¿Se considera, con independencia de las preguntas indicadas en este formulario, que es recomendable realizar un análisis de los posibles riesgos para los datos de carácter personal a lo largo del ciclo de vida del tratamiento (recogida, almacenamiento/clasificación, uso/tratamiento y destrucción)?",
+          "check": true,
+          "hint": "El responsable, a quien corresponde realizar la EIPD, puede decidir por los motivos que estime, llevara cabo la EIPD independientemente del resultado del análisis de necesidad de la misma."
+        },
+
+	{
+	  "label": "8 Base jurídica del tratamiento"
+	},
+        {
+	  "key": ".8.1",
+	  "label": "¿Tiene el tratamiento su base jurídica en el derecho de la Unión Europea o de un Estado miembro y la EIPD ya se ha realizado en este contexto?",
+          "check": true,
+          "hint": "En este caso, si ya se hubiese realizado una EIPD anteriormente sobre un tratamiento, cuya naturaleza, alcance, finalidad y contexto sea muy similar al actual y/o cuando el tratamiento tiene como base jurídica el derecho del Espacio Económico Europeo o del Estado miembro y la EIPD ya se ha hecho en este contexto. En ambos casos se debe argumentar que efectivamente, nos encontramos ante un tratamiento que encaja claramente en estas circunstancias y por tanto no es necesario llevar a cabo la evaluación."
+        },
+        {
+	  "key": ".8.2",
+	  "label": "Otros motivos",
+          "check": true,
+          "hint": "En el caso de que nada de lo mostrado con anterioridad se adapte a sus necesidades seleccione SI"
+        }
+      ]
+    },
+
+    {
+      "key": ".lifecycle",
+      "label": "ciclo de vida",
+      "header": "Ciclo de vida de los datos",
+      "children": [
+        {
+	  "label": "1 Captura de datos"
+	},
+        {
+	  "key": ".1.1",
+	  "label": "Actividades del proceso",
+          "hint": "Se deben detallar qué actividades, tareas o acciones se han llevado a cabo con la finalidad de recabar los datos necesarios para el tratamiento."
+        },
+        {
+	  "key": ".1.2",
+	  "label": "Datos tratados",
+          "hint": "Se debe listar las categorías de datos que se han recolectado para el tratamiento."
+        },
+        {
+	  "key": ".1.3",
+	  "label": "Intervinientes involucrados",
+          "hint": "Si los datos han sido proporcionados únicamente por el interesado, por la misma entidad o si hay terceros que hayan aportado información."
+        },
+        {
+	  "key": ".1.4",
+	  "label": "Tecnologías intervinientes",
+          "hint": "Elaborar un listado completo de las tecnologías utilizadas para recabar los datos a tratar del interesado."
+        },
+        {
+	  "key": ".b",
+	  "label": "2 Clasificación / Almacenamiento"
+	},
+        {
+	  "key": ".b1",
+	  "label": "Actividades del proceso",
+          "hint": "Se debe enumerar las actividades que se pretenden llevar a cabo en el proceso de almacenaje de la información."
+        },
+        {
+	  "key": ".b2",
+	  "label": "Datos tratados",
+          "hint": "Realizar un inventario de los tipos de datos del interesado que se van a almacenar"
+        },
+        {
+	  "key": ".b3",
+	  "label": "Intervinientes involucrados",
+          "hint": "Si en los procesos de clasificación, los datos del interesado son gestionados unicamente por el responsable del tratamiento o existen terceros involucrados en el proceso."
+        },
+        {
+	  "key": ".b4",
+	  "label": "Tecnologías intervinientes",
+          "hint": "Proporcionar el nombre de las tecnologías que hayan podido ser utilziadas en el proceso de clasificación o almacenaje de los datos del interesado."
+        },
+        {
+	  "key": ".c",
+	  "label": "3 Uso / Tratamiento"
+	},
+        {
+	  "key": ".c1",
+	  "label": "Actividades del proceso",
+          "hint": "Detallar que acciones o labores se desempeñan en el momento de hacer uso de los datos del interesado."
+        },
+        {
+	  "key": ".c2",
+	  "label": "Datos tratados",
+          "hint": "Listar qué categorías de datos se utilizan en el proceso del tratamiento"
+        },
+        {
+	  "key": ".c3",
+	  "label": "Intervinientes involucrados",
+          "hint": "El tratamiento lo realiza el encargado y/o se ven involucrados terceros adicionalmente en este proceso."
+        },
+        {
+	  "key": ".c4",
+	  "label": "Tecnologías intervinientes",
+          "hint": "Listar qué tecnologías son utilizadas para el proceso de tratamiento."
+        },
+        {
+	  "key": ".d",
+	  "label": "4 Cesión o transferencia de los datos a un tercero para su tratamiento"
+	},
+        {
+	  "key": ".d1",
+	  "label": "Actividades del proceso",
+          "hint": "Se debe enumerar las actividades que se pretenden llevar a cabo en el proceso de cesión o transferencia de la información."
+        },
+        {
+	  "key": ".d2",
+	  "label": "Datos tratados",
+          "hint": "Realizar un listado de las categorías de datos que se van a ceder a los terceros."
+        },
+        {
+	  "key": ".d3",
+	  "label": "Intervinientes involucrados",
+          "hint": "Enumerar los terceros a los que se van a realizar las cesiones de datos."
+        },
+        {
+	  "key": ".d4",
+	  "label": "Tecnologías intervinientes",
+          "hint": "Proporcionar el nombre de las tecnologías que hayan podido ser utilizadas en el proceso de cesión o transferencia de los datos del interesado."
+        },
+        {
+	  "key": ".e",
+	  "label": "5 Destrucción"
+	},
+        {
+	  "key": ".e1",
+	  "label": "Actividades del proceso",
+          "hint": "Se debe enumerar las actividades que se pretenden llevar a cabo en el proceso de destrucción de la información."
+        },
+        {
+	  "key": ".e2",
+	  "label": "Datos tratados",
+          "hint": "Realizar un listado de las categorías de datos que se pretenden destruir."
+        },
+        {
+	  "key": ".e3",
+	  "label": "Intervinientes involucrados",
+          "hint": "Enumerar los terceros a los que se vean involucrados en las labores de destrucción."
+        },
+        {
+	  "key": ".e4",
+	  "label": "Tecnologías intervinientes",
+          "hint": "Listar qué tecnologías son utilizadas para el proceso de destrucción."
+        }
+      ]
+    },
+
+    {
+      "key": ".lawfulness",
+      "label": "necesidad y proporcionalidad",
+      "header": "Análisis de la necesidad y proporcionalidad del tratamiento",
+      "children": [
+        {
+	  "label": "1 Legitimación"
+	},
+        {
+	  "key": ".1.1.1",
+          "label": "Consentimiento",
+          "check": true
+        },
+        {
+	  "key": ".1.1.2",
+          "label": "Relación contractual",
+          "check": true
+        },
+        {
+	  "key": ".1.1.3",
+          "label": "Intereses vitales del interesado o de otras personas",
+          "check": true
+        },
+        {
+	  "key": ".1.1.4",
+          "label": "Obligación legal del responsable",
+          "check": true
+        },
+        {
+	  "key": ".1.1.5",
+          "label": "Interés público o ejercicio de poderes públicos",
+          "check": true
+        },
+        {
+	  "key": ".1.1.6",
+          "label": "Intereses legítimos prevalentes del responsable o de terceros",
+          "check": true
+        },
+        {
+	  "key": ".1.7",
+	  "label": "Legitimación",
+          "hint": "El tratamiento solo será lícito si se cumple al menos una de las siguientes condiciones: <br>* el interesado dio su consentimiento para el tratamiento de sus datos personales para uno o varios fines específicos <br>* el tratamiento es necesario para la ejecución de un contrato en el que el interesado es parte o para la aplicación a petición de este de medidas precontractuales <br>* el tratamiento es necesario para el cumplimiento de una obligación legal aplicable al responsable del tratamiento <br>* el tratamiento es necesario para proteger intereses vitales del interesado o de otra persona física. El considerando 46 establece como ejemplos de intereses vitales y de interés público, aquellos relativos al tratamiento necesario para fines humanitarios (incluido el control de epidemias y su propagación) y situaciones de emergencia humanitaria, sobre todo en caso de catástrofes naturales o de origen humano.  <br>* el tratamiento es necesario para el cumplimiento de una misión realizada en interés público o en el ejercicio de poderes públicos conferidos al responsable del tratamiento <br>* el tratamiento es necesario para la satisfacción de intereses legítimos perseguidos por el responsable del tratamiento o por un tercero, siempre que sobre dichos intereses no prevalezcan los intereses o los derechos y libertades fundamentales del interesado que requieran la protección de datos personales, en particular cuando el interesado sea un niño."
+        },
+
+        {
+          "label": "2 Evaluación del interés legítimo ( cumplimentar si anteriormente se ha seleccionado 'Interés legítimo')"
+        },
+        { "key": ".2.1",
+          "label": "¿El tratamiento es conforme a la legislación nacional y de la UE?",
+          "check": true,
+          "hint": "¿Existe la posibilidad de que algún aspecto del tratamiento a realizar entre en conflicto con alguna Ley de la UE? En tal caso, detallarlo"
+        },
+        { "key": ".2.2",
+          "label": "¿El tratamiento representa un interés real y actual de la entidad?",
+          "check": true,
+          "hint": "Los intereses de la empresa no pueden prevalecer sobre los de los interesado. La finalidad del tratamiento debe verse amparada bajo legitimación."
+        },
+        { "key": ".2.3",
+          "label": "¿Existen otros medios menos invasivos para alcanzar la finalidad prevista del tratamiento y satisfacer el interés legítimo del responsable del tratamiento?",
+          "check": true,
+          "hint": "Debe adoptarse la vía en la que la intimidad del interesado, así como la de sus datos, se vea menos afectada."
+        },
+        { "key": ".2.4",
+          "label": "¿Cuál es la naturaleza del interés de la entidad?",
+          "check": true,
+          "hint": "Describir detalladamente la razón y alcance del tratamiento que se va a hacer de los datos del interesado."
+        },
+        { "key": ".2.5",
+          "label": "¿Cuál es el perjuicio que el responsable del tratamiento, los terceros o la comunidad en general puedan sufrir si no se realiza el tratamiento de datos?",
+          "check": true,
+          "hint": "Detallar las acciones o consecuencias que puede acarrear al responsable del tratamiento la no realización del tratamiento de datos."
+        },
+        { "key": ".2.6",
+          "label": "¿Existe un desequilibrio entre la situación del interesado y la del responsable del tratamiento?",
+          "check": true,
+          "hint": "Ejemplos de personas que pueden considerarse vulnerables: menores, personas mayores, discapacitados, refugiados y/o solicitantes de asilo, etc."
+        },
+        { "key": ".2.7",
+          "label": "¿El interesado ha sido debidamente informado sobre las actividades del tratamiento?",
+          "check": true,
+          "hint": "Se debe informar de las acciones, labores y tareas que se van a llevar a cabo con los datos del interesado, así como el alcance de las mismas."
+        },
+        { "key": ".2.8",
+          "label": "¿Qué perjuicios pueden ocasionarse al interesado?",
+          "check": true,
+          "hint": "Detallar las acciones o consecuencias que puede experimetar el interesado tras la realizaciónd el tratemiento."
+        },
+        { "key": ".2.9",
+          "label": "¿Se trata de un tratamiento normalizado en el sector?",
+          "check": true,
+          "hint": "Existen precedentes en el mercado y es una práctica común."
+        },
+
+        {
+          "label": "3 Evaluación de la necesidad y proporcionalidad de las operaciones de Tratamiento"
+        },
+        { "key": ".3.1",
+          "label": "Los datos recogidos se van a usar exclusivamente para la finalidad declarada y no para ninguna otra no informada ni incompatible con la legitimidad de su uso (principio de limitación de la finalidad).",
+          "check": true,
+          "hint": "El tratamiento de los datos se reduce únicamente a la finalidad establecida en el momento de su recogida."
+        },
+        { "key": ".3.2",
+          "label": "La finalidad que se pretende cubrir requiere de todos los datos a recabar y para todas las personas/interesados afectados (principio de minimización de datos).",
+          "check": true,
+          "hint": "Los datos personales han de ser adecuados, pertinentes y limitados a lo necesario en relación con los fines para los que son tratados"
+        },
+        { "key": ".3.3",
+          "label": "Las tecnologías empleadas para el tratamiento son adecuadas para la finalidad establecida desde el punto de vista del cumplimiento de los principios fundamentales de la privacidad.",
+          "check": true,
+          "hint": "No deben utilizarse herramientas o tecnologías que comprometan la privacidad del interesado. A modo de ejemplo, el envío de sms masivos se considera intrusivo."
+        },
+        { "key": ".3.4",
+          "label": "Los datos se mantienen más tiempo del necesario para las finalidades del tratamiento (principio de limitación del plazo de conservación).",
+          "check": true,
+          "hint": "Los datos no serán mantenidos mas allá del requerimiento regulatorio pertinente ni de la finalidad con la que fueron recogidos."
+        }
+      ]
+    }
+  ]
+}

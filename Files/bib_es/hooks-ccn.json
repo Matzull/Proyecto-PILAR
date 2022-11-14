@@ -1,0 +1,129 @@
+{
+  "encoding": "áéíóú",
+  "title" : "CCN-CERT",
+  "defs" : [
+    { "controls" : [ [ "ens:2015", "org.1" ],
+                     [ "27002:2013", "5.1.1", "6.1.1" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-805 - Política de Seguridad de la Información",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        },
+        { "label" : "CCN-STIC-801 - Responsabilidades y Funciones en el ENS",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "org.2" ],
+                     [ "27002:2013", "5.1.1" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-821 - Normas de Seguridad en el ENS",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "org.3" ],
+                     [ "27002:2013", "5.1.1" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-822 - Procedimientos de Seguridad",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.6" ],
+                     [ "27002:2013", "12.2" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC 834 - Protección ante Código Dañino en el ENS",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.7" ],
+                     [ "27002:2013", "16.1" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-817 - Gestión de Ciberincidentes",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.8" ],
+                     [ "27002:2013", "12.4" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-831 - Registro de la actividad de los usuarios",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.11", "mp.com.2", "mp.com.3", "mp.si.2", "mp.info.3", "mp.info.4", "mp.info.5" ],
+                     [ "27002:2013", "10.1" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-807 - Criptología de empleo en el ENS",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.mon.2" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-824 Información del Estado de Seguridad",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "mp.com.1" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-811 - Interconexión en el ENS",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "mp.com.2", "mp.com.3" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-836 ENS - Seguridad en VPN",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "mp.info.6" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-835 - Borrado de metadatos en el marco del ENS",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "mp.s.1" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-814 - Seguridad en servicio de correo",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    }
+    { "controls" : [ [ "ens:2015", "mp.s.2" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-812 - Seguridad en servicios web",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    }
+    { "controls" : [ [ "ens:2015", "mp.s.8" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "CCN-STIC-820 - Protección contra Denegación de Servicio",
+          "url" : "https://www.ccn-cert.cni.es/guias/guias-series-ccn-stic/800-guia-esquema-nacional-de-seguridad.html"
+        }
+      ]
+    }
+
+  ]
+}

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<patterns>
+
+  <pattern name="asset.valuation.graph">
+    <graph what="value.own"
+           graph="bars.horizontal"
+           width="15cm" >
+      <foreach_asset family="essential" />
+      <foreach_dimension />
+    </graph>
+    <legend />
+  </pattern>
+
+  <pattern name="asset.valuation.table">
+    <asset.valuation />
+  </pattern>
+
+  <pattern name="risk.deflected.graph">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <graph what="risk.deflected" 
+          graph="radar.lines" with="15cm" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code] name"/>
+      </graph>
+      <nl/>
+      <legend />
+    </foreach_asset>
+  </pattern>
+
+  <pattern name="risk.deflected.table">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <table what="risk.deflected" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code]"/>
+      </table>
+    </foreach_asset>
+  </pattern>
+
+  <!-- [5] -->
+  <pattern name="27002.5.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="5.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+  <legend/>
+  </pattern>
+
+  <pattern name="27002.5.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="5.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [6] -->
+  <pattern name="27002.6.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="6.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.6.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="6.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [7] -->
+  <pattern name="27002.7.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="7.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.7.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="7.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [8] -->
+  <pattern name="27002.8.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="8.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.8.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="8.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [9] -->
+  <pattern name="27002.9.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="9.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.9.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="9.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [10] -->
+  <pattern name="27002.10.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="10.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.10.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="10.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [11] -->
+  <pattern name="27002.11.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="11.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.11.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="11.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [12] -->
+  <pattern name="27002.12.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="12.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.12.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="12.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [13] -->
+  <pattern name="27002.13.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="13.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.13.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="13.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [14] -->
+  <pattern name="27002.14.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="14.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.14.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="14.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [15] -->
+  <pattern name="27002.15.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="15.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.15.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="15.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [16] -->
+  <pattern name="27002.16.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="16.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.16.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="16.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [17] -->
+  <pattern name="27002.17.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="17.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.17.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="17.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [18] -->
+  <pattern name="27002.18.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2013"
+        pattern="18.*.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.18.table">
+    <evl.valuation evl="27002:2013" 
+      pattern="18.*.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+</patterns>
+

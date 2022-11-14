@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+  E.25 loss of equipment
+  E.28 staff shortage
+  A.5  masquerading of identity
+  A.6  abuse of access privileges
+  A.7  misuse
+  A.11 unauthorised access
+  A.25 theft
+  A.26 destructive attack
+  A.27 enemy over-run
+  A.28 staff shortage
+  A.29 extortion
+  A.30 social engineering
+  A.31 distraction
+
+  A.55 Introduce elements (through physical perimeter)
+  A.56 Extract elements (through physical perimeter)
+  A.57 Unauthorised access (through physical perimeter)
+  A.58 Destruction of the physical perimeter
+
+-->
+
+<threat-standard-values>
+  <filter>
+    <families>
+	arch.pps 
+    </families>
+    <threats>
+	E.25 A.25 A.55 A.56 A.57 A.58
+    </threats>
+  </filter>
+
+  <family F="arch.pps">
+    <threat Z="E.25" f="10" >
+      <set D="en:C" deg="0.10" />
+    </threat>
+    <threat Z="A.25" f="10" >
+      <set D="en:C" deg="1.00" />
+    </threat>
+    <threat Z="A.55" f="10" >
+      <set D="en:A" deg="0.50" />
+      <set D="en:V" deg="0.50" />
+    </threat>
+    <threat Z="A.56" f="100" >
+      <set D="en:C" deg="1.00" />
+    </threat>
+    <threat Z="A.57" f="10" >
+      <set D="en:I" deg="0.10" />
+      <set D="en:C" deg="0.50" />
+    </threat>
+    <threat Z="A.58" f="0.1" >
+      <set D="en:A" deg="0.50" />
+      <set D="en:C" deg="0.50" />
+      <set D="en:V" deg="1.00" />
+    </threat>
+  </family>
+
+</threat-standard-values>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<patterns>
+
+  <pattern name="asset.valuation.graph">
+    <graph what="value.own"
+           graph="bars.horizontal"
+           width="15cm" >
+      <foreach_asset family="essential" />
+      <foreach_dimension />
+    </graph>
+    <legend />
+  </pattern>
+
+  <pattern name="asset.valuation.table">
+    <asset.valuation />
+  </pattern>
+
+  <pattern name="risk.deflected.graph">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <graph what="risk.deflected" 
+          graph="radar.lines" with="15cm" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code] name"/>
+      </graph>
+      <nl/>
+      <legend />
+    </foreach_asset>
+  </pattern>
+
+  <pattern name="risk.deflected.table">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <table what="risk.deflected" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code]"/>
+      </table>
+    </foreach_asset>
+  </pattern>
+
+  <macro name="spc">
+    <evl.valuation evl="SPC" 
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </macro>
+
+  <pattern name="spc_tr.table">
+    <evl.valuation evl="SPC" 
+      pattern="TR.*, TR.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="spc_g.table">
+    <evl.valuation evl="SPC" 
+      pattern="G.*, G.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="spc_l.table">
+    <evl.valuation evl="SPC" 
+      pattern="L.*, L.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="spc_it.table">
+    <evl.valuation evl="SPC" 
+      pattern="IT.*, IT.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="spc_n.table">
+    <evl.valuation evl="SPC" 
+      pattern="N.*, N.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="spc_t.table">
+    <evl.valuation evl="SPC" 
+      pattern="T.*, T.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="spc_q.table">
+    <evl.valuation evl="SPC" 
+      pattern="Q.*, Q.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="spc_spd.table">
+    <evl.valuation evl="SPC" 
+      pattern="SPD.*, SPD.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="spc_c.table">
+    <evl.valuation evl="SPC" 
+      pattern="C.*, C.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="spc_sc.table">
+    <evl.valuation evl="SPC" 
+      pattern="SC.*, SC.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="spc_r.table">
+    <evl.valuation evl="SPC" 
+      pattern="R.*, R.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+</patterns>
+

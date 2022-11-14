@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<threat-standard-values>
+
+  <family F="essential.info.per">
+    <threat Z="PR.2a" f="10.0"> <set D="en:PD" deg="0.50" /> </threat>
+    <threat Z="PR.2b" f="10.0"> <set D="en:PD" deg="0.10" /> </threat>
+    <threat Z="PR.2c" f="10.0"> <set D="en:PD" deg="0.20" /> </threat>
+    <threat Z="PR.2d" f="10.0"> <set D="en:PD" deg="0.90" /> </threat>
+    <threat Z="PR.2e" f="10.0"> <set D="en:PD" deg="0.50" /> </threat>
+    <threat Z="PR.2f" f="10.0"> <set D="en:PD" deg="0.50" /> </threat>
+    <threat Z="PR.2g" f="10.0"> <set D="en:PD" deg="0.50" /> </threat>
+    <threat Z="PR.2h" f="10.0"> <set D="en:PD" deg="1.00" /> </threat>
+    <threat Z="PR.2i" f="10.0"> <set D="en:PD" deg="1.00" /> </threat>
+    <threat Z="PR.2j" f="10.0"> <set D="en:PD" deg="0.90" /> </threat>
+    <threat Z="PR.2k" f="5.0"> <set D="en:PD" deg="0.50" /> </threat>
+    <threat Z="PR.2l" f="10.0" opt="yes"> <set D="en:PD" deg="0.30" /> </threat>
+    <threat Z="PR.2m" f="10.0"> <set D="en:PD" deg="0.30" /> </threat>
+    <threat Z="PR.2n" f="10.0"> <set D="en:PD" deg="0.80" /> </threat>
+
+    <threat Z="PR.g1" f="10.0"> <set D="en:PD" deg="0.20" /> </threat>
+    <threat Z="PR.g2" f="10.0"> <set D="en:PD" deg="0.50" /> </threat>
+    <threat Z="PR.g3" f="10.0"> <set D="en:PD" deg="0.50" /> </threat>
+    <threat Z="PR.g4" f="10.0"> <set D="en:PD" deg="0.90" /> </threat>
+    <threat Z="PR.g5" f="5.0"> <set D="en:PD" deg="0.50" /> </threat>
+    <threat Z="PR.g6" f="10.0"> <set D="en:PD" deg="0.50" /> </threat>
+    <threat Z="PR.g7" f="10.0"> <set D="en:PD" deg="0.90" /> </threat>
+    <threat Z="PR.g8" f="10.0"> <set D="en:PD" deg="1.00" /> </threat>
+    <threat Z="PR.g9" f="10.0"> <set D="en:PD" deg="1.00" /> </threat>
+    <threat Z="PR.g10" f="10.0"> <set D="en:PD" deg="0.90" /> </threat>
+    <threat Z="PR.g11" f="10.0"> <set D="en:PD" deg="0.90" /> </threat>
+    <threat Z="PR.g12" f="5.0"> <set D="en:PD" deg="0.50" /> </threat>
+    <threat Z="PR.g13" f="5.0"> <set D="en:PD" deg="0.50" /> </threat>
+    <threat Z="PR.g24" f="10.0"> <set D="en:PD" deg="0.50" /> </threat>
+  </family>
+
+</threat-standard-values>

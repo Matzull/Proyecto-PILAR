@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<library-extension>
+
+<threats>
+<threat if="absent" code="PR">
+Riesgos sobre la privacidad
+
+<threat code=".g1" labels="DP.transparency, DP.fairness">
+1. No facilitar la información en materia de protección de datos o no redactarla de forma accesible y fácil de entender
+</threat>
+
+<threat code=".g2" labels="DP.data_minimisation">
+2. Tratar datos inadecuados y excesivos para la finalidad del tratamiento
+</threat>
+
+<threat code=".g3"  labels="DP.lawfulness">
+3. Carecer de una base jurídica sobre la que se sustenten los tratamientos realizados sobre los datos
+</threat>
+
+<threat code=".g4" labels="DP.purpose_limitation">
+4. Tratar datos personales con una finalidad distinta para la cual fueron recabados
+</threat>
+
+<threat code=".g5" labels="DP.DPO">
+5. No disponer de una estructura organizativa, procesos y recursos para una adecuada gestión de la privacidad en la organización
+</threat>
+
+<threat code=".g6" labels="DP.storage_limitation">
+6. Almacenar los datos por periodos superiores a los necesarios para la finalidad del tratamiento y a la legislación vigente
+</threat>
+
+<threat code=".g7" labels="DP.transfer">
+7. Realizar transferencias internacionales a países que no ofrezcan un nivel de protección adecuado
+</threat>
+
+<threat code=".g8" labels="DP.access">
+8. No tramitar o dificultar el ejercicio de los derechos de los interesados
+</threat>
+
+<threat code=".g9" labels="DP.access">
+9. Resolución indebida del ejercicio de derechos de los interesados en tiempo, formato y forma
+</threat>
+
+<threat code=".g10" labels="DP.transfer">
+10. Seleccionar o mantener una relación con un encargado de tratamiento sin disponer de las garantías adecuadas
+</threat>
+
+<threat code=".g11" labels="DP.transfer">
+11. Carecer de mecanismos de supervisión y control sobre las medidas que regulan la relación con un encargado el tratamiento
+</threat>
+
+<threat code=".g12" labels="DP.DPO">
+12. No registrar la creación, modificación o cancelación de las actividades de tratamiento efectuadas bajo su responsabilidad
+</threat>
+
+<threat code=".g13" labels="DP.DPO">
+13. No llevar a cabo por parte del responsable del tratamiento una evaluación de impacto adecuada en los supuestos detallados por la normativa aplicable
+</threat>
+
+<threat code=".g23" labels="DP.confidentiality, DP.data_minimisation">
+23. Disociación deficiente o reversible que permita la re-identificación de datos
+</threat>
+
+<threat code=".g24" labels="DP.accuracy">
+24. Información no actualizada o incorrecta (pe. registros duplicados con informaciones contradictorias o con campos de datos incorrectos)
+</threat>
+
+<threat code=".g32" labels="DP.accuracy">
+32. Deficiencias en los protocolos de almacenamiento de los datos personales en formato físico
+</threat>
+
+<!--
+    <threat code=".2a" labels="DP.lawfulness">
+      Problemas relativos a la licitud de la recogida de datos y del tratamiento
+      </threat>
+
+    <threat code=".2b" labels="DP.fairness">
+      Problemas relativos a la lealtad en la relación entre el sujeto y la organización
+      </threat>
+
+    <threat code=".2c" labels="DP.transparency">
+      Problemas relativos a la transparencia del tratamiento
+      </threat>
+
+    <threat code=".2d" labels="DP.purpose_limitation">
+      Problemas relativos a la finalidad del tratamiento
+      </threat>
+
+    <threat code=".2e" labels="DP.data_minimisation">
+      Problemas relativos a la recolección excesiva de datos
+      </threat>
+
+    <threat code=".2f" labels="DP.accuracy">
+      Problemas relativos a la exactitud de los datos recogidos
+      </threat>
+
+    <threat code=".2g" labels="DP.storage_limitation">
+      Problemas relativos a la duración del plazo de conservación de los datos recogidos
+      </threat>
+
+    <threat code=".2h" labels="DP.consent">
+      Problemas relativos al consentimiento del sujeto
+      </threat>
+
+    <threat code=".2i" labels="DP.access">
+      Problemas relativos a los derechos del sujeto: acceso, rectificación, cancelación y oposición
+      </threat>
+
+    <threat code=".2j" labels="DP.transfer">
+      Problemas relativos a la transferencia de datos a terceros
+      </threat>
+
+    <threat code=".2k" labels="DP.DPO">
+      Problemas relativos a roles y funciones del personal de la organización
+      </threat>
+
+    <threat code=".2l" labels="DP.integrity, DP.confidentiality" off="true">
+      Problemas relativos a la seguridad de la información (integridad y confidencialidad)
+      </threat>
+--> 
+
+    <threat code=".2g" labels="DP.consent">
+      Obtener un consentimiento dudoso, viciado o inválido para el tratamiento o cesión de datos personales.
+      </threat>
+
+    <threat code=".2m" labels="DP.integrity">
+      Accesos no autorizados a datos personales (modificación)
+      </threat>
+
+    <threat code=".2n" labels="DP.confidentiality">
+      Accesos no autorizados a datos personales (lectura)
+      </threat>
+
+    </threat>
+  </threats>
+
+</library-extension>

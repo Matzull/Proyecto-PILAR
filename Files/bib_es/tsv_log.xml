@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+  A.3  manipulation of logs
+  A.4  manipulation of configuration
+  A.5  masquerading of identity
+  A.6  abuse of access privileges
+  A.7  misuse
+  A.8  malware diffusion
+  A.11 unauthorised access
+  A.15 modification of information 
+  A.18 destruction of information
+  A.19 disclosure of information
+  A.22 manipulation of programs
+
+  A.51 Push malware in (through logical border)
+  A.52 Pull information out (through logical border)
+  A.53 Unauthorised access (througth logical border)
+-->
+
+<threat-standard-values>
+  <filter>
+    <families>
+      arch.ip
+    </families>
+    <threats>
+      A.51 A.52 A.53
+    </threats>
+  </filter>
+
+  <family F="arch.ip">
+    <threat Z="A.51" f="10" >
+      <set D="en:A" deg="0.50" />
+      <set D="en:I" deg="0.50" />
+      <set D="en:C" deg="0.20" />
+    </threat>
+    <threat Z="A.52" f="5" >
+      <set D="en:C" deg="0.50" />
+    </threat>
+    <threat Z="A.53" f="1" >
+      <set D="en:I" deg="0.50" />
+      <set D="en:C" deg="0.10" />
+    </threat>
+  </family>
+
+</threat-standard-values>

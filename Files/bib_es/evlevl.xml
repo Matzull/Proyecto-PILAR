@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<evlevl>
+
+  <map>
+    <name>27002: 2013 -&gt; 2022</name>
+    <evl1>27002:2013</evl1>
+    <evl2>27002:2022</evl2>
+    <file>27002-2013-2022.assoc</file>
+  </map>
+
+  <map>
+    <name>27002: 2022 -&gt; Cybersecurity Framework 1.1</name>
+    <evl1>27002:2022</evl1>
+    <evl2>csf:2018</evl2>
+    <file>27002-2022_csf-2018.assoc</file>
+  </map>
+
+</evlevl>

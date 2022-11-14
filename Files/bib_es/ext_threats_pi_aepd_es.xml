@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<library-extension>
+<threats version="2">
+<threat if="absent" code="PR">
+Riesgos de privacidad
+<threat if="absent" code=".ex">
+Ejemplos
+<threat code=".aepd" >
+Guía Práctica para las Evaluaciones de Impacto en la Protección de los Datos Sujetas al RGPD (2018)
+
+<threat code=".p1">
+Generales
+<threat code=".1" >
+Incumplimiento de la legislación sobre protección de datos personales
+</threat>
+<threat code=".2" >
+Incumplimiento de legislaciones sectoriales
+</threat>
+<threat code=".3" labels="DP.confidentiality, DP.integrity" >
+Carencia de medidas de seguridad adecuadas o ineficacia de las mismas
+</threat>
+<threat code=".4">
+Deficiente gestión de la privacidad
+</threat>
+<threat code=".5" labels="DP.DPO">
+Falta de conocimiento experto sobre protección de datos y de canales de comunicación con los afectados
+</threat>
+<threat code=".6" labels="DP.DPO">
+Incorporación tardía de los expertos en protección de datos (en particular, del delegado de protección de datos o DPO) al proyecto o definición deficiente de sus funciones y competencias
+</threat>
+</threat>
+
+<threat code=".p2">
+Legitimación de los tratamientos y cesiones de datos personales
+<threat code=".1" labels="DP.lawfulness">
+Tratar o ceder datos personales cuando no es necesario para la finalidad perseguida
+</threat>
+<threat code=".2" labels="DP.lawfulness">
+Carecer de una legitimación clara y suficiente para el tratamiento o la cesión de datos personales
+</threat>
+<threat code=".3" labels="DP.consent">
+Obtener un consentimiento dudoso, viciado o inválido para el tratamiento o cesión de datos personales
+</threat>
+<threat code=".4" labels="DP.consent">
+Dificultar la revocación del consentimiento o la manifestación de la oposición a un tratamiento o cesión
+</threat>
+<threat code=".5" labels="DP.lawfulness">
+Dificultades para garantizar la legitimidad de la recogida y la cesión de datos personales provenientes de terceros
+</threat>
+<threat code=".6" labels="DP.lawfulness, DP.purpose_limitation">
+Solicitar y tratar datos especialmente protegidos sin necesidad o sin adoptar las salvaguardias necesarias
+</threat>
+<threat code=".7" labels="DP.purpose_limitation">
+Enriquecer los datos personales de forma no prevista en las finalidades iniciales y sin la información adecuada a los afectados al realizar una interconexión con otras bases de datos de la organización o de terceros, en particular, la re-identificación de información disociada
+</threat>
+<threat code=".9" labels="DP.access">
+Impedir la utilización anónima de un determinado producto o servicio cuando la identificación del usuario no resulta indispensable
+</threat>
+</threat>
+
+<threat code=".p3" labels="DP.transfer">
+Transferencias internacionales
+<threat code=".1">
+Acceso secreto a los datos personales por parte de autoridades de terceros países
+</threat>
+<threat code=".2" labels="DP.transfer" >
+Carencia de mecanismos de control de cumplimiento de las garantías establecidas para la transferencia
+</threat>
+<threat code=".3">
+Impedimentos por parte del importador para el ejercicio de los procedimientos de supervisión y control pactados
+</threat>
+<threat code=".4" labels="DP.access">
+Incapacidad de ayudar a los ciudadanos en el ejercicio de sus derechos ante el importador
+</threat>
+<threat code=".5" labels="DP.lawfulness" >
+No obtención de las autorizaciones legales necesarias
+</threat>
+</threat>
+
+<threat code=".p4">
+Notificación y registro de las actividades de tratamiento
+<threat code=".1" labels="DP.storage_limitation">
+Carecer de los mecanismos y procedimientos necesarios para detectar cuándo debe notificarse la creación, modificación o cancelación de actividades de tratamiento
+</threat>
+<threat code=".2">
+Carecer de los mecanismos y procedimientos necesarios para detectar cuando debe realizarse análisis de impacto en protección de datos y su consulta a la autoridad de control
+</threat>
+</threat>
+
+<threat code=".p5" labels="DP.transparency">
+Transparencia de los tratamientos
+<threat code=".1">
+Recoger datos personales sin proporcionar la debida información o de manera fraudulenta o no autorizada (ubicación geográfica, comportamiento, hábitos de navegación, etc.)
+</threat>
+<threat code=".2">
+En el entorno web, ubicar la información en materia de protección de datos (políticas de privacidad, cláusulas informativas) en lugares de difícil localización o diseminada en diversas secciones y apartados que dificulten su acceso conjunto y detallado
+</threat>
+<threat code=".3">
+Redactar la información en materia de protección de datos en un lenguaje oscuro e impreciso que impida que los afectados se hagan una idea clara y ajustada de los elementos esenciales que deben conocer para que exista un tratamiento leal de sus datos personales
+</threat>
+</threat>
+
+<threat code=".p6">
+Calidad de los datos
+<threat code=".1" labels="DP.purpose_limitation">
+Solicitar datos o categorías de datos innecesarios para las finalidades del nuevo sistema, producto o servicio
+</threat>
+<threat code=".2" labels="DP.storage_limitation">
+Existencia de errores técnicos u organizativos que propicien la falta de integridad de la información, permitiendo la existencia de registros duplicados con informaciones diferentes o contradictorias, lo que puede derivar en la toma de decisiones erróneas
+</threat>
+<threat code=".3" labels="DP.purpose_limitation">
+Garantías insuficientes para el uso de datos personales con fines históricos, científicos o estadísticos
+</threat>
+<threat code=".4" labels="DP.purpose_limitation">
+Utilizar los datos personales para finalidades no especificadas o incompatibles con las declaradas
+<threat code=".1">
+Datos transaccionales, de navegación o de geolocalización para la monitorización del comportamiento, la realización de perfiles y la toma de decisiones sobre las personas.
+</threat>
+<threat code=".2">
+Toma de decisiones económicas, sociales, laborales, etc. relevantes sobre las personas (en particular las que pertenecen a colectivos vulnerables), especialmente si pueden ser adversas o discriminatorias, incluyendo diferencias en los precios y costes de servicios y productos o trabas para el paso de fronteras.
+</threat>
+<threat code=".3">
+Toma de decisiones automatizadas con posibles consecuencias relevantes para las personas.
+</threat>
+<threat code=".4">
+Utilización de los metadatos para finalidades no declaradas o incompatibles con las declaradas.
+</threat>
+</threat>
+<threat code=".5" labels="DP.purpose_limitation">
+Realizar inferencias o deducciones erróneas (y, en su caso, perjudiciales) sobre personas específicas mediante la utilización de técnicas de inteligencia artificial (en particular, minería de datos), reconocimiento facial o análisis biométricos de cualquier tipo
+</threat>
+<threat code=".6" labels="DP.storage_limitation">
+Carecer de procedimientos claros y de herramientas adecuadas para garantizar la cancelación de oficio de los datos personales una vez que han dejado de ser necesarios para la finalidad o finalidades para las que se recogieron
+</threat>
+</threat>
+
+<threat code=".p7">
+Categorías especiales de datos
+<threat code=".1" labels="DP.consent">
+Fallos o errores sistemáticos u ocasionales para recabar el consentimiento expreso cuando este sea la causa que legitima su tratamiento o cesión
+</threat>
+<threat code=".2" labels="DP.lawfulness">
+Asunción errónea de la existencia de una habilitación legal para el tratamiento o cesión de datos de categorías especiales
+</threat>
+<threat code=".3" labels="DP.confidentiality">
+Disociación deficiente o reversible que permita la re-identificación de datos sensibles en procesos de investigación que solo prevén utilizar datos anónimos
+</threat>
+</threat>
+
+<threat code=".p8"  labels="DP.confidentiality">
+Deber de secreto
+<threat code=".1" labels="DP.confidentiality">
+Accesos no autorizados a datos personales
+</threat>
+<threat code=".2" labels="DP.confidentiality">
+Violaciones de la confidencialidad de los datos personales por parte de los empleados de la organización
+</threat>
+</threat>
+
+<threat code=".p9" labels="DP.transfer" >
+Tratamientos por encargo
+<threat code=".1">
+Inexistencia de contrato o elaboración de un contrato incorrecto que no refleje todos los apartados necesarios y las garantías adecuadas
+</threat>
+<threat code=".2">
+Falta de diligencia (o dificultad para demostrarla) en la elección del encargado de tratamiento
+</threat>
+<threat code=".3">
+Gestión deficiente de las subcontrataciones e insuficiente control sobre encargados y subcontratistas y, en particular, dificultades para comprobar o supervisar que el encargado y los subcontratistas cumplen las instrucciones y, especialmente, las medidas de seguridad
+</threat>
+<threat code=".4">
+No definición o deficiencias en los procedimientos para comunicar al responsable el ejercicio de los derechos de los interesados realizados ante los encargados de tratamiento
+</threat>
+<threat code=".5">
+Dificultades para conseguir la portabilidad de los datos personales a otros entornos una vez finalizado el contrato
+</threat>
+</threat>
+
+<threat code=".p10" labels="DP.access">
+Derechos de los interesados
+<threat code=".1">
+Dificultar o imposibilitar el ejercicio de los derechos de los interesados
+</threat>
+<threat code=".2">
+Carencia de procedimientos y herramientas para la gestión de los derechos de los interesados
+</threat>
+<threat code=".3">
+Carencia de procedimientos y herramientas para la comunicación de rectificaciones, cancelaciones u oposiciones a los cesionarios de los datos personales
+</threat>
+</threat>
+
+<threat code=".p11" off="true" >
+Seguridad
+<threat code=".1">
+Inexistencia de Responsable de Seguridad o deficiente definición de sus funciones y competencias
+</threat>
+<threat code=".2">
+Inexistencia de política de seguridad
+</threat>
+<threat code=".3">
+Deficiencias organizativas en la gestión del control de accesos
+</threat>
+<threat code=".4">
+Deficiencias técnicas en el control de accesos que permitan que personas no autorizadas accedan y sustraigan datos personales
+</threat>
+<threat code=".5">
+Imposibilidad de atribuir a usuarios identificados todas las acciones que se llevan a cabo en un sistema de información
+</threat>
+<threat code=".6">
+Uso de identificadores que revelan información del afectado
+</threat>
+<threat code=".7">
+Deficiencias en la protección de la confidencialidad de la información
+</threat>
+<threat code=".8">
+Falta de formación del personal sobre las medidas de seguridad que están obligados a adoptar y sobre las consecuencias que se pueden derivar de no hacerlo
+</threat>
+<threat code=".9">
+Existencia de incentivos para obtener la información ilícitamente por su valor (económico, político, social, laboral, etc.) para terceros no autorizados
+</threat>
+</threat>
+
+</threat>
+</threat>
+</threat>
+</threats>
+</library-extension>

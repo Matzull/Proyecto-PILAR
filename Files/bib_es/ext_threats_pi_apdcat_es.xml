@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<library-extension>
+  <threats>
+    <threat if="absent" code="PR" labels="DP.privacy">
+      Riesgos de privacidad
+      <threat if="absent" code=".ex">
+        Ejemplos
+        <threat code=".apdcat" >
+          Evaluación de impacto relativa a la protección de datos
+          <threat code=".RP">
+            Escenarios de riesgo que pueden afectar a los principios
+            <threat code=".1" labels="DP.lawfulness">
+La base que legitima el tratamiento no es adecuada, es ilícita o no se ha formalizado adecuadamente (hay que prestar atención a las categorías especiales de datos y la gestión del consentimiento)</threat>
+            <threat code=".2" labels="DP.lawfulness">
+Si el tratamiento se basa en el interés legítimo: no se ha ponderado adecuadamente este interés legítimo en relación con los intereses, derechos y libertades fundamentales del interesado</threat>
+            <threat code=".3" labels="DP.purpose_limitation">
+Las finalidades del tratamiento no son precisas, son ilegítimas, etc.</threat>
+            <threat code=".4" labels="DP.purpose_limitation">
+Hay un cambio de finalidad que puede ser incompatible con la finalidad original</threat>
+            <threat code=".5" labels="DP.purpose_limitation">
+Hay un cambio de finalidad compatible, pero puede invalidar una evaluación de impacto previa</threat>
+            <threat code=".6" labels="DP.purpose_limitation">
+Se recogen datos inadecuadas, no pertinentes, excesivas o innecesarias para la finalidad prevista</threat>
+            <threat code=".7" labels="DP.storage_limitation">
+Se registran datos inexactos o no se mantienen actualizadas</threat>
+            <threat code=".8" labels="DP.storage_limitation">
+Los datos personales se conservan más tiempo del necesario</threat>
+            <threat code=".9" labels="DP.transparency">
+Los datos se tratan de manera desleal o poco transparente (no se cumple la expectativa de la persona interesada respecto al tratamiento de sus datos)</threat>
+            <threat code=".10" labels="DP.purpose_limitation">
+Se hacen operaciones de tratamiento desproporcionadas</threat>
+            <threat code=".etc">etc.</threat>
+          </threat>
+           
+          <threat code=".RD">
+	    Escenarios de riesgo que pueden afectar a los derechos
+            <threat code=".1" labels="DP.transparency">
+En el momento de la recogida de los datos no se proporciona la información mínima prevista en la persona afectada (cuando los datos se obtienen directamente de la persona) o no se le proporciona ninguna información, cuando se obtienen de terceros</threat>
+            <threat code=".2" labels="DP.access">
+La respuesta al ejercicio del derecho de acceso no se hace en el tiempo y la forma pertinentes</threat>
+            <threat code=".3" labels="DP.access">
+La respuesta al ejercicio del derecho de rectificación no se hace en el tiempo y la forma pertinentes</threat>
+            <threat code=".3b" labels="DP.access">
+La respuesta al ejercicio del derecho de supresión no se hace en el tiempo y la forma pertinentes</threat>
+            <threat code=".4" labels="DP.access">
+La respuesta al ejercicio del derecho a la limitación del tratamiento no se hace en el tiempo y la forma pertinentes</threat>
+            <threat code=".5" labels="DP.access">
+La respuesta al ejercicio del derecho de portabilidad de los datos no se hace en el tiempo y la forma pertinentes</threat>
+            <threat code=".6" labels="DP.access">
+La respuesta al ejercicio del derecho de oposición no se hace en el tiempo y la forma adecuada</threat>
+            <threat code=".7">
+Se toman decisiones que afectan a una persona utilizando exclusivamente medios automatizados</threat>
+            <threat code=".8" labels="DP.access">
+No hay procedimientos para dar una respuesta adecuada a los derechos</threat>
+            <threat code=".9" labels="DP.access">
+La organización desconoce los procedimientos para responder el ejercicio de derechos</threat>
+            <threat code=".10" labels="DP.access">
+No se verifica adecuadamente la identidad de la persona que ejerce un derecho</threat>
+            <threat code=".etc">etc.</threat>
+          </threat>
+           
+          <threat code=".RO">
+            Escenarios de riesgo que pueden afectar a las obligaciones
+            <threat code=".1">
+Se incumple la regulación general sobre el derecho a la protección de los datos de carácter personal</threat>
+            <threat code=".2">
+Se incumplen otras regulaciones sectoriales que inciden en la protección de los datos de carácter personal</threat>
+            <threat code=".3" labels="DP.lawfulness">
+Se incumplen las cláusulas sobre la protección de datos incorporados a los contratos o condiciones de uso</threat>
+            <threat code=".4" labels="DP.lawfulness">
+Se incumplen estipulaciones recogidas en un código de conducta (si se está adherido)</threat>
+            <threat code=".5" labels="DP.lawfulness">
+No se puede demostrar el cumplimiento (responsabilidad proactiva)</threat>
+            <threat code=".6" labels="DP.lawfulness">
+Las certificaciones o sellos de protección de datos no se han renovado o han perdido vigencia</threat>
+            <threat code=".7" labels="DP.lawfulness">
+No se ha tenido cuenta la protección de datos a la hora de diseñar el tratamiento (de manera parcial o total)</threat>
+            <threat code=".8" labels="DP.lawfulness">
+No se ha incorporado la protección de datos por defecto en las operaciones de tratamiento (de manera parcial o total)</threat>
+            <threat code=".9" labels="DP.lawfulness">
+No se ha hecho una consulta previa a la autoridad de supervisión, cuando era necesaria</threat>
+            <threat code=".10" labels="DP.DPO">
+Los encargados de tratamiento no se han seleccionado adecuadamente</threat>
+            <threat code=".11" labels="DP.transfer">
+No se ha formalizado adecuadamente la relación con encargados de tratamientos</threat>
+            <threat code=".12" labels="DP.transfer">
+No se ejerce suficiente control sobre la actividad del encargado de tratamiento (en las operaciones de tratamiento que le han sido encargadas)</threat>
+            <threat code=".13" labels="DP.transfer">
+Se desconocen las cadenas de subcontratación de encargados de tratamiento</threat>
+            <threat code=".14" labels="DP.lawfulness">
+No se dispone del registro de actividades del tratamiento (si es obligatorio)</threat>
+            <threat code=".15" labels="DP.lawfulness">
+No se mantiene actualizado (no se gestiona) el registro de actividades de tratamiento</threat>
+             
+            <threat code=".16" off="true">
+Hay destrucción accidental de datos personales</threat>
+            <threat code=".17" off="true">
+Hay destrucción malintencionada de datos personales</threat>
+            <threat code=".18" off="true">
+Hay pérdida de datos personales</threat>
+            <threat code=".19" off="true">
+Hay alteración no autorizada de datos personales</threat>
+            <threat code=".20" off="true">
+Hay comunicación no autorizada de datos personales</threat>
+            <threat code=".21" off="true">
+Hay acceso no autorizado a datos personales</threat>
+            <threat code=".22" off="true">
+Los sistemas de información no están disponibles (incidente que provoca que los datos personales no estén disponibles)</threat>
+            <threat code=".23" off="true">
+Hay incapacidad para detectar y gestionar incidentes que afectan a la seguridad de los datos</threat>
+            <threat code=".24" labels="DP.lawfulness">
+Las violaciones de datos no se notifican en el tiempo y la forma pertinentes (violación de la seguridad de los datos)</threat>
+            <threat code=".25" labels="DP.lawfulness">
+Las violaciones de datos no se comunican en el tiempo y la forma pertinentes (violación de la seguridad de los datos)</threat>
+            <threat code=".26" labels="DP.transfer">
+Las limitaciones del tratamiento no se comunican a terceros</threat>
+            <threat code=".27" labels="DP.transfer">
+Hay transferencia internacional de datos no autorizada o desconocida</threat>
+            <threat code=".28" labels="DP.DPO">
+No se ha designado delegado de protección de datos (si es obligatorio)</threat>
+            <threat code=".29" labels="DP.DPO">
+No se proporcionan medios suficientes al delegado de protección de datos</threat>
+            <threat code=".30" labels="DP.lawfulness">
+No se atiende un requerimiento de la autoridad de supervisión competente</threat>
+            <threat code=".31" labels="DP.lawfulness">
+No se hace la evaluación de impacto (si es obligatoria)</threat>
+            <threat code=".32" labels="DP.lawfulness">
+No se implantan las medidas derivadas de una evaluación de impacto</threat>
+            <threat code=".34" labels="DP.lawfulness">
+No se atienden las instrucciones de una autoridad de protección de datos</threat>
+            <threat code=".35" labels="DP.lawfulness">
+No se verifican las medidas adoptadas (auditoría de cumplimiento)</threat>
+            <threat code=".etc">etc.</threat>
+          </threat>
+           
+          <threat code=".RDL" off="true">
+            Escenarios de riesgo que pueden afectar a otros derechos y libertades
+            <threat code=".1">
+Vulneración de la imagen, la intimidad o el honor de las personas</threat>
+            <threat code=".2">
+Vulneración del libre desarrollo de la personalidad</threat>
+            <threat code=".3">
+Discriminación por razón de sexo, raza, religión, opinión, etc.</threat>
+            <threat code=".4">
+Violación del secreto de las comunicaciones</threat>
+            <threat code=".5">
+Atentado contra la dignidad de las personas</threat>
+            <threat code=".etc">etc.</threat>
+          </threat>
+
+          <threat code=".RDP" off="true">
+            Escenarios de riesgo que pueden causar directamente daños y perjuicios
+            <threat code=".1">
+Discriminación de una persona en un proceso competitivo</threat>
+            <threat code=".2">
+Discriminación de un colectivo</threat>
+            <threat code=".3">
+Impacto económico negativo</threat>
+            <threat code=".4">
+Peligro para la integridad física</threat>
+            <threat code=".5">
+Suplantación de la identidad</threat>
+            <threat code=".6">
+Perjuicio para la reputación</threat>
+            <threat code=".7">
+Prohibición del acceso físico</threat>
+            <threat code=".8">
+Impedimento o denegación de la obtención de un servicio</threat>
+            <threat code=".9">
+Impedimento de una contratación</threat>
+            <threat code=".10">
+Denegación de una ayuda o ventaja</threat>
+            <threat code=".etc">etc.</threat>
+          </threat>
+        </threat>
+      </threat>
+    </threat>
+  </threats>
+</library-extension>

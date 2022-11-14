@@ -1,0 +1,32 @@
+// 29151:2016
+// Code of practice for personally identifiable information protection
+
+// R_2016-679
+// REGULATION on the protection of natural persons with regard to the processing of personal data
+
+evl_evl
+
+29151:2016 / R_2016-679
+
+A.3 <-  A5.1.a
+A.4 <-> A5.1.b
+A.5 <-  A5.1.c
+A.6 <-  A5.1.c
+A.7 <-> A5.1.e
+A.8 <-> A5.1.d
+A.9 <-  A5.1.a
+A.11 <-> A5.2
+A.12 <-> A5.1.f
+A.13 <-  A5.1.a
+
+A.9.1 -> A13
+A.9.1 -> A14
+
+A.10.1 -> A15
+
+A.11.2 -> A35
+A.11.3 -> A28
+A.11.3 -> A29
+A.11.6 -> A33
+A.11.6 -> A34
+

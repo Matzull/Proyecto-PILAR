@@ -1,0 +1,46 @@
+{
+  "encoding": "áéíóú",
+  "key": "compensating",
+  "label": "medidas compensatorias",
+  "children": [
+
+    { "key": ".measures",
+      "label": "descripción",
+      "children": [
+        { "key": ".id",
+	  "label": "Identificación",
+	  "hint": "[código] nombre"
+	},
+        { "key": ".scope",
+	  "label": "1. Ámbito de aplicación",
+	  "hint": "Señalar las medidas de seguridad que se pretende compensar."
+	},
+        { "key": ".limits",
+	  "label": "2. Limitaciones o restricciones",
+	  "hint": "Enumerar las limitaciones o restricciones que impiden el cumplimiento con la medida de seguridad original."
+	},
+        { "key": ".objective",
+	  "label": "3. Objetivo",
+	  "hint": "Definir el objetivo de la medida de seguridad original.\n  2. Identificar el objetivo satisfecho por la medida compensatoria."
+	},
+        { "key": ".risk",
+	  "label": "4. Riesgo identificado",
+	  "hint": "Identificar cualquier riesgo adicional que suponga la ausencia de la medida de seguridad original."
+	},
+        { "key": ".selection",
+	  "label": "5. Definición de las medidas compensatorias",
+	  "hint": "Definir las medidas compensatorias, explicando de qué manera se alcanzan los objetivos de la medida de seguridad original que compensan y el riesgo asumido, si lo hubiere."
+	},
+        { "key": ".validation",
+	  "label": "6. Validación de las medidas compensatorias",
+	  "hint": "Definir el proceso de validación y prueba de las medidas compensatorias."
+	},
+        { "key": ".maintenance",
+	  "label": "7. Mantenimiento",
+	  "hint": "Definir los procedimientos y controles precisos para asegurar la permanente eficacia de las medidas compensatorias adoptadas."
+	}
+      ]
+    }
+
+  ]
+}

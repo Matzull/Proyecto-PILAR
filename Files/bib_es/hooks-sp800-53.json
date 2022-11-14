@@ -1,0 +1,2895 @@
+{
+  "encoding" : "áéíóú",
+  "title" : "SP 800-53 rev.5",
+  "macros" : [
+	  [ "rev4", "https://nvd.nist.gov/800-53/Rev4" ],
+	  [ "family4", "$rev4$/family" ],
+	  [ "control4", "$rev4$/control" ],
+	  [ "rev5", "https://csrc.nist.gov/Projects/risk-management/sp800-53-controls/release-search#" ],
+	  [ "family", "$rev5$/controls?version=5.1&family" ],
+	  [ "control", "$rev5$/control?version=5.1&number" ]
+
+  ],
+  "defs" : [
+    {
+      "sm" : [ "ACb" ],
+      "links" : [
+        {
+          "label" : "ACCESS CONTROL",
+          "url" : "$family$=AC"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-1", "AC-1(0)" ],
+      "links" : [
+        {
+          "label" : "Policy and procedures",
+          "url" : "$control$=AC-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-2", "AC-2(0)" ],
+      "links" : [
+        {
+          "label" : "Account management",
+          "url" : "$control$=AC-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-3", "AC-3(0)" ],
+      "links" : [
+        {
+          "label" : "Access Enforcement",
+          "url" : "$control$=AC-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-4", "AC-4(0)" ],
+      "links" : [
+        {
+          "label" : "Information Flow Enforcement",
+          "url" : "$control$=AC-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-5", "AC-5(0)" ],
+      "links" : [
+        {
+          "label" : "Separation of Duties",
+          "url" : "$control$=AC-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-6", "AC-6(0)" ],
+      "links" : [
+        {
+          "label" : "Least Privilege",
+          "url" : "$control$=AC-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-7", "AC-7(0)" ],
+      "links" : [
+        {
+          "label" : "Unsuccessful Logon Attempts",
+          "url" : "$control$=AC-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-8", "AC-8(0)" ],
+      "links" : [
+        {
+          "label" : "System Use Notification",
+          "url" : "$control$=AC-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-9", "AC-9(0)" ],
+      "links" : [
+        {
+          "label" : "Previous Logon Notification",
+          "url" : "$control$=AC-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-10", "AC-10(0)" ],
+      "links" : [
+        {
+          "label" : "Concurrent Session Control",
+          "url" : "$control$=AC-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-11", "AC-11(0)" ],
+      "links" : [
+        {
+          "label" : "Device Lock",
+          "url" : "$control$=AC-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-12", "AC-12(0)" ],
+      "links" : [
+        {
+          "label" : "Session Termination",
+          "url" : "$control$=AC-12"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-13", "AC-13(0)" ],
+      "links" : [
+        {
+          "label" : "Supervision and Review-Access Control",
+          "url" : "$control$=AC-13"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-14", "AC-14(0)" ],
+      "links" : [
+        {
+          "label" : "Permitted Actions without Identification or Authentication",
+          "url" : "$control$=AC-14"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-15", "AC-15(0)" ],
+      "links" : [
+        {
+          "label" : "Automated Marking",
+          "url" : "$control$=AC-15"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-16", "AC-16(0)" ],
+      "links" : [
+        {
+          "label" : "Security and Privacy Attributes",
+          "url" : "$control$=AC-16"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-17", "AC-17(0)" ],
+      "links" : [
+        {
+          "label" : "Remote Access",
+          "url" : "$control$=AC-17"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-18", "AC-18(0)" ],
+      "links" : [
+        {
+          "label" : "Wireless Access",
+          "url" : "$control$=AC-18"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-19", "AC-19(0)" ],
+      "links" : [
+        {
+          "label" : "Access Control for Mobile Devices",
+          "url" : "$control$=AC-19"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-20", "AC-20(0)" ],
+      "links" : [
+        {
+          "label" : "Use of External Systems",
+          "url" : "$control$=AC-20"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-21", "AC-21(0)" ],
+      "links" : [
+        {
+          "label" : "Information Sharing",
+          "url" : "$control$=AC-21"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-22", "AC-22(0)" ],
+      "links" : [
+        {
+          "label" : "Publicly Accessible Content",
+          "url" : "$control$=AC-22"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-23", "AC-23(0)" ],
+      "links" : [
+        {
+          "label" : "Data Mining Protection",
+          "url" : "$control$=AC-23"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-24", "AC-24(0)" ],
+      "links" : [
+        {
+          "label" : "Access Control Decisions",
+          "url" : "$control$=AC-24"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AC-25", "AC-25(0)" ],
+      "links" : [
+        {
+          "label" : "Reference Monitor",
+          "url" : "$control$=AC-25"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AT" ],
+      "links" : [
+        {
+          "label" : "AWARENESS AND TRAINING",
+          "url" : "$family$=AT"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AT-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=AT-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AT-2" ],
+      "links" : [
+        {
+          "label" : "Awareness Training",
+          "url" : "$control$=AT-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AT-3" ],
+      "links" : [
+        {
+          "label" : "Role-Based Training",
+          "url" : "$control$=AT-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AT-4" ],
+      "links" : [
+        {
+          "label" : "Training Records",
+          "url" : "$control$=AT-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AT-6" ],
+      "links" : [
+        {
+          "label" : "Training Feedback",
+          "url" : "$control$=AT-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU" ],
+      "links" : [
+        {
+          "label" : "AUDIT AND ACCOUNTABILITY",
+          "url" : "$family$=AU"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=AU-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-2" ],
+      "links" : [
+        {
+          "label" : "Event Logging",
+          "url" : "$control$=AU-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-3" ],
+      "links" : [
+        {
+          "label" : "Content of Audit Records",
+          "url" : "$control$=AU-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-4" ],
+      "links" : [
+        {
+          "label" : "Audit Log Storage Capacity",
+          "url" : "$control$=AU-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-5" ],
+      "links" : [
+        {
+          "label" : "Response to Audit Logging Process Failures",
+          "url" : "$control$=AU-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-6" ],
+      "links" : [
+        {
+          "label" : "Audit Record Review, Analysis, and Reporting",
+          "url" : "$control$=AU-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-7" ],
+      "links" : [
+        {
+          "label" : "Audit Record Reduction and Report Generation",
+          "url" : "$control$=AU-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-8" ],
+      "links" : [
+        {
+          "label" : "Time Stamps",
+          "url" : "$control$=AU-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-9" ],
+      "links" : [
+        {
+          "label" : "Protection of Audit Information",
+          "url" : "$control$=AU-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-10" ],
+      "links" : [
+        {
+          "label" : "Non-repudiation",
+          "url" : "$control$=AU-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-11" ],
+      "links" : [
+        {
+          "label" : "Audit Record Retention",
+          "url" : "$control$=AU-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-12" ],
+      "links" : [
+        {
+          "label" : "Audit Record Generation",
+          "url" : "$control$=AU-12"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-13" ],
+      "links" : [
+        {
+          "label" : "Monitoring for Information Disclosure",
+          "url" : "$control$=AU-13"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-14" ],
+      "links" : [
+        {
+          "label" : "Session Audit",
+          "url" : "$control$=AU-14"
+        }
+      ]
+    },
+    {
+      "sm" : [ "AU-16" ],
+      "links" : [
+        {
+          "label" : "Cross-Organizational Audit Logging",
+          "url" : "$control$=AU-16"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CA" ],
+      "links" : [
+        {
+          "label" : "ASSESSMENT, AUTHORIZATION, AND MONITORING",
+          "url" : "$family$=CA"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CA-1" ],
+      "links" : [
+        {
+          "label" : "Policies and Procedures",
+          "url" : "$control$=CA-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CA-2" ],
+      "links" : [
+        {
+          "label" : "Control Assessments",
+          "url" : "$control$=CA-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CA-3" ],
+      "links" : [
+        {
+          "label" : "Information Exchange",
+          "url" : "$control$=CA-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CA-5" ],
+      "links" : [
+        {
+          "label" : "Plan of Action and Milestones",
+          "url" : "$control$=CA-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CA-6" ],
+      "links" : [
+        {
+          "label" : "Authorization",
+          "url" : "$control$=CA-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CA-7" ],
+      "links" : [
+        {
+          "label" : "Continuous Monitoring",
+          "url" : "$control$=CA-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CA-8" ],
+      "links" : [
+        {
+          "label" : "Penetration Testing",
+          "url" : "$control$=CA-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CA-9" ],
+      "links" : [
+        {
+          "label" : "Internal System Connections",
+          "url" : "$control$=CA-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM" ],
+      "links" : [
+        {
+          "label" : "CONFIGURATION MANAGEMENT",
+          "url" : "$family$=CM"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=CM-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-2" ],
+      "links" : [
+        {
+          "label" : "Baseline Configuration",
+          "url" : "$control$=CM-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-3" ],
+      "links" : [
+        {
+          "label" : "Configuration Change Control",
+          "url" : "$control$=CM-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-4" ],
+      "links" : [
+        {
+          "label" : "Impact Analyses",
+          "url" : "$control$=CM-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-5" ],
+      "links" : [
+        {
+          "label" : "Access Restrictions for Change",
+          "url" : "$control$=CM-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-6" ],
+      "links" : [
+        {
+          "label" : "Configuration Settings",
+          "url" : "$control$=CM-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-7" ],
+      "links" : [
+        {
+          "label" : "Least Functionality",
+          "url" : "$control$=CM-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-8" ],
+      "links" : [
+        {
+          "label" : "System Component Inventory",
+          "url" : "$control$=CM-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-9" ],
+      "links" : [
+        {
+          "label" : "Configuration Management Plan",
+          "url" : "$control$=CM-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-10" ],
+      "links" : [
+        {
+          "label" : "Software Usage Restrictions",
+          "url" : "$control$=CM-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-11" ],
+      "links" : [
+        {
+          "label" : "User-Installed Software",
+          "url" : "$control$=CM-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-12" ],
+      "links" : [
+        {
+          "label" : "Information Location",
+          "url" : "$control$=CM-12"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-13" ],
+      "links" : [
+        {
+          "label" : "Data Action Mapping",
+          "url" : "$control$=CM-13"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CM-14" ],
+      "links" : [
+        {
+          "label" : "Signed Components",
+          "url" : "$control$=CM-14"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP" ],
+      "links" : [
+        {
+          "label" : "CONTINGENCY PLANNING",
+          "url" : "$family$=CP"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=CP-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-2" ],
+      "links" : [
+        {
+          "label" : "Contingency Plan",
+          "url" : "$control$=CP-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-3" ],
+      "links" : [
+        {
+          "label" : "Contingency Training",
+          "url" : "$control$=CP-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-4" ],
+      "links" : [
+        {
+          "label" : "Contingency Plan Testing",
+          "url" : "$control$=CP-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-6" ],
+      "links" : [
+        {
+          "label" : "Alternate Storage Site",
+          "url" : "$control$=CP-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-7" ],
+      "links" : [
+        {
+          "label" : "Alternate Processing Site",
+          "url" : "$control$=CP-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-8" ],
+      "links" : [
+        {
+          "label" : "Telecommunications Services",
+          "url" : "$control$=CP-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-9" ],
+      "links" : [
+        {
+          "label" : "System Backup",
+          "url" : "$control$=CP-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-10" ],
+      "links" : [
+        {
+          "label" : "System Recovery and Reconstitution",
+          "url" : "$control$=CP-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-11" ],
+      "links" : [
+        {
+          "label" : "Alternate Communications Protocols",
+          "url" : "$control$=CP-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-12" ],
+      "links" : [
+        {
+          "label" : "Safe Mode",
+          "url" : "$control$=CP-12"
+        }
+      ]
+    },
+    {
+      "sm" : [ "CP-13" ],
+      "links" : [
+        {
+          "label" : "Alternative Security Mechanisms",
+          "url" : "$control$=CP-13"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IAb" ],
+      "links" : [
+        {
+          "label" : "IDENTIFICATION AND AUTHENTICATION",
+          "url" : "$family$=IA"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=IA-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-2" ],
+      "links" : [
+        {
+          "label" : "Identification and Authentication (Organizational Users)",
+          "url" : "$control$=IA-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-3" ],
+      "links" : [
+        {
+          "label" : "Device Identification and Authentication",
+          "url" : "$control$=IA-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-4" ],
+      "links" : [
+        {
+          "label" : "Identifier Management",
+          "url" : "$control$=IA-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-5" ],
+      "links" : [
+        {
+          "label" : "Authenticator Management",
+          "url" : "$control$=IA-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-6" ],
+      "links" : [
+        {
+          "label" : "Authenticator Feedback",
+          "url" : "$control$=IA-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-7" ],
+      "links" : [
+        {
+          "label" : "Cryptographic Module Authentication",
+          "url" : "$control$=IA-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-8" ],
+      "links" : [
+        {
+          "label" : "Identification and Authentication (Non-Organizational Users)",
+          "url" : "$control$=IA-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-9" ],
+      "links" : [
+        {
+          "label" : "Service Identification and Authentication",
+          "url" : "$control$=IA-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-10" ],
+      "links" : [
+        {
+          "label" : "Adaptive Authentication",
+          "url" : "$control$=IA-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-11" ],
+      "links" : [
+        {
+          "label" : "Re-authentication",
+          "url" : "$control$=IA-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IA-12" ],
+      "links" : [
+        {
+          "label" : "Identity Proofing",
+          "url" : "$control$=IA-12"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IR" ],
+      "links" : [
+        {
+          "label" : "INCIDENT RESPONSE",
+          "url" : "$family$=IR"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IR-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=IR-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IR-2" ],
+      "links" : [
+        {
+          "label" : "Incident Response Training",
+          "url" : "$control$=IR-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IR-3" ],
+      "links" : [
+        {
+          "label" : "Incident Response Testing",
+          "url" : "$control$=IR-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IR-4" ],
+      "links" : [
+        {
+          "label" : "Incident Handling",
+          "url" : "$control$=IR-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IR-5" ],
+      "links" : [
+        {
+          "label" : "Incident Monitoring",
+          "url" : "$control$=IR-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IR-6" ],
+      "links" : [
+        {
+          "label" : "Incident Reporting",
+          "url" : "$control$=IR-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IR-7" ],
+      "links" : [
+        {
+          "label" : "Incident Response Assistance",
+          "url" : "$control$=IR-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IR-8" ],
+      "links" : [
+        {
+          "label" : "Incident Response Plan",
+          "url" : "$control$=IR-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "IR-9" ],
+      "links" : [
+        {
+          "label" : "Information Spillage Response",
+          "url" : "$control$=IR-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MA" ],
+      "links" : [
+        {
+          "label" : "MAINTENANCE",
+          "url" : "$family$=MA"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MA-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=MA-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MA-2" ],
+      "links" : [
+        {
+          "label" : "Controlled Maintenance",
+          "url" : "$control$=MA-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MA-3" ],
+      "links" : [
+        {
+          "label" : "Maintenance Tools",
+          "url" : "$control$=MA-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MA-4" ],
+      "links" : [
+        {
+          "label" : "Nonlocal Maintenance",
+          "url" : "$control$=MA-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MA-5" ],
+      "links" : [
+        {
+          "label" : "Maintenance Personnel",
+          "url" : "$control$=MA-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MA-6" ],
+      "links" : [
+        {
+          "label" : "Timely Maintenance",
+          "url" : "$control$=MA-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MA-7" ],
+      "links" : [
+        {
+          "label" : "Field Maintenance",
+          "url" : "$control$=MA-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MP" ],
+      "links" : [
+        {
+          "label" : "MEDIA PROTECTION",
+          "url" : "$family$=MP"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MP-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=MP-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MP-2" ],
+      "links" : [
+        {
+          "label" : "Media Access",
+          "url" : "$control$=MP-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MP-3" ],
+      "links" : [
+        {
+          "label" : "Media Marking",
+          "url" : "$control$=MP-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MP-4" ],
+      "links" : [
+        {
+          "label" : "Media Storage",
+          "url" : "$control$=MP-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MP-5" ],
+      "links" : [
+        {
+          "label" : "Media Transport",
+          "url" : "$control$=MP-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MP-6" ],
+      "links" : [
+        {
+          "label" : "Media Sanitization",
+          "url" : "$control$=MP-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MP-7" ],
+      "links" : [
+        {
+          "label" : "Media Use",
+          "url" : "$control$=MP-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "MP-8" ],
+      "links" : [
+        {
+          "label" : "Media Downgrading",
+          "url" : "$control$=MP-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE" ],
+      "links" : [
+        {
+          "label" : "PHYSICAL AND ENVIRONMENTAL PROTECTION",
+          "url" : "$family$=PE"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=PE-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-2" ],
+      "links" : [
+        {
+          "label" : "Physical Access Authorizations",
+          "url" : "$control$=PE-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-3" ],
+      "links" : [
+        {
+          "label" : "Physical Access Control",
+          "url" : "$control$=PE-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-4" ],
+      "links" : [
+        {
+          "label" : "Access Control for Transmission",
+          "url" : "$control$=PE-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-5" ],
+      "links" : [
+        {
+          "label" : "Access Control for Output Devices",
+          "url" : "$control$=PE-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-6" ],
+      "links" : [
+        {
+          "label" : "Monitoring Physical Access",
+          "url" : "$control$=PE-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-8" ],
+      "links" : [
+        {
+          "label" : "Visitor Access Records",
+          "url" : "$control$=PE-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-9" ],
+      "links" : [
+        {
+          "label" : "Power Equipment and Cabling",
+          "url" : "$control$=PE-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-10" ],
+      "links" : [
+        {
+          "label" : "Emergency Shutoff",
+          "url" : "$control$=PE-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-11" ],
+      "links" : [
+        {
+          "label" : "Emergency Power",
+          "url" : "$control$=PE-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-12" ],
+      "links" : [
+        {
+          "label" : "Emergency Lighting",
+          "url" : "$control$=PE-12"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-13" ],
+      "links" : [
+        {
+          "label" : "Fire Protection",
+          "url" : "$control$=PE-13"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-14" ],
+      "links" : [
+        {
+          "label" : "Environmental Controls",
+          "url" : "$control$=PE-14"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-15" ],
+      "links" : [
+        {
+          "label" : "Water Damage Protection",
+          "url" : "$control$=PE-15"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-16" ],
+      "links" : [
+        {
+          "label" : "Delivery and Removal",
+          "url" : "$control$=PE-16"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-17" ],
+      "links" : [
+        {
+          "label" : "Alternate Work Site",
+          "url" : "$control$=PE-17"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-18" ],
+      "links" : [
+        {
+          "label" : "Location of System Components",
+          "url" : "$control$=PE-18"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-19" ],
+      "links" : [
+        {
+          "label" : "Information Leakage",
+          "url" : "$control$=PE-19"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-20" ],
+      "links" : [
+        {
+          "label" : "Asset Monitoring and Tracking",
+          "url" : "$control$=PE-20"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-21" ],
+      "links" : [
+        {
+          "label" : "Electromagnetic Pulse Protection",
+          "url" : "$control$=PE-21"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-22" ],
+      "links" : [
+        {
+          "label" : "Component Marking",
+          "url" : "$control$=PE-22"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PE-23" ],
+      "links" : [
+        {
+          "label" : "Facility Location",
+          "url" : "$control$=PE-23"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PL" ],
+      "links" : [
+        {
+          "label" : "PLANNING",
+          "url" : "$family$=PL"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PL-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=PL-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PL-2" ],
+      "links" : [
+        {
+          "label" : "System Security and Privacy Plans",
+          "url" : "$control$=PL-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PL-4" ],
+      "links" : [
+        {
+          "label" : "Rules of Behavior",
+          "url" : "$control$=PL-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PL-7" ],
+      "links" : [
+        {
+          "label" : "Concept of Operations",
+          "url" : "$control$=PL-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PL-8" ],
+      "links" : [
+        {
+          "label" : "Security and Privacy Architectures",
+          "url" : "$control$=PL-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PL-9" ],
+      "links" : [
+        {
+          "label" : "Central Management",
+          "url" : "$control$=PL-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PL-10" ],
+      "links" : [
+        {
+          "label" : "Baseline Selection",
+          "url" : "$control$=PL-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PL-11" ],
+      "links" : [
+        {
+          "label" : "Baseline Tailoring",
+          "url" : "$control$=PL-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM" ],
+      "links" : [
+        {
+          "label" : "PROGRAM MANAGEMENT",
+          "url" : "$family$=PM"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-1" ],
+      "links" : [
+        {
+          "label" : "Information Security Program Plan",
+          "url" : "$control$=PM-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-2" ],
+      "links" : [
+        {
+          "label" : "Information Security Program Leadership Role",
+          "url" : "$control$=PM-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-3" ],
+      "links" : [
+        {
+          "label" : "Information Security and Privacy Resources",
+          "url" : "$control$=PM-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-4" ],
+      "links" : [
+        {
+          "label" : "Plan of Action and Milestones Process",
+          "url" : "$control$=PM-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-5" ],
+      "links" : [
+        {
+          "label" : "System Inventory",
+          "url" : "$control$=PM-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-6" ],
+      "links" : [
+        {
+          "label" : "Measures of Performance",
+          "url" : "$control$=PM-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-7" ],
+      "links" : [
+        {
+          "label" : "Enterprise Architecture",
+          "url" : "$control$=PM-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-8" ],
+      "links" : [
+        {
+          "label" : "Critical Infrastructure Plan",
+          "url" : "$control$=PM-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-9" ],
+      "links" : [
+        {
+          "label" : "Risk Management Strategy",
+          "url" : "$control$=PM-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-10" ],
+      "links" : [
+        {
+          "label" : "Authorization Process",
+          "url" : "$control$=PM-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-11" ],
+      "links" : [
+        {
+          "label" : "Mission and Business Process Definition",
+          "url" : "$control$=PM-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-12" ],
+      "links" : [
+        {
+          "label" : "Insider Threat Program",
+          "url" : "$control$=PM-12"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-13" ],
+      "links" : [
+        {
+          "label" : "Security and Privacy Workforce",
+          "url" : "$control$=PM-13"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-14" ],
+      "links" : [
+        {
+          "label" : "Testing, Training, and Monitoring",
+          "url" : "$control$=PM-14"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-15" ],
+      "links" : [
+        {
+          "label" : "Security and Privacy Groups and Associations",
+          "url" : "$control$=PM-15"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-16" ],
+      "links" : [
+        {
+          "label" : "Threat Awareness Program",
+          "url" : "$control$=PM-16"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-17" ],
+      "links" : [
+        {
+          "label" : "Protecting Controlled Unclassified Information on External Systems",
+          "url" : "$control$=PM-17"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-18" ],
+      "links" : [
+        {
+          "label" : "Privacy Program Plan",
+          "url" : "$control$=PM-18"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-19" ],
+      "links" : [
+        {
+          "label" : "Privacy Program Leadership Role",
+          "url" : "$control$=PM-19"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-20" ],
+      "links" : [
+        {
+          "label" : "Dissemination of Privacy Program Information",
+          "url" : "$control$=PM-20"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-21" ],
+      "links" : [
+        {
+          "label" : "Accounting of Disclosures",
+          "url" : "$control$=PM-21"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-22" ],
+      "links" : [
+        {
+          "label" : "Personally Identifiable Information Quality Management",
+          "url" : "$control$=PM-22"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-23" ],
+      "links" : [
+        {
+          "label" : "Data Governance Body",
+          "url" : "$control$=PM-23"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-24" ],
+      "links" : [
+        {
+          "label" : "Data Integrity Board",
+          "url" : "$control$=PM-24"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-25" ],
+      "links" : [
+        {
+          "label" : "Minimization of Personally Identifiable Information Used in Testing, Training, and Research",
+          "url" : "$control$=PM-25"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-26" ],
+      "links" : [
+        {
+          "label" : "Complaint Management",
+          "url" : "$control$=PM-26"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-27" ],
+      "links" : [
+        {
+          "label" : "Privacy Reporting",
+          "url" : "$control$=PM-27"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-28" ],
+      "links" : [
+        {
+          "label" : "Risk Framing",
+          "url" : "$control$=PM-28"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-29" ],
+      "links" : [
+        {
+          "label" : "Risk Management Program Leadership Roles",
+          "url" : "$control$=PM-29"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-30" ],
+      "links" : [
+        {
+          "label" : "Supply Chain Risk Management Strategy",
+          "url" : "$control$=PM-30"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-31" ],
+      "links" : [
+        {
+          "label" : "Continuous Monitoring Strategy",
+          "url" : "$control$=PM-31"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PM-32" ],
+      "links" : [
+        {
+          "label" : "Purposing",
+          "url" : "$control$=PM-32"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PS" ],
+      "links" : [
+        {
+          "label" : "PERSONNEL SECURITY",
+          "url" : "$family$=PS"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PS-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=PS-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PS-2" ],
+      "links" : [
+        {
+          "label" : "Position Risk Designation",
+          "url" : "$control$=PS-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PS-3" ],
+      "links" : [
+        {
+          "label" : "Personnel Screening",
+          "url" : "$control$=PS-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PS-4" ],
+      "links" : [
+        {
+          "label" : "Personnel Termination",
+          "url" : "$control$=PS-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PS-5" ],
+      "links" : [
+        {
+          "label" : "Personnel Transfer",
+          "url" : "$control$=PS-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PS-6" ],
+      "links" : [
+        {
+          "label" : "Access Agreements",
+          "url" : "$control$=PS-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PS-7" ],
+      "links" : [
+        {
+          "label" : "External Personnel Security",
+          "url" : "$control$=PS-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PS-8" ],
+      "links" : [
+        {
+          "label" : "Personnel Sanctions",
+          "url" : "$control$=PS-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PS-9" ],
+      "links" : [
+        {
+          "label" : "Position Descriptions",
+          "url" : "$control$=PS-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PT" ],
+      "links" : [
+        {
+          "label" : "PERSONALLY IDENTIFIABLE INFORMATION PROCESSING AND TRANSPARENCY",
+          "url" : "$family$=PT"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PT-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=PT-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PT-2" ],
+      "links" : [
+        {
+          "label" : "Authority to Process Personally Identifiable Information",
+          "url" : "$control$=PT-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PT-3" ],
+      "links" : [
+        {
+          "label" : "Personally Identifiable Information Processing Purposes",
+          "url" : "$control$=PT-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PT-4" ],
+      "links" : [
+        {
+          "label" : "Consent",
+          "url" : "$control$=PT-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PT-5" ],
+      "links" : [
+        {
+          "label" : "Privacy Notice",
+          "url" : "$control$=PT-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PT-6" ],
+      "links" : [
+        {
+          "label" : "System of Records Notice",
+          "url" : "$control$=PT-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PT-7" ],
+      "links" : [
+        {
+          "label" : "Specific Categories of Personally Identifiable Information",
+          "url" : "$control$=PT-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "PT-8" ],
+      "links" : [
+        {
+          "label" : "Computer Matching Requirements",
+          "url" : "$control$=PT-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "RA" ],
+      "links" : [
+        {
+          "label" : "RISK ASSESSMENT",
+          "url" : "$family$=RA"
+        }
+      ]
+    },
+    {
+      "sm" : [ "RA-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=RA-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "RA-2" ],
+      "links" : [
+        {
+          "label" : "Security Categorization",
+          "url" : "$control$=RA-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "RA-3" ],
+      "links" : [
+        {
+          "label" : "Risk Assessment",
+          "url" : "$control$=RA-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "RA-5" ],
+      "links" : [
+        {
+          "label" : "Vulnerability Monitoring and Scanning",
+          "url" : "$control$=RA-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "RA-6" ],
+      "links" : [
+        {
+          "label" : "Technical Surveillance Countermeasures Survey",
+          "url" : "$control$=RA-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "RA-7" ],
+      "links" : [
+        {
+          "label" : "Risk Response",
+          "url" : "$control$=RA-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "RA-8" ],
+      "links" : [
+        {
+          "label" : "Privacy Impact Assessments",
+          "url" : "$control$=RA-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "RA-9" ],
+      "links" : [
+        {
+          "label" : "Criticality Analysis",
+          "url" : "$control$=RA-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "RA-10" ],
+      "links" : [
+        {
+          "label" : "Threat Hunting",
+          "url" : "$control$=RA-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA" ],
+      "links" : [
+        {
+          "label" : "SYSTEM AND SERVICES ACQUISITION",
+          "url" : "$family$=SA"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=SA-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-2" ],
+      "links" : [
+        {
+          "label" : "Allocation of Resources",
+          "url" : "$control$=SA-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-3" ],
+      "links" : [
+        {
+          "label" : "System Development Life Cycle",
+          "url" : "$control$=SA-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-4" ],
+      "links" : [
+        {
+          "label" : "Acquisition Process",
+          "url" : "$control$=SA-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-5" ],
+      "links" : [
+        {
+          "label" : "System Documentation",
+          "url" : "$control$=SA-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-8" ],
+      "links" : [
+        {
+          "label" : "Security and Privacy Engineering Principles",
+          "url" : "$control$=SA-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-9" ],
+      "links" : [
+        {
+          "label" : "External System Services",
+          "url" : "$control$=SA-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-10" ],
+      "links" : [
+        {
+          "label" : "Developer Configuration Management",
+          "url" : "$control$=SA-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-11" ],
+      "links" : [
+        {
+          "label" : "Developer Testing and Evaluation",
+          "url" : "$control$=SA-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-15" ],
+      "links" : [
+        {
+          "label" : "Development Process, Standards, and Tools",
+          "url" : "$control$=SA-15"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-16" ],
+      "links" : [
+        {
+          "label" : "Developer-Provided Training",
+          "url" : "$control$=SA-16"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-17" ],
+      "links" : [
+        {
+          "label" : "Developer Security Architecture and Design",
+          "url" : "$control$=SA-17"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-20" ],
+      "links" : [
+        {
+          "label" : "Customized Development of Critical Components",
+          "url" : "$control$=SA-20"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-21" ],
+      "links" : [
+        {
+          "label" : "Developer Screening",
+          "url" : "$control$=SA-21"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-22" ],
+      "links" : [
+        {
+          "label" : "Unsupported System Components",
+          "url" : "$control$=SA-22"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SA-23" ],
+      "links" : [
+        {
+          "label" : "Specialization",
+          "url" : "$control$=SA-23"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC" ],
+      "links" : [
+        {
+          "label" : "SYSTEM AND COMMUNICATIONS PROTECTION",
+          "url" : "$family$=SC"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=SC-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-2" ],
+      "links" : [
+        {
+          "label" : "Separation of System and User Functionality",
+          "url" : "$control$=SC-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-3" ],
+      "links" : [
+        {
+          "label" : "Security Function Isolation",
+          "url" : "$control$=SC-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-4" ],
+      "links" : [
+        {
+          "label" : "Information in Shared System Resources",
+          "url" : "$control$=SC-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-5" ],
+      "links" : [
+        {
+          "label" : "Denial of Service Protection",
+          "url" : "$control$=SC-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-6" ],
+      "links" : [
+        {
+          "label" : "Resource Availability",
+          "url" : "$control$=SC-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-7" ],
+      "links" : [
+        {
+          "label" : "Boundary Protection",
+          "url" : "$control$=SC-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-8" ],
+      "links" : [
+        {
+          "label" : "Transmission Confidentiality and Integrity",
+          "url" : "$control$=SC-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-10" ],
+      "links" : [
+        {
+          "label" : "Network Disconnect",
+          "url" : "$control$=SC-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-11" ],
+      "links" : [
+        {
+          "label" : "Trusted Path",
+          "url" : "$control$=SC-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-12" ],
+      "links" : [
+        {
+          "label" : "Cryptographic Key Establishment and Management",
+          "url" : "$control$=SC-12"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-13" ],
+      "links" : [
+        {
+          "label" : "Cryptographic Protection",
+          "url" : "$control$=SC-13"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-15" ],
+      "links" : [
+        {
+          "label" : "Collaborative Computing Devices and Applications",
+          "url" : "$control$=SC-15"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-16" ],
+      "links" : [
+        {
+          "label" : "Transmission of Security and Privacy Attributes",
+          "url" : "$control$=SC-16"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-17" ],
+      "links" : [
+        {
+          "label" : "Public Key Infrastructure Certificates {label=SBC:M}",
+          "url" : "$control$=SC-17"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-18" ],
+      "links" : [
+        {
+          "label" : "Mobile Code",
+          "url" : "$control$=SC-18"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-20" ],
+      "links" : [
+        {
+          "label" : "Secure Name/Address Resolution Service (Authoritative Source)",
+          "url" : "$control$=SC-20"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-21" ],
+      "links" : [
+        {
+          "label" : "Secure Name/Address Resolution Service (Recursive or Caching Resolver)",
+          "url" : "$control$=SC-21"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-22" ],
+      "links" : [
+        {
+          "label" : "Architecture and Provisioning for Name/Address Resolution Service",
+          "url" : "$control$=SC-22"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-23" ],
+      "links" : [
+        {
+          "label" : "Session Authenticity",
+          "url" : "$control$=SC-23"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-24" ],
+      "links" : [
+        {
+          "label" : "Fail in Known State",
+          "url" : "$control$=SC-24"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-25" ],
+      "links" : [
+        {
+          "label" : "Thin Nodes",
+          "url" : "$control$=SC-25"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-26" ],
+      "links" : [
+        {
+          "label" : "Decoys",
+          "url" : "$control$=SC-26"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-27" ],
+      "links" : [
+        {
+          "label" : "Platform-Independent Applications",
+          "url" : "$control$=SC-27"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-28" ],
+      "links" : [
+        {
+          "label" : "Protection of Information at Rest",
+          "url" : "$control$=SC-28"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-29" ],
+      "links" : [
+        {
+          "label" : "Heterogeneity",
+          "url" : "$control$=SC-29"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-30" ],
+      "links" : [
+        {
+          "label" : "Concealment and Misdirection",
+          "url" : "$control$=SC-30"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-31" ],
+      "links" : [
+        {
+          "label" : "Covert Channel Analysis",
+          "url" : "$control$=SC-31"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-32" ],
+      "links" : [
+        {
+          "label" : "System Partitioning",
+          "url" : "$control$=SC-32"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-34" ],
+      "links" : [
+        {
+          "label" : "Non-Modifiable Executable Programs",
+          "url" : "$control$=SC-34"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-35" ],
+      "links" : [
+        {
+          "label" : "External Malicious Code Identification",
+          "url" : "$control$=SC-35"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-36" ],
+      "links" : [
+        {
+          "label" : "Distributed Processing and Storage",
+          "url" : "$control$=SC-36"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-37" ],
+      "links" : [
+        {
+          "label" : "Out-of-Band Channels",
+          "url" : "$control$=SC-37"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-38" ],
+      "links" : [
+        {
+          "label" : "Operations Security",
+          "url" : "$control$=SC-38"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-39" ],
+      "links" : [
+        {
+          "label" : "Process Isolation",
+          "url" : "$control$=SC-39"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-40" ],
+      "links" : [
+        {
+          "label" : "Wireless Link Protection",
+          "url" : "$control$=SC-40"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-41" ],
+      "links" : [
+        {
+          "label" : "Port and I/O Device Access",
+          "url" : "$control$=SC-41"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-42" ],
+      "links" : [
+        {
+          "label" : "Sensor Capability and Data",
+          "url" : "$control$=SC-42"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-43" ],
+      "links" : [
+        {
+          "label" : "Usage Restrictions",
+          "url" : "$control$=SC-43"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-44" ],
+      "links" : [
+        {
+          "label" : "Detonation Chambers",
+          "url" : "$control$=SC-44"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-45" ],
+      "links" : [
+        {
+          "label" : "System Time Synchronization",
+          "url" : "$control$=SC-45"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-46" ],
+      "links" : [
+        {
+          "label" : "Cross Domain Policy Enforcement",
+          "url" : "$control$=SC-46"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-47" ],
+      "links" : [
+        {
+          "label" : "Alternate Communications Paths",
+          "url" : "$control$=SC-47"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-48" ],
+      "links" : [
+        {
+          "label" : "Sensor Relocation",
+          "url" : "$control$=SC-48"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-49" ],
+      "links" : [
+        {
+          "label" : "Hardware-Enforced Separation and Policy Enforcement",
+          "url" : "$control$=SC-49"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-50" ],
+      "links" : [
+        {
+          "label" : "Software-Enforced Separation and Policy Enforcement",
+          "url" : "$control$=SC-50"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SC-51" ],
+      "links" : [
+        {
+          "label" : "Hardware-Based Protection",
+          "url" : "$control$=SC-51"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI" ],
+      "links" : [
+        {
+          "label" : "SYSTEM AND INFORMATION INTEGRITY",
+          "url" : "$family$=SI"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=SI-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-2" ],
+      "links" : [
+        {
+          "label" : "Flaw Remediation",
+          "url" : "$control$=SI-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-3" ],
+      "links" : [
+        {
+          "label" : "Malicious Code Protection",
+          "url" : "$control$=SI-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-4" ],
+      "links" : [
+        {
+          "label" : "System Monitoring",
+          "url" : "$control$=SI-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-5" ],
+      "links" : [
+        {
+          "label" : "Security Alerts, Advisories, and Directives",
+          "url" : "$control$=SI-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-6" ],
+      "links" : [
+        {
+          "label" : "Security and Privacy Function Verification",
+          "url" : "$control$=SI-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-7" ],
+      "links" : [
+        {
+          "label" : "Software, Firmware, and Information Integrity",
+          "url" : "$control$=SI-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-8" ],
+      "links" : [
+        {
+          "label" : "Spam Protection",
+          "url" : "$control$=SI-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-10" ],
+      "links" : [
+        {
+          "label" : "Information Input Validation",
+          "url" : "$control$=SI-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-11" ],
+      "links" : [
+        {
+          "label" : "Error Handling",
+          "url" : "$control$=SI-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-12" ],
+      "links" : [
+        {
+          "label" : "Information Management and Retention",
+          "url" : "$control$=SI-12"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-13" ],
+      "links" : [
+        {
+          "label" : "Predictable Failure Prevention",
+          "url" : "$control$=SI-13"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-14" ],
+      "links" : [
+        {
+          "label" : "Non-Persistence",
+          "url" : "$control$=SI-14"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-15" ],
+      "links" : [
+        {
+          "label" : "Information Output Filtering",
+          "url" : "$control$=SI-15"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-16" ],
+      "links" : [
+        {
+          "label" : "Memory Protection",
+          "url" : "$control$=SI-16"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-17" ],
+      "links" : [
+        {
+          "label" : "Fail-Safe Procedures",
+          "url" : "$control$=SI-17"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-18" ],
+      "links" : [
+        {
+          "label" : "Personally Identifiable Information Quality Operations",
+          "url" : "$control$=SI-18"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-19" ],
+      "links" : [
+        {
+          "label" : "De-Identification",
+          "url" : "$control$=SI-19"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-20" ],
+      "links" : [
+        {
+          "label" : "Tainting",
+          "url" : "$control$=SI-20"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-21" ],
+      "links" : [
+        {
+          "label" : "Information Refresh",
+          "url" : "$control$=SI-21"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-22" ],
+      "links" : [
+        {
+          "label" : "Information Diversity",
+          "url" : "$control$=SI-22"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SI-23" ],
+      "links" : [
+        {
+          "label" : "Information Fragmentation",
+          "url" : "$control$=SI-23"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR" ],
+      "links" : [
+        {
+          "label" : "SUPPLY CHAIN RISK MANAGEMENT",
+          "url" : "$family$=SR"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-1" ],
+      "links" : [
+        {
+          "label" : "Policy and Procedures",
+          "url" : "$control$=SR-1"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-2" ],
+      "links" : [
+        {
+          "label" : "Supply Chain Risk Management Plan",
+          "url" : "$control$=SR-2"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-3" ],
+      "links" : [
+        {
+          "label" : "Supply Chain Controls and Processes",
+          "url" : "$control$=SR-3"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-4" ],
+      "links" : [
+        {
+          "label" : "Provenance",
+          "url" : "$control$=SR-4"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-5" ],
+      "links" : [
+        {
+          "label" : "Acquisition Strategies, Tools, and Methods",
+          "url" : "$control$=SR-5"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-6" ],
+      "links" : [
+        {
+          "label" : "Supplier Reviews",
+          "url" : "$control$=SR-6"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-7" ],
+      "links" : [
+        {
+          "label" : "Supply Chain Operations Security",
+          "url" : "$control$=SR-7"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-8" ],
+      "links" : [
+        {
+          "label" : "Notification Agreements",
+          "url" : "$control$=SR-8"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-9" ],
+      "links" : [
+        {
+          "label" : "Tamper Resistance and Detection",
+          "url" : "$control$=SR-9"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-10" ],
+      "links" : [
+        {
+          "label" : "Inspection of Systems or Components",
+          "url" : "$control$=SR-10"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-11" ],
+      "links" : [
+        {
+          "label" : "Component Authenticity",
+          "url" : "$control$=SR-11"
+        }
+      ]
+    },
+    {
+      "sm" : [ "SR-12" ],
+      "links" : [
+        {
+          "label" : "Component Disposal",
+          "url" : "$control$=SR-12"
+        }
+      ]
+    }
+  ]
+}

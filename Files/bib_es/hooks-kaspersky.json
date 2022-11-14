@@ -1,0 +1,106 @@
+{
+  "encoding": "áéíóú",
+  "title" : "Kaspersky",
+  "defs" : [
+    { "controls" : [ [ "ens:2015", "mp.per.3" ],
+                     [ "27002:2013", "7.2.2" ] ],
+      "classes" : null,
+      "links" : [
+        { "label" : "ASAP: Kaspersky Automated Security Awareness Platform",
+          "url" : "https://www.kaspersky.com/small-to-medium-business-security/security-awareness-platform"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.6", "mp.com.1", "mp.info.3", "mp.s.1", "mp.s.2" ],
+                     [ "27002:2013", "6.2.1", "12.2", "13.2.3" ] ],
+      "classes" : [ "HW.mid", "HW.pc", "HW.mobile", "HW.pda" ],
+      "links" : [
+        { "label" : "Kaspersky Endpoint Security",
+          "url" : "https://www.kaspersky.com/enterprise-security/endpoint"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.6", "op.mon.1" ],
+                     [ "27002:2013", "6.2.1", "12.2", "13.2.3", "16.1.5" ] ],
+      "classes" : [ "HW.mid", "HW.pc", "HW.mobile", "HW.pda" ],
+      "links" : [
+        { "label" : "EDR: Kaspersky Endpoint Detection and Response",
+          "url" : "https://www.kaspersky.com/enterprise-security/endpoint-detection-response-edr"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.4", "op.exp.6" ],
+                     [ "27002:2013", "12.2", "12.6.1" ] ],
+      "classes" : [ "SW.std.office" ],
+      "links" : [
+        { "label" : "Kaspersky Security for Microsoft Office 365",
+          "url" : "https://www.kaspersky.com/small-to-medium-business-security/microsoft-office-365-security"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.4", "op.exp.6", "mp.s.1" ],
+                     [ "27002:2013", "12.2", "12.6.1", "13.2.3" ] ],
+      "classes" : [ "S.prov.email", "SW.std.email_server" ],
+      "links" : [
+        { "label" : "Kaspersky Security for Mail Server",
+          "url" : "https://www.kaspersky.com/small-to-medium-business-security/mail-server"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.4", "op.exp.6", "mp.com.1", "mp.info.3", "mp.s.1", "mp.s.2" ],
+                     [ "27002:2013", "6.2.1", "12.2", "12.6.1", "13.2.3" ] ],
+      "classes" : [ "HW.mobile", "HW.pda" ],
+      "links" : [
+        { "label" : "Kaspersky Security for Mobile",
+          "url" : "https://www.kaspersky.com/small-to-medium-business-security/mobile-device"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.4", "op.exp.6" ],
+                     [ "27002:2013", "12.2", "12.6.1" ] ],
+      "classes" : [ "HW.vhost" ],
+      "links" : [
+        { "label" : "Kaspersky Security for Virtualization",
+          "url" : "https://www.kaspersky.es/small-to-medium-business-security/virtualization"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.4" ],
+                     [ "27002:2013", "12.6.1" ] ],
+      "classes" : [ "HW.ics" ],
+      "links" : [
+        { "label" : "KICS: Kaspersky Industrial Cybersecurity",
+          "url" : "https://www.kaspersky.com/enterprise-security/industrial"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.4", "op.mon.1" ],
+                     [ "27002:2013", "", "12.6.1", "16.1.5" ] ],
+      "classes" : [ "HW.ics" ],
+      "links" : [
+        { "label" : "Kaspersky Industrial Cybersecurity for Networks",
+          "url" : "https://ics-cert.kaspersky.com/tag/kics-for-networks/"
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.4" ],
+                     [ "27002:2013", "12.6.1" ] ],
+      "classes" : [ "HW.ics.plc" ],
+      "links" : [
+        { "label" : "Kaspersky Industrial Cybersecurity for Nodes",
+          "url" : ""
+        }
+      ]
+    },
+    { "controls" : [ [ "ens:2015", "op.exp.4" ],
+                     [ "27002:2013", "12.6.1" ] ],
+      "classes" : [ ],
+      "links" : [
+        { "label" : "Kaspersky Security Center",
+          "url" : "https://www.kaspersky.com/small-to-medium-business-security/security-center"
+        }
+      ]
+    }
+
+  ]
+}

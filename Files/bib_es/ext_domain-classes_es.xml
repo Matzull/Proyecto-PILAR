@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library-extension>
+
+  <domain-classes>
+    <class code="ENS">sujeto al ENS
+      <class code=".B">Categoría BÁSICA</class>
+      <class code=".M">Categoría MEDIA</class>
+      <class code=".A">Categoría ALTA</class>
+    </class>
+    <class code="environment">
+      entornos
+      <class code=".ESE">Entorno electrónico de seguridad</class>
+      <class code=".LSE">Entorno local de seguridad</class>
+      <class code=".GSE">Entorno global de seguridad</class>
+      </class>
+  </domain-classes>
+
+</library-extension>

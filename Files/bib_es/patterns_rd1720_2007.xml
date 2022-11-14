@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<patterns>
+
+  <pattern name="asset.valuation.graph">
+    <graph what="value.own"
+           graph="bars.horizontal"
+           width="15cm" >
+      <foreach_asset family="essential" />
+      <foreach_dimension />
+    </graph>
+    <legend />
+  </pattern>
+
+  <pattern name="asset.valuation.table">
+    <asset.valuation />
+  </pattern>
+
+  <pattern name="risk.deflected.graph">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <graph what="risk.deflected" 
+          graph="radar.lines" with="15cm" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code] name"/>
+      </graph>
+      <nl/>
+      <legend />
+    </foreach_asset>
+  </pattern>
+
+  <pattern name="risk.deflected.table">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <table what="risk.deflected" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code]"/>
+      </table>
+    </foreach_asset>
+  </pattern>
+
+  <!-- [B] -->
+  <pattern name="rd1720.B.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="RD 1720"
+        pattern="89,90,91,92,93,94"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="rd1720.B.table">
+    <evl.valuation evl="RD 1720" 
+      pattern="89,90,91,92,93,94"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [M] -->
+  <pattern name="rd1720.M.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="RD 1720"
+        pattern="95,96,97,98,99,100"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="rd1720.M.table">
+    <evl.valuation evl="RD 1720" 
+      pattern="95,96,97,98,99,100"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [A] -->
+  <pattern name="rd1720.A.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="RD 1720"
+        pattern="101,102,103,104"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="rd1720.A.table">
+    <evl.valuation evl="RD 1720" 
+      pattern="101,102,103,104"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+</patterns>
+

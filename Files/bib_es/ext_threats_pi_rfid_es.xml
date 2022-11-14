@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<library-extension>
+
+  <threats>
+    <threat if="absent" code="PR">
+      Riesgos sobre la privacidad
+      <threat if="absent" code=".ex">
+        Ejemplos
+
+<!-- WP 29 / wp180 -->
+
+    <threat code=".rfid" >
+      Privacy and Data Protection Impact Assessment Framework for RFID Applications
+      <threat code=".1">
+	Finalidad sin específicar o no acotada
+        <desc>The purpose of data collection has not been specified and documented or more data is used than is required for the specified purpose.  Example: No documentation of purposes for which data is used and/or use of data for all kinds of feasible analysis.</desc>
+      </threat>
+      <threat code=".2">
+        Recolección excediendo la finalidad declarada
+        <desc>Data is collected in identifiable form that goes beyond the extent that has been specified in the purpose.  Example: payment card information is not only used for the purpose of processing transactions but also to build individual profiles.</desc>
+      </threat>
+      <threat code=".3">
+        Información incompleta o falta de transparencia
+        <desc>The information provided to the data subject on the purpose and use of data is not complete, data processing is not made transparent, or information is not provided in a timely manner.  Example: Information available to consumers that lacks clear information on how data is processed and used, the identity of the Operator, or the user’s rights.</desc>
+      </threat>
+      <threat code=".4">
+        Combinación que excede la finalidad declarada
+        <desc>Personal data is combined to an extent that is not necessary to fulfil the specified purpose.  Example: payment card information is combined with personal data obtained from a third party.</desc>
+      </threat>
+      <threat code=".5">
+        Carencia de políticas o mecanismos de supresión
+        <desc>Data is retained longer than necessary to fulfil the specified purpose.  Example: Personal data is collected as part of the Application and is saved for longer than legally allowed.</desc>
+      </threat>
+      <threat code=".6">
+        Invalidez del consentimiento explícito
+        <desc>Consent has been obtained under threat of disadvantage.  Example: Cannot return/exchange/use legal warranties for products when RFID Tag is deactivated or removed.</desc>
+      </threat>
+      <threat code=".7">
+        Recolección secreta de datos
+        <desc>Some data is secretly recorded and thus unknown to the data subject, e.g. movement profiles.  Example: Consumer information is read while walking in front of stores or in mall and no Logo or Emblem is warning him or her about RFID readouts.</desc>
+      </threat>
+      <threat code=".8">
+        Incapacidad para garantizar el acceso
+        <desc>There is no way for the data subject to initiate a correction or erasure of his data.  Example: Employer cannot give employee a full picture of what is saved about him or her.</desc>
+      </threat>
+      <threat code=".9">
+        Prevención de objeciones
+        <desc>There are no technical or operational means to allow complying with a data subject’s objection.  Example: Hospital visitor cannot opt out of reading out sensitive personal information on tags (i.e. medications).</desc>
+      </threat>
+      <threat code=".10">
+        Falta de transparencia en decisiones automatizadas sobre el individuo
+        <desc>Automated individual decisions based on personal aspects are used but the data subjects are not informed about the logic of the decision making.  Example: Without notice to consumers, an RFID Operator reads all tags carried by an individual, including tags provided by another entity, and determines what type of marketing message the individual should receive based on the tags.</desc>
+      </threat>
+      <threat code=".11">
+        Gestión deficiente de los derechos de acceso
+        <desc>Access rights are not revoked when they are no longer necessary.  Example: Through a card, an ex-trainee gets access to parts of an enterprise where he or she should not.</desc>
+      </threat>
+      <threat code=".12">
+        Mecanismos deficientes de autenticación
+        <desc>A suspicious number of attempts to identify and authenticate are not prevented.  Example: Personal data contained on tags is not protected by default with a password or another authentication mechanism.</desc>
+      </threat>
+      <threat code=".13">
+        Procesamiento ilegítimo 
+        <desc>Processing of personal data is not based on consent, a contract, legal obligation, etc.  Example: An operator shares collected information with a third party without notice or consent as otherwise legally allowed.</desc>
+      </threat>
+      <threat code=".14">
+        Mecanismos deficientes de registro de actividad
+        <desc>The implemented logging mechanism is insufficient. It does not log administrative processes.  Example: It is not logged who has accessed the employee card data.</desc>
+      </threat>
+      <threat code=".15">
+        Recolección de datos incontrolable
+        <desc>The risk that data could be used for regular profiling and/or tracking of individuals.  Example: Retailer reads all tag that they can see.</desc>
+      </threat>
+      <threat code=".20">
+        Incumplimiento
+        <desc>Compliance risk is exposure to legal penalties, financial forfeiture and material loss an organization faces when it fails to act in accordance with regulations</desc>
+      </threat>
+    </threat> <!-- rfid -->
+
+      </threat> <!-- ex -->
+    </threat> <!-- PR -->
+  </threats>
+
+</library-extension>

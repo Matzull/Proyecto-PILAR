@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<warnings>
+
+  <warning C="1">
+    Hay activos sin valorar
+  </warning>
+
+  <warning C="2">
+    No hay dominios de clase ENS
+  </warning>
+
+  <warning C="3">
+    No hay dominios de clase IP
+  </warning>
+
+  <warning C="4">
+    No hay activos de clase D.log
+  </warning>
+
+  <warning C="5">
+    No hay activos de clase D.backup
+  </warning>
+
+</warnings>

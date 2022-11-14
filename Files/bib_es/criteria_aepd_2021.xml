@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<library-extension lang="es" aeiou="áéíóú">
+  <criteria>
+    <reference>Gestión del riesgo y evaluación de impacto en tratamientos de datos personales</reference>
+    <date>Junio 2021</date>
+    <criterion code=".aepd">
+      Datos personales
+      <criterion code="MS" value="7">
+        [MS] Muy Significativo
+        <criterion code=".1">Afecta al ejercicio de derechos fundamentales y libertades públicas establecidos en la Constitución, y sus consecuencias son irreversibles.</criterion>
+        <criterion code=".2">Las consecuencias están relacionadas con categorías especiales de datos o relativos a infracciones penales, y es irreversible.</criterion>
+        <criterion code=".3">Causa un daño social significativo, como la discriminación, y es irreversible</criterion>
+        <criterion code=".4">Afecta a interesados en situación de especial vulnerabilidad, en particular niños, y de forma irreversible.</criterion>
+        <criterion code=".5">Causa perdidas morales o materiales significativas e irreversibles.</criterion>
+      </criterion>
+      <criterion code="S" value="4">
+        [S] Significativo
+        <criterion code=".1">Los casos anteriores cuando los efectos son reversibles.</criterion>
+        <criterion code=".2">Pérdida de control del interesado sobre sus datos personales, cuando la extensión de los datos sea alta con relación a las categorías de datos o al número de sujetos.</criterion>
+        <criterion code=".3">Se produce o puede producirse usurpación de la identidad de los interesados</criterion>
+        <criterion code=".4">Pueden producirse pérdidas financieras significativas a los interesados</criterion>
+        <criterion code=".5">Pérdida de confidencialidad de datos sujetos al deber de secreto profesional o vulneración del deber de confidencialidad</criterion>
+        <criterion code=".6">Existe un perjuicio social para los interesados o determinados colectivos de interesados</criterion>
+      </criterion>
+      <criterion code="L" value="1">
+        [L] Limitado
+        <criterion code=".1">Pérdida muy limitada del control de algún dato personal y a interesados puntuales, que no sea categoría especial o relativos a infracciones o condenas penales de carácter irreversible</criterion>
+        <criterion code=".2">Pérdidas financieras insignificantes e irreversibles</criterion>
+        <criterion code=".3">Perdida de confidencialidad de datos sujetos al secreto profesional pero que no sean categorías especiales o sobre infracción penales</criterion>
+      </criterion>
+      <criterion code="ML" value="0">
+        [ML] Muy Limitado
+        <criterion code=".1">En el caso anterior, cuando todos los efectos son reversibles</criterion>
+      </criterion>
+    </criterion>
+  </criteria>
+</library-extension>

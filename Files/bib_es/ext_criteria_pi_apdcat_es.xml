@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library-extension>
+<!--
+  GUIA PRÀCTICA (gener 2018 – versió 2.0)
+  Avaluació d’impacte relativa a la protecció de dades
+  Autoritat Catalana de Protecció de Dades
+-->
+  <criteria under="pi">
+    <criterion code=".apdcat">Autoritat Catalana de Protecció de Dades
+    <criterion code=".1" level="0">
+      No se deriva ningún daño o perjuicio
+      <criterion code=".0" level="0">
+        Irrelevante
+	</criterion>
+      <criterion code=".1" level="1">
+        Leve
+	</criterion>
+      </criterion>
+    <criterion code=".2" level="2">
+      Se deriva algún daño o perjuicio
+      <criterion code=".2" level="2">
+        Grave
+	</criterion>
+      <criterion code=".3" level="3">
+        Significativamente grave
+	</criterion>
+      <criterion code=".4" level="4">
+        Extremadamente grave
+	</criterion>
+      </criterion>
+    <criterion code=".3" level="2">
+      Es difícil reparar el daño o perjuicio
+      <criterion code=".2" level="2">
+        Grave
+	</criterion>
+      <criterion code=".3" level="3">
+        Significativamente grave
+	</criterion>
+      </criterion>
+    <criterion code=".4" level="4">
+      Es imposible reparar el daño o perjuicio
+      </criterion>
+    <criterion code=".5" level="0">
+      No hay una privación de derechos o libertades
+      <criterion code=".0" level="0">
+        Irrelevante
+	</criterion>
+      <criterion code=".1" level="1">
+        Leve
+	</criterion>
+      </criterion>
+    <criterion code=".6" level="2">
+      Hay una privación parcial de derechos y libertades
+      <criterion code=".2" level="2">
+        Grave
+	</criterion>
+      <criterion code=".3" level="3">
+        Significativamente grave
+	</criterion>
+      </criterion>
+    <criterion code=".7" level="5">
+      Hay una privación total de derechos y libertades
+      </criterion>
+    <criterion code=".8" level="0">
+      Implica una deficiencia formal leve
+      </criterion>
+    <criterion code=".9" level="1">
+      Implica una deficiencia material leve
+      </criterion>
+    <criterion code=".10" level="0">
+      Se incumplen obligaciones materiales
+      <criterion code=".0" level="0">
+        Irrelevante
+	</criterion>
+      <criterion code=".1" level="1">
+        Leve
+	</criterion>
+      </criterion>
+    <criterion code=".11" level="2">
+      Se incumplen de obligaciones, derechos y principios
+      <criterion code=".2" level="2">
+        Grave
+	</criterion>
+      <criterion code=".3" level="3">
+        Significativamente grave
+	</criterion>
+      <criterion code=".4" level="4">
+        Extremadamente grave
+	</criterion>
+      </criterion>
+    </criterion>
+  </criteria>
+</library-extension>
+
+
+
+

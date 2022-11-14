@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<patterns>
+
+  <pattern name="asset.valuation.graph">
+    <graph what="value.own"
+           graph="bars.horizontal"
+           width="15cm" >
+      <foreach_asset family="essential" />
+      <foreach_dimension />
+    </graph>
+    <legend />
+  </pattern>
+
+  <pattern name="asset.valuation.table">
+    <asset.valuation />
+  </pattern>
+
+  <pattern name="risk.deflected.graph">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <graph what="risk.deflected" 
+          graph="radar.lines" with="15cm" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code] name"/>
+      </graph>
+      <nl/>
+      <legend />
+    </foreach_asset>
+  </pattern>
+
+  <pattern name="risk.deflected.table">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <table what="risk.deflected" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code]"/>
+      </table>
+    </foreach_asset>
+  </pattern>
+
+  <macro name="gdpr">
+    <evl.valuation evl="GDPR:2016" 
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </macro>
+
+  <pattern name="gdpr_5.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A5.*, A5.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_6.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A6.*, A6.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_7.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A7.*, A7.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_8.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A8.*, A8.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_9.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A9.*, A9.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_10.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A10.*, A10.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_11.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A11.*, A11.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_12.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A12.*, A12.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_13.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A13.*, A13.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_14.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A14.*, A14.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_15.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A15.*, A15.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_16.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A16.*, A16.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_17.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A17.*, A17.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_18.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A18.*, A18.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_19.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A19.*, A19.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_20.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A20.*, A20.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_21.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A21.*, A21.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_22.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A22.*, A22.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_23.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A23.*, A23.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_24.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A24.*, A24.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_25.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A25.*, A25.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_26.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A26.*, A26.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_27.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A27.*, A27.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_28.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A28.*, A28.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_29.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A29.*, A29.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_30.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A30.*, A30.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_31.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A31.*, A31.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_32.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A32.*, A32.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_33.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A33.*, A33.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_34.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A34.*, A34.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_35.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A35.*, A35.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_36.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A36.*, A36.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_37.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A37.*, A37.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_38.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A38.*, A38.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_39.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A39.*, A39.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_40.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A40.*, A40.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_41.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A41.*, A41.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_42.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A42.*, A42.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_43.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A43.*, A43.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_44.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A44.*, A44.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_45.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A45.*, A45.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_46.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A46.*, A46.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_47.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A47.*, A47.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_48.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A48.*, A48.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="gdpr_49.table">
+    <evl.valuation evl="GDPR:2016" 
+      pattern="A49.*, A49.*.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+</patterns>
+

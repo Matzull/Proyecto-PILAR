@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library-extension>
+
+  <classes under="essential.info.per">
+
+    <class code=".normal">datos personales normales
+      <class code=".1">
+        datos de caracter identificativo (nombre y apellidos, NIF / DNI, dirección postal, dirección electrónica (email), teléfono, ...)
+	</class>
+      <class code=".2">
+        características personales (estado civil, fecha y lugar de nacimiento, edad, sexo, nacionalidad, ...)
+        </class>
+      <class code=".3">datos académicos
+        </class>
+      <class code=".4">datos profesionales
+        </class>
+      <class code=".5">datos bancarios
+        </class>
+    </class>
+
+    <class code=".regular">datos personales normales
+      <class code=".1">económicos</class>
+      <class code=".2">identidad cultural</class>
+      <class code=".3">identidad social</class>
+      <class code=".4">identidad en línea</class>
+      <class code=".5">localización</class>
+    </class>
+
+    <class code=".pseudonymous">seudónimos (art. 4, 6, 25, 32, 40, 89)
+    </class>
+
+    <class code=".sensitive">categorías especiales (art. 9)
+      <class code=".1">origen racial </class>
+      <class code=".2">origen étnico</class>
+      <class code=".3">opiniones políticas</class>
+      <class code=".4">convicciones religiosas</class>
+      <class code=".5">convicciones filosóficas</class>
+      <class code=".6">afiliación sindical</class>
+      <class code=".7">salud
+        <class code=".1">física</class>
+        <class code=".2">fisiológica</class>
+        <class code=".3">mental</class>
+        <class code=".4">servicios médicos</class>
+        <class code=".5">estado de salud</class>
+      </class>
+      <class code=".8">vida sexual</class>
+      <class code=".9">orientaciones sexuales</class>
+      <class code=".10">datos genéticos</class>
+      <class code=".11">datos biométricos</class>
+    </class>
+
+    <class code=".children">niños
+    </class>
+
+    <class code=".criminal">condenas e infracciones penales (art. 10)
+      <class code=".1">infracciones</class>
+      <class code=".2">condenas</class>
+    </class>
+  </classes>
+
+  <classes under="essential.ppd">
+    <class code=".1">Hacer o analizar perfiles</class>
+    <class code=".2">
+      Hacer publicidad y prospección comercial masiva a potenciales clientes
+      </class>
+    <class code=".3">
+      Prestación de servicios de explotación de redes públicas o servicios de comunicación electrónica (proveedor de servicios de internet (LGT))
+      </class>
+    <class code=".4">
+      Gestionar los asociados o miembros de partidos políticos, sindicatos, iglesias, confesiones o comunidades religiosas, fundaciones y otras entidades sin ánimo de lucro, cuya finalidad sea política, filosófica, religiosa o sindical
+      </class>
+    <class code=".5">
+      Gestión, control sanitario o venta de medicamentos
+      </class>
+    <class code=".6">Historial clínico o sanitario</class>
+    <class code=".0">Otros ...</class>
+  </classes>
+
+<!--
+  <classes under="essential.info.per">
+    <class code="A">nivel: alto</class>
+    <class code="M">nivel: medio</class>
+    <class code="B">nivel: bajo</class>
+  </classes>
+-->
+
+</library-extension>

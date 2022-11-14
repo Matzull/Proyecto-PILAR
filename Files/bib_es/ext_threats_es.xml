@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<library-extension>
+  <threats under="N.*">
+    <threat code="N.*.1">Tormentas</threat>
+    <threat code="N.*.2">Tormentas eléctricas</threat>
+    <threat code="N.*.3">Huracanes</threat>
+    <threat code="N.*.4">Terremotos</threat>
+    <threat code="N.*.5">Tornados</threat>
+    <threat code="N.*.6">Ciclones</threat>
+    <threat code="N.*.7">Deslizamientos del terreno</threat>
+    <threat code="N.*.8">Meteoritos</threat>
+    <threat code="N.*.9">Tsunamis</threat>
+    <threat code="N.*.10">Tormentas de invierno y frio extremo</threat>
+    <threat code="N.*.11">Calor extremo</threat>
+    <threat code="N.*.12">Volcanes</threat>
+  </threats>
+
+  <threats under="I.3">
+    <threat code="I.3.1">Vibraciones</threat>
+    <threat code="I.3.2">Ruido</threat>
+    <threat code="I.3.3">Polvo</threat>
+    <threat code="I.3.4">Humo</threat>
+    <threat code="I.3.5">Vapor</threat>
+  </threats>
+  <threats under="I.4">
+    <threat code="I.4.11" thc="A">Ruido electromagnético accidental</threat>
+    <threat code="I.4.12" thc="D">Ruido electromagnético deliberado</threat>
+    <threat code="I.4.15" thc="A">Pulsos electromagnéticos accidentales</threat>
+    <threat code="I.4.16" thc="D">Pulsos electromagnéticos deliberados</threat>
+    <threat code="I.4.21" thc="A">Ruido término accidental</threat>
+    <threat code="I.4.22" thc="D">Ruido término deliberado</threat>
+    <threat code="I.4.31">Jamming</threat>
+  </threats>
+  <threats under="I.5">
+    <threat code="I.5.1" if="absent">Software</threat>
+    <threat code="I.5.2" if="absent">Hardware</threat>
+    <threat code="I.5.3">Equipos de comunicaciones</threat>
+    <threat code="I.5.4">Equipamiento auxiliar</threat>
+  </threats>
+  <threats under="I.6">
+    <threat code="I.6.11" thc="A">Interrupción accidental</threat>
+    <threat code="I.6.12" thc="D">Interrupción deliberada por un agente externo</threat>
+    <threat code="I.6.13" thc="D">Interrupción deliberada por un agente interno</threat>
+  </threats>
+  <threats under="I.8">
+    <threat code="I.8.11" thc="A">Interrupción accidental</threat>
+    <threat code="I.8.12" thc="D">Interrupción deliberada por un agente externo</threat>
+    <threat code="I.8.13" thc="D">Interrupción deliberada por un agente interno</threat>
+  </threats>
+  <threats under="I.9">
+    <threat code="I.9.1">Papel</threat>
+    <threat code="I.9.2">Refrigerante</threat>
+    <threat code="I.9.3">Diesel</threat>
+  </threats>
+  <threats under="I.11">
+    <threat code="I.11.1">Radio</threat>
+    <threat code="I.11.2">Térmica</threat>
+  </threats>
+<!--
+  <threats under="E.7">
+    <threat code="E.7.1">No existe procedimiento de atención</threat>
+    <threat code="E.7.2">No hay una persona a cargo</threat>
+    <threat code="E.7.3">Fallo de comunicación</threat>
+    <threat code="E.7.4">No hay registro de lo que ocurre</threat>
+  </threats>
+-->
+  <threats under="E.8">
+    <threat code="E.8.0">Gusanos</threat>
+    <threat code="E.8.1">Virus</threat>
+    <threat code="E.8.2">Caballos de Troya</threat>
+    <threat code="E.8.3">Spyware</threat>
+  </threats>
+  <threats under="E.9">
+    <threat code="E.9.1">Queda en casa</threat>
+    <threat code="E.9.2">A terceros con acuerdo establecido</threat>
+    <threat code="E.9.3">Al mundo entero</threat>
+  </threats>
+<!--
+  <threats under="E.14">
+    <threat code="E.14.1">A personal interno que no necesita conocerlo</threat>
+    <threat code="E.14.2">A contratistas que no necesitan conocerlo</threat>
+    <threat code="E.14.3">A personas externas que no necesitan conocerlo</threat>
+    <threat code="E.14.4">Al público en general</threat>
+    <threat code="E.14.5">A los medios de comunicación</threat>
+  </threats>
+-->
+  <threats under="E.19">
+    <threat code="E.19.1">A personal interno que no necesita conocerlo</threat>
+    <threat code="E.19.2">A contratistas que no necesitan conocerlo</threat>
+    <threat code="E.19.3">A personas externas que no necesitan conocerlo</threat>
+    <threat code="E.19.4">Al público en general</threat>
+    <threat code="E.19.5">A los medios de comunicación</threat>
+    <threat code="E.19.11">Identificación de la localización</threat>
+  </threats>
+  <threats under="E.20">
+    <threat code="E.20.dos">denegación de servicio</threat>
+    <threat code="E.20.read">acceso de LECTURA</threat>
+    <threat code="E.20.write">acceso de ESCRITURA</threat>
+    <threat code="E.20.escalation">escalada de privilegios</threat>
+  </threats>
+  <threats under="E.28">
+    <threat code="E.28.1">Enfermedad</threat>
+    <threat code="E.28.2">Huelga</threat>
+    <threat code="E.28.3">No hay personal</threat>
+    <threat code="E.28.4">Personal insuficiente</threat>
+  </threats>
+
+<!--
+  <threats under="A.4">
+    <threat code="A.4.1">Sin beneficio para nadie</threat>
+    <threat code="A.4.2">A beneficio del atacante</threat>
+    <threat code="A.4.3">Para dañar a la víctima</threat>
+  </threats>
+-->
+  <threats under="A.5">
+    <threat code="A.5.1">Por personal interno</threat>
+    <threat code="A.5.2">Por subcontratistas</threat>
+    <threat code="A.5.3">Por personas externas</threat>
+  </threats>
+  <threats under="A.6">
+    <threat code="A.6.1">Por personal interno</threat>
+    <threat code="A.6.2">Por subcontratistas</threat>
+    <threat code="A.6.3">Por personas externas</threat>
+  </threats>
+  <threats under="A.7">
+    <threat code="A.7.1">Por personal interno</threat>
+    <threat code="A.7.2">Por subcontratistas</threat>
+    <threat code="A.7.3">Por personas externas</threat>
+  </threats>
+  <threats under="A.8">
+    <threat code="A.8.0">Gusanos</threat>
+    <threat code="A.8.1">Virus</threat>
+    <threat code="A.8.2">Caballos de Troya</threat>
+    <threat code="A.8.3">Spyware</threat>
+  </threats>
+<!--
+  <threats under="A.9">
+    <threat code="A.9.1">Sin beneficio para nadie</threat>
+    <threat code="A.9.2">A beneficio del atacante</threat>
+    <threat code="A.9.3">Para dañar a la víctima</threat>
+  </threats>
+-->
+<!--
+  <threats under="A.10">
+    <threat code="A.10.1">Sin beneficio para nadie</threat>
+    <threat code="A.10.2">A beneficio del atacante</threat>
+    <threat code="A.10.3">Para dañar a la víctima</threat>
+  </threats>
+-->
+  <threats under="A.11">
+    <threat code="A.11.1">Por personal interno</threat>
+    <threat code="A.11.2">Por subcontratistas</threat>
+    <threat code="A.11.3">Por personas externas</threat>
+  </threats>
+  <threats under="A.12">
+    <threat code="A.12.1">Por personal interno</threat>
+    <threat code="A.12.2">Por subcontratistas</threat>
+    <threat code="A.12.3">Por personas externas</threat>
+  </threats>
+  <threats under="A.14">
+    <threat code="A.14.1">Por personal interno</threat>
+    <threat code="A.14.2">Por subcontratistas</threat>
+    <threat code="A.14.3">Por personas externas</threat>
+  </threats>
+<!--
+  <threats under="A.15">
+    <threat code="A.15.1">Sin beneficio para nadie</threat>
+    <threat code="A.15.2">A beneficio del atacante</threat>
+    <threat code="A.15.3">Para dañar a la víctima</threat>
+  </threats>
+-->
+<!--
+  <threats under="A.16">
+    <threat code="A.16.1">Sin beneficio para nadie</threat>
+    <threat code="A.16.2">A beneficio del atacante</threat>
+    <threat code="A.16.3">Para dañar a la víctima</threat>
+  </threats>
+-->
+<!--
+  <threats under="A.17">
+    <threat code="A.17.1">Sin beneficio para nadie</threat>
+    <threat code="A.17.2">A beneficio del atacante</threat>
+    <threat code="A.17.3">Para dañar a la víctima</threat>
+  </threats>
+-->
+<!--
+  <threats under="A.18">
+    <threat code="A.18.1">Sin beneficio para nadie</threat>
+    <threat code="A.18.2">A beneficio del atacante</threat>
+    <threat code="A.18.3">Para dañar a la víctima</threat>
+  </threats>
+-->
+  <threats under="A.19">
+    <threat code="A.19.1">A personal interno que no necesita conocerlo</threat>
+    <threat code="A.19.2">A contratistas que no necesitan conocerlo</threat>
+    <threat code="A.19.3">A personas externas que no necesitan conocerlo</threat>
+    <threat code="A.19.4">Al público en general</threat>
+    <threat code="A.19.5">A los medios de comunicación</threat>
+    <threat code="A.19.11">Identificación de la localización</threat>
+  </threats>
+  <threats under="A.22">
+    <threat code="A.22.1">Bombas lógicas</threat>
+    <threat code="A.22.2">Caballos de Troya</threat>
+    <threat code="A.22.3">KeyLogger (spyware)</threat>
+    <threat code="A.22.4">Puertas traseras</threat>
+    <threat code="A.22.5">Autenticación débil</threat>
+    <threat code="A.22.6">Se elude la autenticación</threat>
+  </threats>
+  <threats under="A.24">
+    <threat code="A.24.1">Saturación de los canales de comunicaciones</threat>
+    <threat code="A.24.2">Saturación de los recursos software</threat>
+    <threat code="A.24.3">Saturación de los recursos hardware</threat>
+  </threats>
+  <threats under="A.25">
+    <threat code="A.25.1">Por personal interno</threat>
+    <threat code="A.25.2">Por subcontratistas</threat>
+    <threat code="A.25.3">Por personas externas</threat>
+  </threats>
+  <threats under="A.26">
+<!--
+    <threat code="A.26.1">Vandalismo</threat>
+    <threat code="A.26.2">Bombas</threat>
+    <threat code="A.26.3">Terrorismo</threat>
+-->
+  </threats>
+  <threats under="A.28">
+    <threat code="A.28.1">Enfermedad</threat>
+    <threat code="A.28.2">Huelga</threat>
+    <threat code="A.28.3">Absentismo</threat>
+  </threats>
+  <threats under="A.29">
+    <threat code="A.29.1">Ataque desde el exterior</threat>
+    <threat code="A.29.2">Ataque desde el interior</threat>
+  </threats>
+  <threats under="A.30">
+    <threat code="A.30.1">Ataque desde el exterior</threat>
+    <threat code="A.30.2">Ataque desde el interior</threat>
+  </threats>
+</library-extension>

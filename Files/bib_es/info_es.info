@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info>
+  <model>
+    <key c="org">Organización</key>
+    <key c="desc">Descripción</key>
+    <key c="author">Autor</key>
+    <key c="version">Versión</key>
+    <key c="date">Fecha</key>
+
+    <role c="owner">Responsable del Sistema</role>
+    <role c="ciso">Responsable de la Seguridad de la Información</role>
+<!--    <role c="dpo">Delegado de Protección de Datos</role>  -->
+  </model>
+
+  <asset>
+    <key c="desc">descripción</key>
+    <key c="resp">responsable</key>
+  </asset>
+  <asset family="essential">
+    <key c="owner">propietario</key>
+  </asset>
+  <asset family="essential.info">
+    <key c="rinfo">responsable de la información</key>
+  </asset>
+  <asset family="essential.service, arch.bp, essential.ppd">
+    <key c="rserv">responsable del servicio</key>
+  </asset>
+  <asset family="essential.ppd">
+    <key c="purpose">Fines del tratamiento </key>
+    <key c="category">Categorías de interesados </key>
+    <key c="destination">Destinatarios </key>
+    <key c="international">Transferencias a terceros países </key>
+    <key c="deadlines">Plazos de supresión </key>
+    <key c="legal">Bases Legales</key>
+  </asset>
+  <asset family="HW, COM, Media, AUX">
+    <key c="location">ubicación</key>
+  </asset>
+  <asset family="HW, COM, Media, AUX, L, P">
+    <key c="number">cantidad</key>
+  </asset>
+</info>
+
+<assets>
+  <layer c="B">Activos esenciales</layer>
+  <layer c="IS">Servicios internos</layer>
+  <layer c="E">Equipamiento
+    <group c="SW">Aplicaciones</group>
+    <group c="HW">Equipos</group>
+    <group c="COM">Comunicaciones</group>
+    <group c="AUX">Elementos auxiliares</group>
+  </layer>
+  <layer c="SS">Servicios subcontratados</layer>
+  <layer c="L">Instalaciones</layer>
+  <layer c="P">Personal</layer>
+</assets>
+
+<sources>
+  <source c="lr">restricciones legales</source>
+  <source c="nj">no se justifica</source>
+  <source c="nj.1">no vale la pena el coste</source>
+  <source c="nj.2">más inconvenientes que beneficios</source>
+  <source c="nj.3">no es práctico (no es realista)</source>
+</sources>
+

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library-extension>
+<!--
+  EIPD de GISS. SIOM
+  Sistema de Indicadores y Objetivos de Madurez
+  Gerencia de Informática de la Seguridad Social
+  versión 3.6; 16.4.2019
+-->
+
+  <criteria under="pi">
+    <criterion code=".giss">Gerencia de Informática de la Seguridad Social (SIOM, 2018)
+
+    <criterion code=".1" level="0">
+      Analítica de datos interna (big data)
+      <criterion code=".1" level="7">
+        Se determinan patrones y se detectan las personas que no cumplen el patrón el patrón general
+	</criterion>
+      <criterion code=".2" level="5">
+Se determinan patrones detallados de personas
+	</criterion>
+      <criterion code=".3" level="3">
+Se determinan patrones generales de personas
+	</criterion>
+      <criterion code=".4" level="1">
+	Se hacen estudios estadísticos básicos
+	</criterion>
+      <criterion code=".5" level="0">
+	No se hacen estudios estadísticos
+	</criterion>
+      </criterion>
+
+    <criterion code=".2" level="0">
+      Tratamientos masivos
+      <criterion code=".1" level="7">
+	El tratamiento afecta a más de 10.000.000 personas
+	</criterion>
+      <criterion code=".2" level="5">
+	El tratamiento afecta a más de 1.000.000 personas
+	</criterion>
+      <criterion code=".3" level="3">
+	El tratamiento afecta a más de 100.000 personas
+	</criterion>
+      <criterion code=".4" level="1">
+	El tratamiento afecta a más de 10.000 personas
+	</criterion>
+      <criterion code=".5" level="0">
+	El tratamiento afecta a menos de 10.000 personas
+	</criterion>
+      </criterion>
+
+    <criterion code=".3" level="0" off="true">
+      Tratamientos con datos especialmente protegidos
+      <criterion code=".1" level="7">
+	Más del 60% de los registros contienen datos especialmente protegidos
+	</criterion>
+      <criterion code=".2" level="5">
+	Menos del 60% de los registros contienen datos especialmente protegidos
+	</criterion>
+      <criterion code=".3" level="3">
+	Menos del 30% de los registros contienen datos especialmente protegidos
+	</criterion>
+      <criterion code=".4" level="1">
+	Menos del 2% de los registros contienen datos especialmente protegidos
+	</criterion>
+      <criterion code=".5" level="0">
+	No hay registros con datos especialmente protegidos
+	</criterion>
+      </criterion>
+
+    <criterion code=".4" level="0">
+      Tratamientos con datos biométricos o con tecnologías potencialmente peligrosas
+      <criterion code=".1" level="7">
+	Existen datos biométricos y se recogen con tecnologías potencialmente peligrosas
+	</criterion>
+      <criterion code=".2" level="5">
+	Al menos el 50% de los datos son biométricos
+	</criterion>
+      <criterion code=".3" level="3">
+	Se usan tecnologías potencialmente peligrosas
+	</criterion>
+      <criterion code=".4" level="1">
+	Menos del 5% de los datos son biométricos
+	</criterion>
+      <criterion code=".5" level="0">
+	No hay datos biométricos o tecnologías potencialmente peligrosas para la privacidad
+	</criterion>
+      </criterion>
+
+    <criterion code=".5" level="0">
+      Cesiones o transferencias de datos
+      <criterion code=".1" level="7">
+	Resto de los casos
+	</criterion>
+      <criterion code=".2" level="5">
+	Se ceden datos a EEUU, Australia y Sudamérica a través de una organización que hace de intermediario
+	</criterion>
+      <criterion code=".3" level="3">
+	Se ceden datos a administraciones públicas de la Unión Europea
+	</criterion>
+      <criterion code=".4" level="1">
+	Se ceden datos a organizaciones nacionales ajenas
+	</criterion>
+      <criterion code=".5" level="0">
+	No hay cesiones
+	</criterion>
+      </criterion>
+
+    <criterion code=".6" level="0">
+      Tratamientos con nuevas categorías de datos / Determinación de perfiles
+      <criterion code=".1" level="7">
+	Del tratamiento se deducen nuevas finalidades que no se incluyen en la declaración inicial
+	</criterion>
+      <criterion code=".2" level="5">
+	Del tratamiento se deducen nuevas finalidades que es poco probable que puedan incluirse en la declaración inicial
+	</criterion>
+      <criterion code=".3" level="3">
+	Del tratamiento se pueden deducir nuevas finalidades, pero que se puede entender que ya estaban incluidas en el tratamiento declarado
+	</criterion>
+      <criterion code=".4" level="1">
+	Del tratamiento pueden conocerse aspectos nuevos de la intimidad de los titulares de los datos
+	</criterion>
+      <criterion code=".5" level="0">
+	Del tratamiento no de pueden deducir otras finalidades que las declaradas o lícitas
+	</criterion>
+      </criterion>
+
+    <criterion code=".7" level="0">
+      Tratamientos con datos de colectivos vulnerables	
+      <criterion code=".1" level="7">
+	Se tratan datos de víctimas de violencia familiar o de género
+	</criterion>
+      <criterion code=".2" level="5">
+	Se tratan datos de personas que están en prisión
+	</criterion>
+      <criterion code=".3" level="3">
+	Se tratan datos de personas con una situación económica vulnerable
+	</criterion>
+      <criterion code=".4" level="1">
+	Se tratan datos de menores o de personas mayores de 65 años
+	</criterion>
+      <criterion code=".5" level="0">
+	No se tratan datos de colectivos vulnerables
+	</criterion>
+      </criterion>
+
+    </criterion>
+  </criteria>
+</library-extension>
+

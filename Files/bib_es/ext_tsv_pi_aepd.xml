@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<threat-standard-values>
+
+  <family F="essential.info.per">
+    <threat Z="PR.ex.aepd.p1.1" f="1.0">
+      <set D="en:PD" deg="0.10" />
+    </threat>
+  </family>
+
+</threat-standard-values>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library-extension>
+  <criteria under="pi">
+    <criterion code=".6" level="5">M+ - Datos especiales - gran volumen (> 1M personas)</criterion>
+    <criterion code=".5" level="4">M - Datos especiales</criterion>
+    <criterion code=".4" level="2">B+ - Datos normales - gran volumen (> 1M personas)</criterion>
+    <criterion code=".3" level="1">B - Datos normales</criterion>
+    <criterion code=".2" level="1">B - Pseudónimos - gran volumen (> 1M personas)</criterion>
+    <criterion code=".1" level="0">0 - Pseudónimos</criterion>
+  </criteria>
+</library-extension>

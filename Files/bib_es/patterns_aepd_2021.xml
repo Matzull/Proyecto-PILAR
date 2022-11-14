@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<patterns>
+
+  <pattern name="asset.valuation.graph">
+    <graph what="value.own"
+           graph="bars.horizontal"
+           width="15cm" >
+      <foreach_asset family="essential" />
+      <foreach_dimension />
+    </graph>
+    <legend />
+  </pattern>
+
+  <pattern name="asset.valuation.table">
+    <asset.valuation />
+  </pattern>
+
+  <pattern name="risk.deflected.graph">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <graph what="risk.deflected" 
+          graph="radar.lines" with="15cm" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code] name"/>
+      </graph>
+      <nl/>
+      <legend />
+    </foreach_asset>
+  </pattern>
+
+  <pattern name="risk.deflected.table">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <table what="risk.deflected" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code]"/>
+      </table>
+    </foreach_asset>
+  </pattern>
+
+
+  <pattern name="aepd.1">
+    <control evl="aepd:2021" control="1" />
+  </pattern>
+
+  <pattern name="aepd.1.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="1.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.1.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="1.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.1.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="1.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.1.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="1.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="1.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="1.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.2">
+    <control evl="aepd:2021" control="2" />
+  </pattern>
+
+  <pattern name="aepd.2.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="2.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.2.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="2.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.2.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="2.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.2.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="2.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="2.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="2.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.3">
+    <control evl="aepd:2021" control="3" />
+  </pattern>
+
+  <pattern name="aepd.3.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="3.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.3.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="3.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.3.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="3.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.3.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="3.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="3.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="3.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.4">
+    <control evl="aepd:2021" control="4" />
+  </pattern>
+
+  <pattern name="aepd.4.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="4.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.4.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="4.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.4.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="4.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.4.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="4.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="4.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="4.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.5">
+    <control evl="aepd:2021" control="5" />
+  </pattern>
+
+  <pattern name="aepd.5.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="5.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.5.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="5.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.5.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="5.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.5.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="5.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="5.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="5.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.6">
+    <control evl="aepd:2021" control="6" />
+  </pattern>
+
+  <pattern name="aepd.6.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="6.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.6.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="6.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.6.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="6.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.6.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="6.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="6.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="6.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.7">
+    <control evl="aepd:2021" control="7" />
+  </pattern>
+
+  <pattern name="aepd.7.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="7.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.7.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="7.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.7.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="7.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.7.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="7.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="7.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="7.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.8">
+    <control evl="aepd:2021" control="8" />
+  </pattern>
+
+  <pattern name="aepd.8.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="8.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.8.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="8.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.8.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="8.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.8.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="8.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="8.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="8.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.8">
+    <control evl="aepd:2021" control="8" />
+  </pattern>
+
+  <pattern name="aepd.8.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="8.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.8.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="8.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.8.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="8.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.8.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="8.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="8.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="8.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.9">
+    <control evl="aepd:2021" control="9" />
+  </pattern>
+
+  <pattern name="aepd.9.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="9.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.9.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="9.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.9.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="9.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.9.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="9.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="9.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="9.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.10">
+    <control evl="aepd:2021" control="10" />
+  </pattern>
+
+  <pattern name="aepd.10.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="10.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.10.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="10.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.10.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="10.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.10.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="10.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="10.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="10.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.11">
+    <control evl="aepd:2021" control="11" />
+  </pattern>
+
+  <pattern name="aepd.11.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="11.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.11.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="11.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.11.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="11.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.11.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="11.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="11.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="11.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.12">
+    <control evl="aepd:2021" control="12" />
+  </pattern>
+
+  <pattern name="aepd.12.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="12.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.12.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="12.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.12.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="12.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.12.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="12.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="12.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="12.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+
+  <pattern name="aepd.13">
+    <control evl="aepd:2021" control="13" />
+  </pattern>
+
+  <pattern name="aepd.13.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="13.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="aepd.13.table">
+    <evl.valuation evl="aepd:2021" 
+      pattern="13.*"
+      mode="maturity"
+      applies="all"
+      diff="on"
+      comments="3"
+    />
+  </pattern>
+
+  <pattern name="aepd.c.13.table">
+    <evl.compliance evl="aepd:2021" 
+      pattern="13.*"
+      mode="percent"
+      />
+  </pattern>
+
+  <pattern name="evl.13.domain">
+    <domain />
+    <nl/>
+
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="radar.lines"
+      width="15cm" >
+      <foreach_control evl="aepd:2021"
+        pattern="13.*"
+        applies="yes" 
+        text="[code]" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <nl/>
+    <legend/>
+    <nl/>
+
+    <table what="evl.valuation"
+      mode="maturity">
+      <foreach_control evl="aepd:2021" 
+	pattern="13.*"
+	applies="all" />
+      <foreach_phase
+        text="[code]" />
+    </table>
+    <nl/>
+    <comments slice="domain" >
+      <foreach_control evl="aepd:2021" 
+	pattern="13.*"
+	applies="all" />
+    </comments>
+  </pattern>
+
+</patterns>
+

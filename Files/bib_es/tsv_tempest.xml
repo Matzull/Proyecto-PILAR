@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+  A.60 TEMPEST emission leakage
+-->
+
+<threat-standard-values>
+  <filter>
+    <families>
+	arch.tempest HW COM Media
+    </families>
+
+    <threats>
+	A.60
+    </threats>
+  </filter>
+
+  <family F="arch.tempest">
+    <threat Z="A.60" f="1" >
+      <set D="en:C" deg="0.01" />
+    </threat>
+  </family>
+
+</threat-standard-values>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<marking>
+  <mark C="TS">SECRETO</mark>
+  <mark C="S">RESERVADO</mark>
+  <mark C="C">CONFIDENCIAL</mark>
+  <mark C="R">DIFUSIÓN LIMITADA</mark>
+  <mark C="UC">SIN CLASIFICAR</mark>
+</marking>

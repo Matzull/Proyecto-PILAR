@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<library-extension>
+
+  <threats>
+    <threat if="absent" code="PR">
+      Riesgos de privacidad
+      <threat if="absent" code=".ex">
+        Ejemplos
+
+<!-- privacy.org.nz : Privacy-Impact-Assessment-Part-2-FA.pdf -->
+  <threat code=".nz" >
+    Privacy-Impact-Assessment-Part-2-FA.pdf (NZ)
+    <threat code=".p1">Recogida de información
+      <threat code=".1" labels="DP.purpose_limitation">
+        La información personal se recopila sin un propósito claro o sin una autoridad legal clara
+      </threat>
+      <threat code=".2" labels="DP.purpose_limitation">
+        La información recopilada es innecesaria o excesiva
+      </threat>
+      <threat code=".3" labels="DP.purpose_limitation">
+        Las decisiones que afectan al individuo involucrado se pueden hacer usando información irrelevante
+      </threat>
+      <threat code=".4" labels="DP.purpose_limitation">
+        El propósito de recopilar la información puede no ser claro, lo que puede conducir a un uso indebido
+      </threat>
+      <threat code=".5" labels="DP.transparency, DP.access">
+        El individuo afectado puede sentir una pérdida de control sobre la información que se recopila
+      </threat>
+    </threat>
+    <threat code=".p2">Fuente de información
+      <threat code=".1" labels="DP.transparency">
+        Las personas pueden no ser conscientes de que se está recopilando información, quién la usará o para qué se está utilizando. Si se dan cuenta más tarde, pueden estar sorprendidos y molestos
+      </threat>
+      <threat code=".2" labels="DP.transparency">
+        Recopilar la información de un tercero podría perpetuar y agravar cualquier error que ya esté en los datos
+      </threat>
+      <threat code=".3" labels="DP.purpose_limitation">
+        La información puede estar desactualizada o ser irrelevante para los fines previstos si se utiliza fuera del contexto original en el que se recopiló
+      </threat>
+      <threat code=".4" labels="DP.transparency, DP.access">
+        Las personas no podrán actualizar su información si no saben que la tienen
+      </threat>
+    </threat>
+    <threat code=".p3">Recopilación de información de la persona
+      <threat code=".1" labels="DP.consent">
+        Es posible que no se pueda acceder fácilmente a las declaraciones de privacidad, por ejemplo, en un dispositivo móvil con una pantalla pequeña, o para personas para quienes no se usa un idioma que dominan
+        </threat>
+      <threat code=".2" labels="DP.consent">
+        A menudo, las personas no leen las declaraciones de privacidad: si su organización actúa sobre la base de que la persona ha dado su consentimiento a sabiendas, esto podría provocar que los clientes desconfien
+        </threat>
+      <threat code=".3" labels="DP.consent, DP.transparency">
+        El consentimiento del individuo para la recopilación puede no estar respaldado por un propósito válido y claramente explicado
+        </threat>
+      <threat code=".4" labels="DP.consent, DP.transparency">
+        Las personas pueden sorprenderse por la información que se recopila ahora, que no se requería previamente
+        </threat>
+      <threat code=".5" labels="DP.consent, DP.transparency">
+        Si no se les da aviso por adelantado, las personas pueden sentir una pérdida de control sobre su información
+        </threat>
+      <threat code=".6" labels="DP.consent, DP.transparency">
+        El individuo puede perder la confianza en el trato con su organización, lo que en última instancia conduce a una falta de compromiso que puede afectar su capacidad para cumplir sus objetivos
+        </threat>
+    </threat>
+    <threat code=".p4">Forma de recogida de información
+      <threat code=".1" labels="DP.consent, DP.transparency, DP.purpose_limitation">
+        Los métodos de recolección pueden ser injustificadamente intrusivos (por ejemplo, si la información biométrica se recoge de forma innecesaria, o las pruebas de drogas se llevan a cabo sin justificación, o la grabación de audio o vídeo o la tecnología de localización de seguimiento se utiliza sin una razón adecuada)
+        </threat>
+      <threat code=".2">
+        El equipo de grabación está mal ubicado o mal ajustado, lo que resulta en una sobre recopilación de información o una intrusión injustificada
+        </threat>
+      <threat code=".3" labels="DP.transparency">
+        La salud física y mental y el bienestar de un individuo podrían verse dañados a través del abuso de confianza y una sensación de pérdida de control sobre el uso de su información
+        </threat>
+      <threat code=".4" labels="DP.consent, DP.purpose_limitation">
+        La información se recopila injustamente mediante el uso de coacción o engaño
+        </threat>
+      <threat code=".5" labels="DP.consent">
+        La información se recopila de personas que creen erróneamente que deben proporcionarla porque los límites estatutarios no se les han explicado claramente
+        </threat>
+      </threat>
+    <threat code=".p5" off="true">
+      Almacenamiento y seguridad de la información
+      <threat code=".tech">
+        Medidas de seguridad electrónica y técnica
+        <threat code=".1">
+          Si no se limita el acceso de edición a los datos, o se limita o supervisa el acceso o se hacen cumplir los controles de acceso, puede provocar un uso incorrecto o una divulgación no autorizada
+          </threat>
+        <threat code=".2">
+          Los dispositivos en áreas de trabajo compartidas, o dispositivos portátiles, pueden proporcionar acceso inapropiado
+          </threat>
+        <threat code=".3">
+          Proporcionar acceso de inicio de sesión en línea a los registros del cliente aumenta el riesgo de traspaso de sesiones o estafas automáticas
+          </threat>
+        <threat code=".4">
+          El sistema no puede rastrear quién ha accedido a un archivo, por lo que no puede determinar si hay problemas con el acceso no autorizado
+        </threat>
+        <threat code=".5">
+          El acceso injustificado a la información personal puede conducir al robo de identidad
+          </threat>
+        <threat code=".6">
+          La entidad no cumple con los estándares básicos y las expectativas para la seguridad de la información y la administración de registros
+          </threat>
+      </threat>
+      <threat code=".phys">
+        Medidas de seguridad física y operacional
+        <threat code=".1">
+          El personal desconoce sus obligaciones, lo que ocasiona accidentes, acciones descuidadas o mal manejo de la información, lo que a su vez genera divulgaciones no autorizadas
+          </threat>
+        <threat code=".2">
+          Oficinas de ubicación conjunta, estaciones de trabajo compartidas, acceso sin control al edificio y oficinas abiertas al público pueden suponer un riesgo de acceso no autorizado a la información personal
+          </threat>
+        <threat code=".3">
+          No reconocer la naturaleza de alto riesgo de la información, incluida la necesidad de implementar un mayor grado de seguridad para proteger información financiera o de salud particularmente delicada
+          </threat>
+        <threat code=".4">
+          No incluir a los proveedores de servicios contratados en la estrategia de gestión de datos del organismo, elevando el riesgo de violaciones externas de la seguridad de la información, en particular, donde los proveedores de servicios contratados se encuentran en el extranjero dando lugar a problemas jurisdiccionales
+        </threat>
+        <threat code=".5">
+          Permitir el uso en el lugar de trabajo de dispositivos de almacenamiento portátiles (como memorias USB, teléfonos móviles, portátiles personales) sin las protecciones de seguridad adecuadas
+          </threat>
+        <threat code=".6">
+          El uso de correo postal para enviar información personal altamente sensible puede aumentar los riesgos de que podría ser enviada a la dirección incorrecta o perderse
+          </threat>
+        <threat code=".7">
+          Los entornos de prueba y de formación pueden exponer información personal
+          </threat>
+        <threat code=".8">
+          La piratería, los fallos de seguridad, el compromiso de los datos o las infracciones que llevan a un acceso no autorizado
+          </threat>
+      </threat>
+    </threat>
+    <threat code=".p6">Acceso a la información
+      <threat code=".1" labels="DP.access">
+        Los cambios en las estructuras de la base de datos afectan la ubicación y la recuperación de la información
+        </threat>
+      <threat code=".2" labels="DP.access">
+        Los cambios en las copias de seguridad alteran la forma en que se conserva la información y si se puede identificar y atribuir fácilmente
+        </threat>
+      <threat code=".3" labels="DP.access">
+        Las personas no pueden acceder fácilmente a su información personal
+        </threat>
+      <threat code=".4" labels="DP.access">
+        La falta de acceso a la información personal aumenta el riesgo de datos obsoletos y de baja calidad
+        </threat>
+      <threat code=".5" labels="DP.access">
+        El acceso puede verse obstaculizado si los datos son retenidos por proveedores externos de servicios contratados; podría haber demoras de tiempo para tener en cuenta
+        </threat>
+      <threat code=".6" labels="DP.access">
+        La información puede almacenarse en un formato diferente del que puede usar ahora
+        </threat>
+      <threat code=".7" labels="DP.access, DP.storage_limitation">
+        Si no se archiva correctamente la información, se producen ineficiencias (por ejemplo, tener que buscar en buzones de correo electrónico en lugar de recuperar la información directamente del sistema de archivos).
+	</threat>
+      </threat>
+    <threat code=".p7">Corrección de la información
+      <threat code=".1">
+        Las solicitudes de corrección mal gestionadas pueden dar lugar a datos de baja calidad
+        </threat>
+      <threat code=".2">
+        La corrección puede verse obstaculizada si los datos están en manos de proveedores de servicios contratados
+        </threat>
+      <threat code=".3">
+        Si no se corrige la información personal que se ha divulgado en el pasado, puede generar información incorrecta que afecte los servicios del individuo y de la organización
+        </threat>
+      <threat code=".4">
+        Los sistemas informáticos no están diseñados para permitir que se agreguen declaraciones de corrección, o para que una marca indique que hay más información que un responsable de tomar decisiones debe considerar
+        </threat>
+      <threat code=".5">
+        Se pasa información de baja calidad a otras entidades, agravando los errores y los problemas para el individuo
+        </threat>
+      <threat code=".6">
+        La información se duplica en diferentes partes de la organización, pero solo se corrige en uno
+        </threat>
+      </threat>
+    <threat code=".p8">Precisión de la información
+      <threat code=".1">
+        Información de mala calidad puede conducir a decisiones que impactan negativamente en las personas
+        </threat>
+      <threat code=".2">
+        Información incompleta o incorrecta puede conducir a decisiones incorrectamente informadas
+        </threat>
+      <threat code=".3">
+        Información incompleta o inexacta puede conducir a una pérdida financiera o profesional si se utiliza como base para tomar decisiones sobre si una persona es elegible para una subvención o un beneficio, o si tiene obligaciones
+        </threat>
+      <threat code=".4">
+        La información que se retiene durante demasiado tiempo puede estar desactualizada
+        </threat>
+      <threat code=".5">
+        La información en archivos extraviados o que se coloca incorrectamente en las bases de datos puede ocasionar que la información se atribuya incorrectamente, mientras que al mismo tiempo se desasocia de la persona en cuestión
+        </threat>
+      <threat code=".6">
+        La migración de registros de papel a un formato digital, corre el riesgo de introducir errores al volver a introducir los datos 
+        </threat>
+      <threat code=".7">
+        Los datos inexactos aumentan el riesgo de uso inapropiado y revelación injustificada
+      </threat>
+      <threat code=".8">
+        Actualizar la información personal sin crear y mantener registros de auditoría de las actualizaciones aumenta el riesgo de que no se detecten cambios no autorizados
+        </threat>
+      <threat code=".9">
+        Si no se actualiza la información personal que se ha divulgado en el pasado o que está en manos de proveedores de servicios contratados, se pueden generar problemas de calidad de los datos y acciones incoherentes
+        </threat>
+    </threat>
+    <threat code=".p9">Eliminación de información
+      <threat code=".1">
+        Mantener los datos más tiempo de lo necesario aumenta el riesgo de violación de la seguridad de los datos o uso o divulgación no autorizados
+        </threat>
+      <threat code=".2">
+        Mantener la información demasiado tiempo aumenta el riesgo de que esté desactualizada, sea engañosa e inexacta
+        </threat>
+      <threat code=".3">
+        La eliminación descuidada o ineficaz de ficheros, puede dar lugar a un acceso o divulgación no autorizados
+        </threat>
+      <threat code=".4">
+        Destruir información cuando aún la necesita crea problemas propios: si no tiene un plan, es probable que cometa errores
+        </threat>
+    </threat>
+    <threat code=".p10">Uso de la información
+      <threat code=".1">
+        La información recogida para un cierto propósito puede ser utilizada inapropiadamente
+        </threat>
+      <threat code=".2">
+        Las personas pueden estar sorprendidas o molestas por un uso secundario imprevisto y cualquier "consentimiento" implícito a un uso secundario puede no ser válido
+        </threat>
+      <threat code=".3">
+        Si la finalidad está mal definida, podemos acabar en un uso ad-hoc de una manera no relacionada con el uso previsto original
+      </threat>
+      <threat code=".4">
+        La información personal recopilada en nombre de otra entidad se usa sin autorización legal
+        </threat>
+    </threat>
+    <threat code=".p11">Revelación de información
+      <threat code=".1" labels="DP.transfer">
+        Información incorrecta o inexacta se comparte con otras entidades
+        </threat>
+      <threat code=".2" labels="DP.lawfulness">
+        El incumplimiento de las obligaciones legales o contractuales o compromisos de confidencialidad implícita resulta en un abuso de confianza
+        </threat>
+      <threat code=".3">
+        La desidentificación de la información personal antes de la divulgación no impide la reidentificación
+        </threat>
+      <threat code=".4" labels="DP.transfer, DP.purpose_limitation">
+        La información con connotaciones negativas se comparte con otra parte que provoca vergüenza, estigma o daño a la reputación de una persona
+        </threat>
+      <threat code=".5" labels="DP.pupose_limitation">
+        La aversión al riesgo significa que no se comparte información que se deberías compartir, por ejemplo para proteger la seguridad de alguien
+        </threat>
+      <threat code=".6" labels="DP.transfer">
+        Surgen preocupaciones sobre la seguridad personal si la información confidencial sobre las actividades de una persona o su paradero puede caer en manos equivocadas
+        </threat>
+      <threat code=".7" labels="DP.transfer">
+        La revelación secundaria no es necesaria ni legalmente justificable
+        </threat>
+      <threat code=".8" labels="DP.access">
+        Las personas no tienen la oportunidad de cuestionar la forma en que los datos recibidos de otra entidad han sido procesados para llegar a una decisión adversa
+        </threat>
+      <threat code=".9" labels="DP.consent, DP.access">
+        Las personas desconocen o no han tenido la opción a negarse a una divulgación secundaria voluntaria
+      </threat>
+      <threat code=".10" labels="DP.purpose_limitation">
+        La información se desvela para un uso que no está directamente relacionado con el objetivo principal de la recopilación
+        </threat>
+      <threat code=".11" labels="DP.consent, DP.purpose_limitation">
+        Las personas pueden verse sorprendidas o molestas por una divulgación no prevista para un uso secundario
+      </threat>
+    </threat>
+    <threat code=".p12" labels="DP.data_minimisation">Uso de identificadores únicos
+      <threat code=".1">
+        La provisión del servicio está condicionada al suministro de un identificador único asignado por otra entidad
+        </threat>
+      <threat code=".2" labels="DP.storage_limitation">
+        Información no relacionada sobre un individuo puede vincularse por asociación a través del uso del identificador único de otra entidad
+      </threat>
+      <threat code=".3" labels="DP.storage_limitation">
+        El uso del mismo identificador único por diferentes entidadess crea un identificador único universal de facto
+        </threat>
+    </threat>
+  </threat> <!-- nz -->
+
+      </threat> <!-- ex -->
+    </threat> <!-- PR -->
+  </threats>
+
+</library-extension>

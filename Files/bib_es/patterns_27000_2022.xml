@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<patterns>
+
+  <pattern name="asset.valuation.graph">
+    <graph what="value.own"
+           graph="bars.horizontal"
+           width="15cm" >
+      <foreach_asset family="essential" />
+      <foreach_dimension />
+    </graph>
+    <legend />
+  </pattern>
+
+  <pattern name="asset.valuation.table">
+    <asset.valuation />
+  </pattern>
+
+  <pattern name="risk.deflected.graph">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <graph what="risk.deflected" 
+          graph="radar.lines" with="15cm" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code] name"/>
+      </graph>
+      <nl/>
+      <legend />
+    </foreach_asset>
+  </pattern>
+
+  <pattern name="risk.deflected.table">
+    <foreach_asset family="essential">
+      <nl /><nl /><asset /><nl /><nl /> 
+      <table what="risk.deflected" >
+        <foreach_phase text="code"/>
+        <foreach_dimension text="[code]"/>
+      </table>
+    </foreach_asset>
+  </pattern>
+
+  <!-- [5] -->
+  <pattern name="27002.5.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2022"
+        pattern="5.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+  <legend/>
+  </pattern>
+
+  <pattern name="27002.5.table">
+    <evl.valuation evl="27002:2022" 
+      pattern="5.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [6] -->
+  <pattern name="27002.6.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2022"
+        pattern="6.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.6.table">
+    <evl.valuation evl="27002:2022" 
+      pattern="6.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [7] -->
+  <pattern name="27002.7.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2022"
+        pattern="7.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.7.table">
+    <evl.valuation evl="27002:2022" 
+      pattern="7.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+  <!-- [8] -->
+  <pattern name="27002.8.graph">
+    <graph what="evl.valuation"
+      mode="percent"
+      graph="bars.horizontal"
+      width="15cm" >
+      <foreach_control evl="27002:2022"
+        pattern="8.*"
+        applies="yes" 
+        text="[code] name" />
+      <foreach_phase
+        text="[code] name" />
+    </graph>
+    <legend/>
+  </pattern>
+
+  <pattern name="27002.8.table">
+    <evl.valuation evl="27002:2022" 
+      pattern="8.*"
+      mode="maturity"
+      applies="all" />
+  </pattern>
+
+</patterns>
+

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<library-extension>
+
+<risk-factors>
+<factor code="FR1">
+  Operaciones relacionadas con los fines de tratamiento
+  <factor code=".1" risk="A">Perfilado</factor>
+  <factor code=".2" risk="A">Evaluación de sujetos</factor>
+  <factor code=".3" risk="A">Predicción</factor>
+  <factor code=".4" risk="M">Control del empleado</factor>
+  <factor code=".5" risk="M">Control de acceso a internet</factor>
+  <factor code=".6" risk="A">Observación</factor>
+  <factor code=".7" risk="A">Monitorización</factor>
+  <factor code=".8" risk="A">Supervisión</factor>
+  <factor code=".9" risk="MA">Rastreo de contactos</factor>
+  <factor code=".10" risk="B">Control físico de acceso</factor>
+  <factor code=".11" risk="M">Localización</factor>
+  <factor code=".12" risk="B">Identificación unívoca</factor>
+  <factor code=".13" risk="A">Decisiones automatizadas sin intervención humana</factor>
+  <factor code=".14" risk="M">Tratamiento automatizado para soporte a toma de decisiones</factor>
+  <factor code=".15" risk="MA">Decidir sobre, o impedir, el ejercicio de derechos fundamentales</factor>
+  <factor code=".16" risk="A">Decidir sobre el control del interesado de sus datos personales</factor>
+  <factor code=".17" risk="A">Decidir sobre el acceso a un servicio</factor>
+  <factor code=".18" risk="A">Decidir sobre la realización o ejecución de un contrato</factor>
+  <factor code=".19" risk="A">Decidir sobre el acceso a servicios financieros</factor>
+  <factor code=".20" risk="A">Efectos jurídicos sobre las personas</factor>
+  <factor code=".21" risk="MA">Evaluación y / o predicción de enfern¡medad / salud genéticamente</factor>
+  <factor code=".22" risk="M">Conservación con fines de archivo</factor>
+</factor>
+
+<factor code="FR2">
+  Tipos de datos utilizados
+  <factor code=".1" risk="M">Documentos personales</factor>
+  <factor code=".2" risk="A">Información de aplicaciones de registro de actividades vitales</factor>
+  <factor code=".3" risk="M">Aspectos personales</factor>
+  <factor code=".4" risk="M">Preferencias de consumo, gustos, hábitos (no categorías espaciales)</factor>
+  <factor code=".5" risk="M">Rendimiento laboral</factor>
+  <factor code=".6" risk="M">Situación económica</factor>
+  <factor code=".7" risk="M">Estado financiero</factor>
+  <factor code=".8" risk="A">Medios de pago</factor>
+  <factor code=".9" risk="M">Datos de comportamiento</factor>
+  <factor code=".10" risk="M">Datos de localización</factor>
+  <factor code=".11" risk="A">Datos muy personales</factor>
+  <factor code=".12" risk="MA">Datos sanitarios</factor>
+  <factor code=".13" risk="A">Datos biométricos</factor>
+  <factor code=".14" risk="MA">Datos genéticos</factor>
+  <factor code=".15" risk="MA">Categorías especiales de datos o que permitan inferirlos</factor>
+  <factor code=".16" risk="A">Categorías especiales de datos seudonimizados</factor>
+  <factor code=".17" risk="MA">Datos personales relativos a condenas e infracciones penales (o administrativas)</factor>
+  <factor code=".18" risk="M">Metadatos</factor>
+  <factor code=".19" risk="M">Identificadores únicos</factor>
+  <factor code=".20" risk="M">Datos y metadatos de las comunicaciones electrónicas</factor>
+  <factor code=".21" risk="M">Datos de navegación web</factor>
+</factor>
+
+<factor code="FR3">
+  Extensión y alcance del tratamiento
+  <factor code=".1" risk="A">Sistemático</factor>
+  <factor code=".2" risk="A">Exhaustivo sobre las personas</factor>
+  <factor code=".3" risk="MA">Involucra a gran número de sujetos</factor>
+  <factor code=".4" risk="MA">Elvolumen de datos es muy elevado</factor>
+  <factor code=".5" risk="M">La duración del tratamiento es elevada</factor>
+  <factor code=".6" risk="M">La actividad de tratamiento tiene un gran alcance geográfico</factor>
+  <factor code=".7" risk="A">Tratamiento a gran escala</factor>
+  <factor code=".8" risk="A">Recopilación excesiva de datos con relación al fin del tratamiento</factor>
+</factor>
+
+<factor code="FR4">
+  Categorías de interesados
+  <factor code=".1" risk="MA">Menores de 14 años</factor>
+  <factor code=".2" risk="MA">Víctimas de violencia de género</factor>
+  <factor code=".3" risk="MA">Menores dependientes de sujetos vulnerables</factor>
+  <factor code=".4" risk="MA">Personas bajo guardia y custodia de víctimas de violencia de género</factor>
+  <factor code=".5" risk="A">Mayores con algún grado de discapacidad</factor>
+  <factor code=".6" risk="M">Personas mayores</factor>
+  <factor code=".7" risk="MA">Personas con enfermedades mentales</factor>
+  <factor code=".8" risk="A">Discapacitados</factor>
+  <factor code=".9" risk="M">Personas que acceden a servicios sociales</factor>
+  <factor code=".10" risk="A">Sujetos en riesgo de exclusión social</factor>
+  <factor code=".11" risk="B">Empleados</factor>
+  <factor code=".12" risk="A">Solicitantes de asilo</factor>
+  <factor code=".13" risk="A">Pacientes</factor>
+  <factor code=".14" risk="MA">Sujetos vulnerables</factor>
+</factor>
+
+<factor code="FR5">
+  Factores técnicos del tratamiento
+  <factor code=".1" risk="A">Sistema de información hospitalaria</factor>
+  <factor code=".2" risk="M">TV interactiva</factor>
+  <factor code=".3" risk="M">Servicios web</factor>
+  <factor code=".4" risk="M">Aplicaciones móviles</factor>
+  <factor code=".5" risk="A">Sistema de registro de localización</factor>
+  <factor code=".6" risk="A">Reconocimiento facial</factor>
+  <factor code=".7" risk="A">Huella dactilar</factor>
+  <factor code=".8" risk="MA">Internet de las cosas (IoT)</factor>
+  <factor code=".9" risk="A">Uso innovador o nuevas soluciones organizativas</factor>
+  <factor code=".10" risk="A">Uso innovador de tecnologías consolidadas</factor>
+  <factor code=".11" risk="M">Tecnologías combinadas con otras</factor>
+  <factor code=".12" risk="A">Nuevas tecnologías</factor>
+  <factor code=".13" risk="A">Alto rado de fragmentación de los actores que intervienen en el desarrollo e implementación de los productos / servicios que implementan el tratamiento</factor>
+  <factor code=".14" risk="M">Tratamientos automatizados</factor>
+  <factor code=".15" risk="M">Sistema inteligente</factor>
+  <factor code=".16" risk="A">Videovigilancia</factor>
+</factor>
+
+<factor code="FR6">
+  Recogida y generación de datos
+  <factor code=".1" risk="M">Acceso a base de datos de referencia de crédito</factor>
+  <factor code=".2" risk="M">Acceso a base de datos sobre fraudes</factor>
+  <factor code=".3" risk="A">Acceso a base de datos sobre blanqueo de capitales o financiación del terrorismo</factor>
+  <factor code=".4" risk="M">Datos personales obtenidos en zonas de acceso público</factor>
+  <factor code=".5" risk="B">Recogida de datos de los medios sociales públicos</factor>
+  <factor code=".6" risk="M">Recogida de datos de redes de comunicaciones</factor>
+  <factor code=".7" risk="M">Recogida de datos de aplicaciones</factor>
+  <factor code=".8" risk="M">Datos procedentes de dos o más tratamientos con finalidades diferentes</factor>
+  <factor code=".9" risk="A">Datos procedentes de dos o más responsables distintos</factor>
+  <factor code=".10" risk="M">Asociación de conjuntos de datos</factor>
+  <factor code=".11" risk="A">Combinación de conjuntos de datos</factor>
+  <factor code=".12" risk="M">Enlace de registros de bases de datos de dos o más tratamientos con finalidades o responsables diferentes</factor>
+  <factor code=".13" risk="M">Recogida de datos por un responsable distinto al que trata y aplica excepción de información 14.5 (b, c, d)</factor>
+  <factor code=".14" risk="A">Falta de transparencia del momento preciso de la recogida de datos</factor>
+  <factor code=".15" risk="A">Nuevas formas de recogida de datos con riesgos par alos derechos y libertades</factor>
+</factor>
+
+<factor code="FR7">
+  Efectos colaterales del tratamiento
+  <factor code=".1" impact="L">Excede las expectativas del interesado</factor>
+  <factor code=".2" impact="MS">Posible reversión no autorizada de la seudonimización</factor>
+  <factor code=".3" impact="S">Posible pérdida de control por el responsable de los datos procesados por el encargado del tratamiento</factor>
+  <factor code=".4" impact="L">Podría determinar la situación financiera</factor>
+  <factor code=".5" impact="L">Podría determinar la solvencia patrimonial</factor>
+  <factor code=".6" impact="S">Podría deducir información relacionada con categorías especiales de datos</factor>
+  <factor code=".7" impact="MS">Pudiera privar a los afectados de sus derechos y libertades</factor>
+  <factor code=".8" impact="MS">Pudiera impedir el control sobre sus datos personales</factor>
+  <factor code=".9" impact="S">Puede provocar exclusión</factor>
+  <factor code=".10" impact="MS">Puede provocar discriminación</factor>
+  <factor code=".11" impact="MS">Posible usurpación de identidad</factor>
+  <factor code=".12" impact="MS">Posible fraude</factor>
+  <factor code=".13" impact="MS">Posible daño reputacional</factor>
+  <factor code=".14" impact="MS">Posible perjuicio económico significativo</factor>
+  <factor code=".15" impact="MS">Posible perjuicio moral significativo</factor>
+  <factor code=".16" impact="MS">Posible perjuicio social significativo</factor>
+  <factor code=".17" impact="MS">Posible pérdida de confidencialidad de datos sujetos al secreto profesional</factor>
+  <factor code=".18" impact="S">Podría impedir el ejercicio de un derecho</factor>
+  <factor code=".19" impact="S">Podría impedir el acceso a un servicio</factor>
+  <factor code=".20" impact="S">Podría impedir el acceso a un contrato</factor>
+  <factor code=".21" impact="S">Podría recoger datos personales distintos de los usuarios del servicio</factor>
+  <factor code=".22" impact="S">Posible manipulación de las personas</factor>
+  <factor code=".23" impact="S">Posibilidad de autocensura</factor>
+  <factor code=".24" impact="S">Posibilidad de provocar un cambio cultural para claudicar derechos y libertades</factor>
+  <factor code=".25" impact="S">Usos imprevistos o no deseados que pudieran afectar a derechos fundamentales</factor>
+</factor>
+
+<factor code="FR8">
+  Categoría del responsable / encargado
+  <factor code=".1" risk="M">Sociedad de la información</factor>
+  <factor code=".2" risk="A">Empresa de biotecnología</factor>
+  <factor code=".3" risk="M">Empresa de mercadotecnia</factor>
+  <factor code=".4" risk="A">Hospitales</factor>
+  <factor code=".5" risk="M">Investigadores privados</factor>
+  <factor code=".6" risk="M">Entidad de evaluación de información crediticia</factor>
+  <factor code=".7" risk="M">Entidad de evaluación de fraude</factor>
+  <factor code=".8" risk="M">Entidad financiera</factor>
+  <factor code=".9" risk="B">Empleador</factor>
+  <factor code=".10" risk="B">Proyectos de investigación</factor>
+  <factor code=".11" risk="A">Ensayos clínicos</factor>
+</factor>
+
+<factor code="FR9">
+  Comunicaciones de datos
+  <factor code=".1" risk="MA">Transferencia habitual a estados u organizaciones en otros países sin un adecuado nivel de protección</factor>
+  <factor code=".2" risk="M">Falta de transparencia de los actores involucrados en el tratamiento</factor>
+  <factor code=".3" risk="A">Difusión libre de identificadores únicos</factor>
+</factor>
+
+</risk-factors>
+
+</library-extension>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library-extension>
+<!--
+  Guía práctica para las evaluaciones de Impacto en
+  la Protección de los Datos sujetas al RGPD.
+  AEPD, octubre de 2018.
+-->
+
+<!--
+Impacto despreciable: El impacto es muy bajo (por ejemplo, un evento cuyas consecuencias son prácticamente despreciables sin impacto sobre el interesado).
+
+Impacto limitado: El impacto es bajo (por ejemplo, un evento cuyas consecuencias implican un daño menor sin impacto relevante sobre el interesado).
+
+Impacto significativo: El impacto es alto (por ejemplo, un evento cuyas consecuencias implican un daño elevado con impacto sobre el interesado).
+
+Impacto máximo: El impacto es bajo (por ejemplo, un evento cuyas consecuencias implican un daño muy elevado con un impacto crítico sobre el interesado).
+-->
+
+  <criteria under="pi">
+  <!-- Ejemplos de posibles daños físico, material o moral -->
+    <criterion code=".aepd">Agencia Española de Protección de Datos (Guía EIPD, 2018)
+    <criterion code=".1" level="0"> <!-- ENS: - -->
+      Despreciable: Los interesados no se verán prácticamente afectados o encontrarán alguna pequeña inconveniencia
+      <criterion code=".1" level="0">
+	Molestias o irritación.
+	</criterion>
+      <criterion code=".2" level="0">
+	Se incumplen obligaciones materiales sin perjuicios relevantes.
+	</criterion>
+      <criterion code=".3" level="0">
+	No se priva de los derechos y libertades.
+	</criterion>
+      </criterion>
+
+    <criterion code=".2" level="1"> <!-- ENS: BAJO -->
+      Limitado: Los interesados podrán encontrar inconveniencias no significativas
+      <criterion code=".1" level="1">
+	Estrés o padecimientos físico menores.
+	</criterion>
+      <criterion code=".2" level="1">
+	Costes extra, denegación de acceso a algunos servicios o incumplimiento de obligaciones materiales con perjuicios económicos.
+	</criterion>
+      <criterion code=".3" level="1">
+	Se priva de los derechos y libertades de los interesados, por ejemplo, por difamación de un interesado por divulgación de datos personales.
+	</criterion>
+      </criterion>
+
+    <criterion code=".3" level="4"> <!-- ENS: MEDIO -->
+      Significativo: Los interesados encontrarán consecuencias significativas, que deberían poder superar sin dificultades serias.
+      <criterion code=".1" level="4">
+	Empeoramiento del estado de salud o agresiones físicas.
+	</criterion>
+      <criterion code=".2" level="4">
+	Apropiación indebida de fondos, pérdida del empleo o incumplimiento de obligaciones materiales con perjuicios económicos relevantes.
+	</criterion>
+      <criterion code=".3" level="4">
+	Se agrede contra los derechos y libertades de los interesados, por ejemplo, una citación judicial, entrar en una lista de morosidad o divulgación de datos personales con impacto significativo en la reputación del interesado.
+	</criterion>
+      </criterion>
+
+    <criterion code=".4" level="7"> <!-- ENS: ALTO -->
+      Máximo: Los interesados encontrarán consecuencias significativas o incluso irreversibles, que podrán no llegar a superarse.
+      <criterion code=".1" level="7">
+	Agresiones físicas con consecuencias irreparables.
+	</criterion>
+      <criterion code=".2" level="7">
+	Asunción de una deuda inafrontable, imposibilidad de volver a trabajar o incumplimiento de obligaciones materiales con perjuicios económicos irreparables.
+	</criterion>
+      <criterion code=".3" level="7">
+	Se agrede significativamente contra los derechos y libertades de los interesados, por ejemplo, padecimiento psicológico con consecuencias a largo plazo o irreparables por la divulgación de datos sensibles.
+	</criterion>
+      </criterion>
+
+    </criterion>
+  </criteria>
+</library-extension>
+

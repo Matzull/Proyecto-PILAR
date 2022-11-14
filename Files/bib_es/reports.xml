@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<reports>
+  <template>
+    <file>Riesgo_es_tpl.rtf</file>
+    <name>Análisis de Riesgos</name>
+  </template>
+
+  <template>
+    <file>SOA_27000_2022_es_tpl.rtf</file>
+    <name>Declaración de Aplicabilidad - ISO/IEC 27000 (2022)</name>
+    <evl>27002:2022</evl>
+  </template>
+  <template>
+    <file>Compliance_27000_2022_es_tpl.rtf</file>
+    <name>Cumplimiento ISO/IEC 27000 (2022)</name>
+    <evl>27002:2022</evl>
+  </template>
+
+  <template>
+    <file>SOA_27000_2013_es_tpl.rtf</file>
+    <name>Declaración de Aplicabilidad - ISO/IEC 27000 (2013)</name>
+    <evl>27002:2013</evl>
+  </template>
+  <template>
+    <file>Cumplimiento_27000_2013_es_tpl.rtf</file>
+    <name>Cumplimiento ISO/IEC 27000 (2013)</name>
+    <evl>27002:2013</evl>
+  </template>
+
+  <template>
+    <file>Cumplimiento_27000_2005_es_tpl.rtf</file>
+    <name>Cumplimiento ISO/IEC 27000 (2005)</name>
+    <evl>27002:2005</evl>
+  </template>
+
+  <template>
+    <file>Cumplimiento_gdpr_es_tpl.rtf</file>
+    <name>Cumplimiento Reglamento (UE) 2016/679</name>
+    <evl>GDPR:2016</evl>
+  </template>
+  <template>
+    <file>Cumplimiento_spc_es_tpl.rtf</file>
+    <name>Cumplimiento Controles Simples de Privacidad</name>
+    <evl>SPC</evl>
+  </template>
+  <template>
+    <file>Compliance_29151_2017_en_tpl.rtf</file>
+    <name>Compliance ISO/IEC 29151 (2017)</name>
+    <evl>29151:2017</evl>
+  </template>
+  <template>
+    <file>Cumplimiento_rd1720_2007_es_tpl.rtf</file>
+    <name>Cumplimiento Real Decreto 1720 (2007)</name>
+    <evl>RD 1720</evl>
+  </template>
+</reports>

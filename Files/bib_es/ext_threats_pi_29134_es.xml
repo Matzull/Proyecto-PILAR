@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<library-extension>
+
+  <threats>
+    <threat if="absent" code="PR" >
+      Riesgos sobre la privacidad
+
+<!-- ISO 29134 -->
+    <threat code=".10">
+      Recolección excesiva de datos personales (pérdida de control operacional)
+      </threat>
+    <threat code=".11">
+      Vinculación no autorizada o inapropiada de datos personales
+      </threat>
+    <threat code=".12">
+      Información insuficiente sobre la finalidad del tratamiento (falta de transparencia)
+      </threat>
+    <threat code=".13">
+      No se tienen suficientemente en cuenta los derechos del afectado (ej. insuficientes derechos de acceso)
+      </threat>
+    <threat code=".14">
+      Procesamiento de datos personales sin el conocimiento o el consentimiento del afectado
+      </threat>
+    <threat code=".15">
+      Compartición con terceros, o cambio de objetivos de la compartición, sin el consentimiento del afectado
+      </threat>
+    <threat code=".16">
+      Retención prolongada e innecesaria de datos personales
+      </threat>
+
+    </threat>
+  </threats>
+
+</library-extension>
